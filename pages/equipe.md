@@ -18,6 +18,6 @@ image:
     thumb: "header-quadras-thumb.jpg"
 header:
     image_fullwidth: "header-quadras.jpg"
-    caption: Equipe DSciMaL
+    caption: Equipe CiDAMO
 ---
 

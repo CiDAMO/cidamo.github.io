@@ -18,6 +18,6 @@ image:
     thumb: "header-dados-2d6-thumb.jpg"
 header:
     image_fullwidth: "header-dados-2d6.jpg"
-    caption: DSciMaL
+    caption: CiDAMO
 ---
 

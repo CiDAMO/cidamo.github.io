@@ -8,13 +8,13 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'DSciMaL'
+title: 'CiDAMO - Grupo de Ciência de Dados, Aprendizagem de Máquina, e Otimização'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'Data Science and Machine Learning'
+slogan: 'Ciência de Dados, Aprendizagem de Máquina, e Otimização'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: '»DSciMaL« é um grupo de Data Science e Machine Learning situado em Cutiriba/PR, Brasil.'
+description: '»CiDAMO« é um grupo de Ciência de Dados, Aprendizagem de Máquina, e Otimização situado em Cutiriba/PR, Brasil.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: ''
@@ -25,12 +25,12 @@ author: abel
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://dscimal.github.io'
+url: 'https://cidamo.github.io'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/dscimal/dscimal.github.io/edit/gh-pages
+improve_content: https://github.com/cidamo/cidamo.github.io/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -38,7 +38,7 @@ improve_content: https://github.com/dscimal/dscimal.github.io/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://dscimal.github.io/images/'
+urlimg: 'https://cidamo.github.io/images/'
 
 
 # Logo size is 600x80 pixels
