@@ -53,9 +53,8 @@ roles:
    <i class="fa fa-twitter fa-gray"></i>
    {% endif %}
 </p>
-
 {% if p[1].email1 %}
-<span class="email"> {{ p[1].email1 }}<i class="fa fa-at"></i>{{ p[1].email2 }} </span>
+<p class="email"> {{ p[1].email1 }}<i class="fa fa-at"></i>{{ p[1].email2 }} </p>
 {% endif %}
 </div>
 </div>
