@@ -15,7 +15,7 @@
   padding: 2px 16px;
 }
 
-.membro img {
+.membro-img {
   max-height: 200px;
 }
 
@@ -37,6 +37,12 @@
   opacity: 0.7;
   color: white;
   border: 0px;
+}
+
+.fa-at {
+  font-size: 1em;
+  width: 20px;
+  padding: 0px;
 }
 
 .fa-github {

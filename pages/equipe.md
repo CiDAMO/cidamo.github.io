@@ -19,10 +19,16 @@ image:
 header:
     image_fullwidth: "header-quadras.jpg"
     caption: Equipe CiDAMO
+roles:
+    - Coordenador
+    - Membro
 ---
 
+{% for role in page.roles %}
+<h2> {{ role }} </h2>
 {% for p in site.data.equipe %}
-<div class="row membro t30">
+{% if p[1].role == role %}
+<div id="{{ p[0] }}" class="row membro t30">
 
 <div class="small-4 columns">
 <img class="membro-img card-img" src="{{ site.urlimg }}equipe/{{ p[1].img }}">
@@ -47,6 +53,11 @@ header:
    <i class="fa fa-twitter fa-gray"></i>
    {% endif %}
 </p>
+{% if p[1].email1 %}
+<span class="email"> {{ p[1].email1 }}<i class="fa fa-at"></i>{{ p[1].email2 }} </span>
+{% endif %}
 </div>
 </div>
+{% endif %}
+{% endfor %}
 {% endfor %}

@@ -1,20 +1,22 @@
 abelsiqueira:
   name: "Abel Soares Siqueira"
-  role: leader
+  role: Coordenador
   img: abelsiqueira.jpg
+  email1: abel.s.siqueira
+  email2: gmail.com
   github: abelsiqueira
   twitter: abel_siqueira
   linkedin: abel-siqueira
 lucaspedroso:
   name: "Lucas Garcia Pedroso"
-  role: leader
+  role: Coordenador
   img: lucaspedroso.jpg
   github:
   twitter:
   linkedin:
 kallychung:
   name: "Kally Chung"
-  role: leader
+  role: Membro
   img: kallychung.jpg
   github:
   twitter:
