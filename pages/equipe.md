@@ -25,24 +25,24 @@ header:
 <div class="row membro t30">
 
 <div class="small-4 columns">
-<img class="membro-img card-img" src="{{ site.urlimg }}equipe/{{ p.img }}">
+<img class="membro-img card-img" src="{{ site.urlimg }}equipe/{{ p[1].img }}">
 </div>
 
 <div class="membro-body small-8 columns">
-<h3> {{ p.name }} </h3>
+<h3> {{ p[1].name }} </h3>
 <p class="card-text">
-   {% if p.github %}
-   <a href="https://github.com/{{ p.github }}" class="fa fa-github"></a>
+   {% if p[1].github %}
+   <a href="https://github.com/{{ p[1].github }}" class="fa fa-github"></a>
    {% else %}
    <i class="fa fa-github fa-gray"></i>
    {% endif %}
-   {% if p.linkedin %}
-   <a href="https://linkedin.com/in/{{ p.linkedin }}" class="fa fa-linkedin"></a>
+   {% if p[1].linkedin %}
+   <a href="https://linkedin.com/in/{{ p[1].linkedin }}" class="fa fa-linkedin"></a>
    {% else %}
    <i class="fa fa-linkedin fa-gray"></i>
    {% endif %}
-   {% if p.twitter %}
-   <a href="https://twitter.com/{{ p.twitter }}" class="fa fa-twitter"></a>
+   {% if p[1].twitter %}
+   <a href="https://twitter.com/{{ p[1].twitter }}" class="fa fa-twitter"></a>
    {% else %}
    <i class="fa fa-twitter fa-gray"></i>
    {% endif %}

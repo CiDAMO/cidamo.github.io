@@ -1,0 +1,22 @@
+---
+layout: page
+---
+
+Por
+{% assign count = 1 %}
+{% assign last = page.membros.size %}
+{% assign onetolast = page.membros.size | minus: 1 %}
+{% for membro in page.membros %}
+{% assign autor = site.data.equipe[membro] %}
+{% if count == last %}
+  <span class="autor-projeto">{{ autor.name }}.</span>
+{% elsif count == onetolast %}
+  <span class="autor-projeto">{{ autor.name }}</span> e
+{% else %}
+  <span class="autor-projeto">{{ autor.name }},</span>
+{% endif %}
+  {% assign count = count | plus: 1 %}
+{% endfor %}
+</div>
+
+{{ content }}
