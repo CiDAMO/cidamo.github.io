@@ -58,10 +58,10 @@ $paragraph-text-rendering: optimizeLegibility !default;
 $code-color: $oil !default;
 $code-font-family: $font-family-monospace !default;
 $code-font-weight: $font-weight-normal !default;
-$code-background-color: scale-color($secondary-color, $lightness: 70%) !default;
-$code-border-size: 1px !default;
+$code-background-color: #e8eaf6;
+$code-border-size: 2px;
 $code-border-style: solid !default;
-$code-border-color: scale-color($code-background-color, $lightness: -10%) !default;
+$code-border-color: #b6b8c3;
 $code-padding: rem-calc(2) rem-calc(5) rem-calc(1) !default;
 
 // We use these to style anchors

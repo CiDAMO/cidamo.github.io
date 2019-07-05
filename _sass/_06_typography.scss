@@ -177,6 +177,7 @@ pre {
     padding: 5px;
     background-color: $code-background-color;
     border-radius: $global-radius;
+    border: $code-border-size $code-border-style $code-border-color;
 }
 pre code {
     padding: rem-calc(2) rem-calc(5) rem-calc(1) rem-calc(0);
@@ -184,6 +185,7 @@ pre code {
 }
 
 code {
+    font-family: "Inconsolata",monospace;
     font-size: rem-calc(14);
     line-height: 1.5;
 }

@@ -69,3 +69,16 @@
   opacity: 1.0;
   color: #aaa;
 }
+
+pre.highlight {
+  border: 1px solid black;
+}
+
+pre.highlight, pre.highlight code {
+  background-color: #eee;
+  color: black;
+}
+
+article p {
+  text-align: justify;
+}

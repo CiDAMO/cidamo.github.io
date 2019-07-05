@@ -6,8 +6,8 @@
     background: #fff;
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
-    .k     { font-weight: bold } // Keyword
-    .o     { font-weight: bold } // Operator
+    .k     { color: #c10000; font-weight: bold } // Keyword
+    .o     { color: #038088; font-weight: bold } // Operator
     .cm    { color: #998; font-style: italic } // Comment.Multiline
     .cp    { color: #999; font-weight: bold } // Comment.Preproc
     .c1    { color: #998; font-style: italic } // Comment.Single
@@ -29,8 +29,9 @@
     .kp    { font-weight: bold } // Keyword.Pseudo
     .kr    { font-weight: bold } // Keyword.Reserved
     .kt    { color: #458; font-weight: bold } // Keyword.Type
-    .m     { color: #099 } // Literal.Number
+    .m     { color: #2d1cf9 } // Literal.Number
     .s     { color: #d14 } // Literal.String
+    .n     { color: #333 }
     .na    { color: #008080 } // Name.Attribute
     .nb    { color: #0086B3 } // Name.Builtin
     .nc    { color: #458; font-weight: bold } // Name.Class
@@ -43,10 +44,10 @@
     .nv    { color: #008080 } // Name.Variable
     .ow    { font-weight: bold } // Operator.Word
     .w     { color: #bbb } // Text.Whitespace
-    .mf    { color: #099 } // Literal.Number.Float
-    .mh    { color: #099 } // Literal.Number.Hex
-    .mi    { color: #099 } // Literal.Number.Integer
-    .mo    { color: #099 } // Literal.Number.Oct
+    .mf    { color: #2d1cf9 } // Literal.Number.Float
+    .mh    { color: #2d1cf9 } // Literal.Number.Hex
+    .mi    { color: #2d1cf9 } // Literal.Number.Integer
+    .mo    { color: #2d1cf9 } // Literal.Number.Oct
     .sb    { color: #d14 } // Literal.String.Backtick
     .sc    { color: #d14 } // Literal.String.Char
     .sd    { color: #d14 } // Literal.String.Doc
@@ -62,5 +63,5 @@
     .vc    { color: #008080 } // Name.Variable.Class
     .vg    { color: #008080 } // Name.Variable.Global
     .vi    { color: #008080 } // Name.Variable.Instance
-    .il    { color: #099 } // Literal.Number.Integer.Long
+    .il    { color: #2d1cf9 } // Literal.Number.Integer.Long
 }
