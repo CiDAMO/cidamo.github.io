@@ -22,7 +22,7 @@ tags:
 
 <div class="medium-6 columns b30">
   <a href="{{ page.url }}">
-  <img src="{{ page.img }}" alt="{{ page.title }}: {{ page.description }}">
+  <img src="{{ site.urlimg }}/{{ page.permalink }}/{{ page.img }}" alt="{{ page.title }}: {{ page.description }}">
   <p>
   <strong>{{ page.title }}</strong><br>
   {{ page.description }}

@@ -20,7 +20,7 @@ date: 2019-07-15
 Desenvolvemos classificadores capazes de reconhecer dígitos
 escritos manualmente em imagens digitalizadas.
 
-Para isso foram construídos banco de dado e tratamento de
+Para isso foram construídos banco de dados e tratamento de
 imagem próprios. Classificadores de redes neurais e
 florestas foram treinados usando Scikit-learn, sendo
 todas as implementações em python 3.7.

@@ -4,7 +4,7 @@ title: "Identificação de SPAM"
 description: >
    Descrição curta do projeto
    que pode ocupar múltiplas linhas
-img: http://placekitten.com/958/564
+img: identificacao-de-spam.jpg
 permalink: "/projetos/identificacao-de-spam/"
 tags:
   - spam
