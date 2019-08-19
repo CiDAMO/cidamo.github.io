@@ -15,7 +15,7 @@ membros:
   - joaofassina
 
 key: projeto
-date: 2019-07-15
+date: 2019-08-18
 ---
 
 ## Objetivo
@@ -45,8 +45,7 @@ redimensionado para 28x28 pixels.
 Depois disso a imagem é invertida, ou seja, o dígito é dado por pixels brancos (255)
 com fundo preto (0). Antes de passar para o classificador ainda ocorre a
 normalização, trocando os valores de 255 por 1, e a conversão de matriz
-28x28 para vetor 784x1. Visualmente as imagens do banco de dados desenvolvido ficaram
-parecidas com as do MNIST.
+28x28 para vetor 784x1.
 
 ![]({{site.urlimg}}/{{page.permalink}}/compara.png)
 
@@ -106,8 +105,8 @@ _Tabela 1: Acurácias dos classificadores nos testes._
 
 O banco de dados e tratamento de imagem desenvolvidos foram suficientes para gerar
 classificadores relativamente confiáveis, em especial a rede neural convolucional
-que apresentou acurácia de 96.1%. O destaque da CNN já era esperado, sendo esse
-tipo de classificador o mais usado para classificação de imagens.
+que apresentou acurácia de 96.1%. O destaque da CNN já era esperado, sendo esse o
+tipo de classificador mais usado para classificação de imagens.
 
 Apesar do treinamento com o banco de dados MNIST permitir acurácias
 superiores a 99%, deve-se levar em conta que o banco de dados desenvolvido nesse
