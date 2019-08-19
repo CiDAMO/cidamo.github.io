@@ -12,6 +12,7 @@ tags:
 membros:
   - egmara
   - renandomingues
+  - joaofassina
 
 key: projeto
 date: 2019-07-15
