@@ -1,6 +1,6 @@
 abelsiqueira:
   name: "Abel Soares Siqueira"
-  role: Coordenadores
+  role: Coordenador
   img: abelsiqueira.jpg
   email1: abel.s.siqueira
   email2: gmail.com
@@ -9,13 +9,12 @@ abelsiqueira:
   linkedin: abel-siqueira
 lucaspedroso:
   name: "Lucas Garcia Pedroso"
-  role: Coordenadores
+  role: Coordenador
   img: lucaspedroso.jpg
   github:
   twitter:
   linkedin:
 kallychung:
-  inativo: true
   name: "Kally Chung"
   role: Membro
   img: kallychung.jpg
@@ -24,7 +23,7 @@ kallychung:
   linkedin:
 joaosilva:
   name: "João Victor da Silva"
-  role: Cientistas de Dados
+  role: Membro
   img: joaosilva.jpg
   email1: josilva602
   email2: gmail.com
@@ -33,7 +32,7 @@ joaosilva:
   linkedin: joao-victor-silva
 renandomingues:
   name: "Renan Oclides Domingues"
-  role: Otimizadores
+  role: Membro
   img: renand.jpg
   email1: renan.oclides
   email2: hotmail.com
@@ -42,7 +41,7 @@ renandomingues:
   linkedin: renanod-287142189
 joaookimoto:
   name: "João Luis Ribeiro Okimoto"
-  role: Otimizadores
+  role: Membro
   img: joaookimoto.jpg
   email1: joaoluisok
   email2: gmail.com
@@ -51,7 +50,7 @@ joaookimoto:
   linkedin:
 egmara:
   name: "Egmara Antunes dos Santos"
-  role: Otimizadores
+  role: Membro
   img: egmara.jpg
   email1: egmara.antunes
   email2: gmail.com
@@ -60,7 +59,7 @@ egmara:
   linkedin: egmara-antunes-dos-santos-5031a218b
 talia:
   name: "Talia Correia Schulz"
-  role: Cientistas de Dados
+  role: Membro
   img: talia.jpg
   email1: taliacschulz
   email2: gmail.com
@@ -69,7 +68,7 @@ talia:
   linkedin: talia-correia-schulz-57593318a
 joaofassina:
   name: "João Pedro Kincheski Fassina"
-  role: Cientistas de Dados
+  role: Membro
   img: joaofassina.jpg
   email1: Jpfassina
   email2: live.com
@@ -78,7 +77,7 @@ joaofassina:
   linkedin: joão-pedro-kincheski-fassina-844173154
 rodrigoredondo:
   name: "Rodrigo Souza Garcia Redondo"
-  role: Otimizadores
+  role: Membro
   img: rodrigo_redondo.jpg
   email1: rodrigoredondo0
   email2: gmail.com
