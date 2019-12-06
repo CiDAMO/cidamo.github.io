@@ -1,3 +1,3 @@
-# Site do CiDAMO
+# CiDAMO
 
-Usamos o tema [phlow](http://phlow.github.io/feeling-responsive/).
+Tema: [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll)
