@@ -117,14 +117,15 @@ img {
 
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: 1px;
+  transition: 0.3s;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: {{ site.navbar-text-col }};
+  color: white;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -132,7 +133,8 @@ img {
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
   color: white;
-  transition: color 0.3s;
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 
 .navbar-custom .navbar-brand-logo {
