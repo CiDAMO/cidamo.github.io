@@ -10,20 +10,12 @@ Este evento contará com um minicurso de introdução à Aprendizagem de Máquin
 ## Programação planejada
 
 Teremos três partes no evento:
-- Minicurso: De segunda à quinta de manhã
-- Apresentação de trabalhos: De segunda à quinta de tarde
-- Encontro com empresas - palestras e _job fair_: Sexta
+- Minicurso: De segunda à quarta de manhã
+- Apresentação de trabalhos: De segunda à quarta de tarde
+- Encontro com empresas - palestras e _job fair_: Quinta
+- Hackathon: Sexta
 
-Nosso planejamento atual é o seguinte:
-
-| Hora  | Segunda   | Terça     | Quarta    | Quinta     | Sexta |
-| ---   | ---       | ---       | ---       | ---        | ---   |
-| 09h00 | Aula 1    | Aula 3    | Aula 5    | Aula 7     | *     |
-| 10h30 | Break     | Break     | Break     | Break      | *     |
-| 10h50 | Aula 2    | Aula 4    | Aula 6    | Aula 8     | *     |
-| 12h20 | Almoço    | Almoço    | Almoço    | Almoço     | *     |
-| 14h00 | Palestras | Palestras | Palestras | Palestras  | *     |
-| 18h±1 |           |           |           | Fechamento | *     |
+Os detalhes do minicurso e do programa ficarão disponível por volta do dia 16 de Janeiro.
 
 ## Submissões de trabalhos
 
