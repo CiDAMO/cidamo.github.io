@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CiDWeek I
+title: I CiDWeek
 subtitle: I Semana de Ciência de Dados do CiDAMO
 ---
 
