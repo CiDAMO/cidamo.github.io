@@ -93,6 +93,13 @@ Na frente da biblioteca as empresas estarão com estandes e disponíveis para co
 
 ### Hackathon
 
-O Hackathon irá acontecer no laboratório 1/2 da informática. Os inscritos devem se
-aparecer lá às 8h30 de Sexta, e devem estar disponíveis no fim para apresentar
-a solução.
+Faremos um Hackathon no evento, realizado pelo Grupo Boticário.
+O Hackathon irá acontecer no laboratório 2 da informática.
+Os escolhidos devem se apresentar no laboratório às 8h30 de Sexta, e devem
+estar disponíveis no fim do dia às 17h para apresentar a solução.
+
+A premiação do Hackathon será...
+
+**Importante:**
+- As equipes devem ter até quatro pessoas;
+- Um dos membros da equipe deve ser aluno regularmente matriculado na UFPR.
