@@ -1,5 +1,8 @@
 ---
 layout: null
+googlefonts:
+  - Nunito
+  - Montserrat
 ---
 
 @import url("pygment_highlights.css");
@@ -846,4 +849,55 @@ pre.highlight, pre.highlight code {
 
 article p {
   text-align: justify;
+}
+
+.empresa {
+  min-height: 350px;
+  text-align: center;
+}
+
+.empresa {
+  background: #f3f3ff;
+  border: 1px solid #e3e3ef;
+  margin: 5px;
+  transition: background 0.3s;
+}
+
+.empresa:hover {
+  background: #e3e3ff;
+  border: 1px solid #d3d3df;
+  transition: background 0.3s;
+}
+
+.nome {
+  font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  color: #6c75cc;
+}
+.pessoa-logo {
+  max-width: 150px;
+  border-radius: 100%;
+  border: 1px solid #6c75cc;
+  box-shadow: 0;
+  margin: 20px;
+}
+
+.nome-empresa {
+  font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  color: #d14;
+}
+
+.empresa-titulo {
+  color: #777;
+  font-family: 'Montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.empresa-logo {
+  max-width: 100px;
+  margin: 5px;
+}
+
+.empresa-link:hover {
+  text-decoration: none;
 }

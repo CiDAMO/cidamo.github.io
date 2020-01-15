@@ -49,52 +49,43 @@ As aulas serão as seguintes:
 
 ### Apresentação de trabalhos
 
-As sessões acontecem segunda, terça e quarta à tarde, de acordo com o programa abaixo
-
-#### Segunda
-
-- 14:00 - Wagner Bonat - Coisas de pesquisa
-- 14:40 - Aluno - Coisas de pesquisa
-- 15:05 - Aluno - Coisas de pesquisa
-- 15:30 - Coffee
-- 15:50 - Aluno - Coisas de pesquisa
-- 16:15 - Aluno - Coisas de pesquisa
-- 16:40 - Aluno - Coisas de pesquisa
-- 17:05 - Aluno - Coisas de pesquisa
-
-#### Terça
-
-- 14:00 - Wagner Bonat - Coisas de pesquisa
-- 14:40 - Aluno - Coisas de pesquisa
-- 15:05 - Aluno - Coisas de pesquisa
-- 15:30 - Coffee
-- 15:50 - Aluno - Coisas de pesquisa
-- 16:15 - Aluno - Coisas de pesquisa
-- 16:40 - Aluno - Coisas de pesquisa
-- 17:05 - Aluno - Coisas de pesquisa
-
-#### Quarta
-
-- 14:00 - Wagner Bonat - Coisas de pesquisa
-- 14:40 - Aluno - Coisas de pesquisa
-- 15:05 - Aluno - Coisas de pesquisa
-- 15:30 - Coffee
-- 15:50 - Aluno - Coisas de pesquisa
-- 16:15 - Aluno - Coisas de pesquisa
-- 16:40 - Aluno - Coisas de pesquisa
-- 17:05 - Aluno - Coisas de pesquisa
+As sessões acontecem segunda, terça e quarta à tarde, de acordo com o programa [aqui](404).
 
 ### Palestras de empresas
 
-As palestras de empresas acontecerão de hora em hora na Quinta
+As palestras de empresas acontecerão de hora em hora na Quinta a partir das 08.
 
-- 09h - Giovani Buchelt - Numera
-- 10h - Acássio Guimarães - Math Analytics
-- 11h - Felipe Uliano - BRF
-- 12h - Almoço
-- 14h - Cleibson Almeida - Olist
-- 15h - Fabio Tavares - James
-- 16h - Edjan de Matos - Boticário
+<div class="container-full">
+   <div class="row">
+   {% for p in site.data.empresas %}
+   <div class="row col-sm-12 col-md-6">
+      <a class="empresa-link" href="{{ p.linkedin }}">
+      <div class="empresa">
+      <img class="pessoa-logo" src="/img/cidweek-logos-empresas/{{ p.logo }}">
+      <img class="empresa-logo" src="/img/cidweek-logos-empresas/{{ p.logoemp }}"> <br>
+      <span class="nome">{{ p.nome }}</span> <br>
+      <span class="nome-empresa">{{ p.empresa }}</span> <br>
+      <span class="empresa-titulo">{{ p.title }}</span>
+      </div>
+      </a>
+   </div>
+   {% endfor %}
+   </div>
+</div>
+
+Programação:
+
+- 08h00 - Cauê Guimarães (EBANX)
+- 09h00 - Giovani Buchelt (Numera)
+- 10h00 - Coffee break
+- 10h20 - Luiz Hadich (Math Analytics)
+- 11h20 - Felipe Uliano (BRF)
+- 12h20 - Almoço
+- 14h00 - Cleibson Almeida (Olist)
+- 15h00 - Fabio Tavares (James)
+- 16h00 - Coffee break
+- 16h20 - Edjan de Matos (Boticario)
+- 17h20 - Rafael Cavalcanti (Bradesco)
 
 ### Job Fair
 
@@ -102,6 +93,6 @@ Na frente da biblioteca as empresas estarão com estandes e disponíveis para co
 
 ### Hackathon
 
-O Hackathon irá acontecer nas salas de aula da PA. Os inscritos devem se
+O Hackathon irá acontecer no laboratório 1/2 da informática. Os inscritos devem se
 aparecer lá às 8h30 de Sexta, e devem estar disponíveis no fim para apresentar
 a solução.
