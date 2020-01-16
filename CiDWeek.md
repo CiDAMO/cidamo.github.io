@@ -13,20 +13,55 @@ As inscrições estão abertas [neste link](404).
 
 A entrada é 1 kg de alimento.
 
-<div class="row">
-</div>
-
 Os inscritos serão selecionados de acordo com critérios pessoais do CiDAMO, e serão avisados até o dia 31 de Janeiro.
 
 ## Programação
 
 Teremos várias atividades no evento:
 
-- [Minicurso](#minicurso): De segunda à quarta de manhã
-- [Apresentação de trabalhos](#apresentação-de-trabalhos): De segunda à quarta de tarde
-- [Palestras de empresas](#palestras-de-empresas): Quinta
-- [_Job fair_](#job-fair): Quinta
-- [Hackathon](#hackathon): Sexta
+<table class="cronograma">
+<thead>
+   <tr>
+      <th>Seg-Qua</th>
+      <th>Qui</th>
+      <th rowspan="3">Sex</th>
+   </tr>
+</thead>
+<tbody>
+   <tr>
+      <td class="aulas">
+         <a href="#minicurso">
+         Minicurso Machine Learning <br>
+         09h00 às 12h20
+         </a>
+      </td>
+      <td rowspan="0" class="empresas">
+         <a href="#palestras-de-empresas">
+         Palestras de empresas <br>
+         8h às 18h30 <br>
+         </a> <br>
+         <a href="#job-fair">
+         Estandes de empresas <br>
+         Vários momentos
+         </a>
+      </td>
+      <td rowspan="0" class="hackathon">
+         <a href="#hackathon">
+         Hackathon <br>
+         8h30 às 17h30
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td class="simposio">
+         <a href="#apresentação-de-trabalhos">
+         Trabalhos acadêmicos <br>
+         14h às 17h30
+         </a>
+      </td>
+   </tr>
+</tbody>
+</table>
 
 ### Minicurso
 

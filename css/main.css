@@ -901,3 +901,60 @@ article p {
 .empresa-link:hover {
   text-decoration: none;
 }
+
+.cronograma th, .cronograma tr, .cronograma td {
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.cronograma a {
+  color: black;
+}
+
+.cronograma th {
+  background-color: #666;
+}
+
+.aulas {
+  background-color: #aac8ef;
+  transition: background 0.3s;
+}
+
+.aulas:hover {
+  background-color: #bad8ff;
+  transition: background 0.3s;
+}
+
+.simposio {
+  background-color: #5aefab;
+  transition: background 0.3s;
+}
+
+.simposio:hover {
+  background-color: #6affbb;
+  transition: background 0.3s;
+}
+
+.empresas {
+  background-color: #edaaaa;
+  transition: background 0.3s;
+}
+
+.empresas:hover {
+  background-color: #fdbaba;
+  transition: background 0.3s;
+}
+
+.hackathon {
+  background-color: #efec8b;
+  transition: background 0.3s;
+}
+
+.hackathon:hover {
+  background-color: #fffc9b;
+  transition: background 0.3s;
+}
+
+#minicurso, #apresentação-de-trabalhos, #palestras-de-empresas, #job-fair, #hackathon {
+  padding-top: 50px;
+}
