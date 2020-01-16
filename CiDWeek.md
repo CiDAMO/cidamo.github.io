@@ -13,7 +13,10 @@ As inscrições estão abertas [neste link](404).
 
 A entrada é 1 kg de alimento.
 
-Os inscritos serão selecionados de acordo com critérios pessoais do CiDAMO, e serão avisados até o dia 02 de Fevereiro.
+<div class="row">
+</div>
+
+Os inscritos serão selecionados de acordo com critérios pessoais do CiDAMO, e serão avisados até o dia 31 de Janeiro.
 
 ## Programação
 
