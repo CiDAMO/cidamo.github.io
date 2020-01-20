@@ -7,6 +7,8 @@ subtitle: I Semana de Ciência de Dados do CiDAMO
 Na semana dos dias 3 a 7 de Fevereiro o CiDAMO irá realizar o primeiro CiDWeek -- uma Semana de Ciência de Dados.
 Este evento contará com um minicurso de introdução à aprendizagem de máquina, apresentações de trabalhos, palestras de empresas, job fair, e um hackathon.
 
+O evento acontecerá primariamente no 1° andar do prédio de administração do Centro Politécnico na UFPR.
+
 ## Inscrições
 
 As inscrições estão abertas [neste link](https://docs.google.com/forms/d/e/1FAIpQLSe-21Wkyym2TqSNiK_iM4kHTEqXs-TPNkIv4X46swbSDfChzw/viewform?usp=sf_link).
@@ -135,7 +137,7 @@ Programação:
 
 ### Job Fair
 
-Na frente da biblioteca as empresas estarão com estandes e disponíveis para conversar com participantes do evento.
+Estandes ficarão na frente da biblioteca onde as empresas poderão interagir com os participantes do evento.
 
 ### Hackathon
 
