@@ -19,7 +19,7 @@
 - nome: "Felipe Uliano"
   empresa: BRF
   logo: felipe.jpeg
-  logoemp: BRF.png
+  #logoemp: BRF.png
   title: Director of Planning - S&OP
   linkedin: https://www.linkedin.com/in/felipe-uliano-almeida-de-jesus-94698b8/
 - nome: "Cleibson Almeida"

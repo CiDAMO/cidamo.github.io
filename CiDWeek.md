@@ -5,13 +5,15 @@ subtitle: I Semana de Ciência de Dados do CiDAMO
 ---
 
 Na semana dos dias 3 a 7 de Fevereiro o CiDAMO irá realizar o primeiro CiDWeek -- uma Semana de Ciência de Dados.
-Este evento contará com um minicurso de introdução à Aprendizagem de Máquina com Python, apresentações de trabalhos, e de representantes de empresas.
+Este evento contará com um minicurso de introdução à aprendizagem de máquina, apresentações de trabalhos, palestras de empresas, job fair, e um hackathon.
 
 ## Inscrições
 
-As inscrições estão abertas [neste link](404).
+As inscrições estão abertas [neste link](https://docs.google.com/forms/d/e/1FAIpQLSe-21Wkyym2TqSNiK_iM4kHTEqXs-TPNkIv4X46swbSDfChzw/viewform?usp=sf_link).
 
-A entrada é 1 kg de alimento.
+As inscrições para o Hackathon estão [aqui](https://docs.google.com/forms/d/1PU-nDsNVDfcWpklz8_IjFGKDyqEl6F3sfQdsLNZVPCY/edit?ts=5e220803).
+
+A entrada é 1 kg de alimento não perecível.
 
 Os inscritos serão selecionados de acordo com critérios pessoais do CiDAMO, e serão avisados até o dia 31 de Janeiro.
 
@@ -42,7 +44,7 @@ Teremos várias atividades no evento:
          </a> <br>
          <a href="#job-fair">
          Estandes de empresas <br>
-         Vários momentos
+         durante o dia
          </a>
       </td>
       <td rowspan="0" class="hackathon">
@@ -80,18 +82,20 @@ As aulas serão as seguintes:
 
 - Aula 1: Introdução, regressão linear e polinomial - Prof. César Augusto Taconeli
 - Aula 2: Validação cruzada, overfitting e underfitting - Prof. Abel Soares Siqueira
-- Aula 3: Classificação, KNN, Árvores e Florestas - Prof. Lucas Garcia Pedroso
+- Aula 3: Classificação, KNN, árvores e florestas - Prof. Lucas Garcia Pedroso
 - Aula 4: Naive Bayes e regressão logística - Henrique Laureano
 - Aula 5: Clusterização - Walmes Zeviani
-- Aula 6: Análise Descritiva e tratamento de dados - Kally Chung
+- Aula 6: Análise descritiva e tratamento de dados - Kally Chung
 
 ### Apresentação de trabalhos
 
-As sessões acontecem segunda, terça e quarta à tarde, de acordo com o programa [aqui](404).
+As sessões acontecem segunda, terça e quarta à tarde, de acordo com o programa que será divulgado em breve.
+
+Ainda estamos recebendo submissões [aqui](https://docs.google.com/forms/d/e/1FAIpQLSfcoWHr2UfXjofyVPAz7We62zqcEfVqGLcC66OFhRn3yMzHhA/viewform?usp=sf_link).
 
 ### Palestras de empresas
 
-As palestras de empresas acontecerão de hora em hora na Quinta a partir das 08.
+As palestras de empresas acontecerão de hora em hora na Quinta a partir das 08h00.
 
 <div class="container-full">
    <div class="row">
@@ -100,7 +104,11 @@ As palestras de empresas acontecerão de hora em hora na Quinta a partir das 08.
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
       <img class="pessoa-logo" src="/img/cidweek-logos-empresas/{{ p.logo }}">
+      {% if p.logoemp %}
       <img class="empresa-logo" src="/img/cidweek-logos-empresas/{{ p.logoemp }}"> <br>
+      {% else %}
+      {{ p.empresa }} <br>
+      {% endif %}
       <span class="nome">{{ p.nome }}</span> <br>
       <span class="nome-empresa">{{ p.empresa }}</span> <br>
       <span class="empresa-titulo">{{ p.title }}</span>
@@ -131,12 +139,12 @@ Na frente da biblioteca as empresas estarão com estandes e disponíveis para co
 
 ### Hackathon
 
-Faremos um Hackathon no evento, realizado pelo Grupo Boticário.
-O Hackathon irá acontecer no laboratório 2 da informática.
+Faremos um Hackathon no evento, realizado pelo Grupo Boticário com infraestrutura pela Math Analytics.
+O Hackathon irá acontecer no laboratório 1/2 da informática.
 Os escolhidos devem se apresentar no laboratório às 8h30 de Sexta, e devem
 estar disponíveis no fim do dia às 17h para apresentar a solução.
 
-A premiação do Hackathon será...
+Inscreva-se para o Hackathon [aqui](https://docs.google.com/forms/d/1PU-nDsNVDfcWpklz8_IjFGKDyqEl6F3sfQdsLNZVPCY/edit?ts=5e220803).
 
 **Importante:**
 - As equipes devem ter até quatro pessoas;

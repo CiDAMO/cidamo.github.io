@@ -958,3 +958,7 @@ article p {
 #minicurso, #apresentação-de-trabalhos, #palestras-de-empresas, #job-fair, #hackathon {
   padding-top: 50px;
 }
+
+p {
+  text-align: justify;
+}
