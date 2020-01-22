@@ -123,7 +123,7 @@ As palestras de empresas acontecerão de hora em hora na Quinta a partir das 08h
 
 Programação:
 
-- 08h00 - Cauê Guimarães (EBANX)
+- 08h00 - Cauê Guimarães/Romulo Leite (EBANX)
 - 09h00 - Giovani Buchelt (Numera)
 - 10h00 - Coffee break
 - 10h20 - Luiz Hadich (Math Analytics)
