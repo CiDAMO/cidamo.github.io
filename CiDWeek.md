@@ -86,7 +86,7 @@ As aulas serão as seguintes:
 - Aula 2: Validação cruzada, overfitting e underfitting - Prof. Abel Soares Siqueira
 - Aula 3: Classificação, KNN, árvores e florestas - Prof. Lucas Garcia Pedroso
 - Aula 4: Naive Bayes e regressão logística - Henrique Laureano
-- Aula 5: Clusterização - Walmes Zeviani
+- Aula 5: Clusterização - Prof. Walmes Zeviani
 - Aula 6: Análise descritiva e tratamento de dados - Kally Chung
 
 ### Apresentação de trabalhos
