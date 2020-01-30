@@ -11,11 +11,9 @@ O evento acontecerá primariamente no 1° andar do prédio de administração do
 
 ## Inscrições
 
-As inscrições estão abertas [neste link](https://docs.google.com/forms/d/e/1FAIpQLSe-21Wkyym2TqSNiK_iM4kHTEqXs-TPNkIv4X46swbSDfChzw/viewform?usp=sf_link).
+As inscrições estão fechadas. Os inscritos serão notificados em breve.
 
-As inscrições para o Hackathon estão [aqui](https://docs.google.com/forms/d/1PU-nDsNVDfcWpklz8_IjFGKDyqEl6F3sfQdsLNZVPCY/edit?ts=5e220803).
-
-A entrada é 1 kg de alimento não perecível.
+__A entrada é 1 kg de alimento não perecível.__
 
 Os inscritos serão selecionados de acordo com critérios pessoais do CiDAMO, e serão avisados até o dia 31 de Janeiro.
 
@@ -91,9 +89,7 @@ As aulas serão as seguintes:
 
 ### Apresentação de trabalhos
 
-As sessões acontecem segunda, terça e quarta à tarde, de acordo com o programa que será divulgado em breve.
-
-Ainda estamos recebendo submissões [aqui](https://docs.google.com/forms/d/e/1FAIpQLSfcoWHr2UfXjofyVPAz7We62zqcEfVqGLcC66OFhRn3yMzHhA/viewform?usp=sf_link).
+As sessões acontecem segunda e terça à tarde, de acordo com o seguinte [programa]({{ site.baseurl }}/files/programa.pdf).
 
 ### Palestras de empresas
 
@@ -146,7 +142,7 @@ O Hackathon irá acontecer no laboratório 1/2 da informática.
 Os escolhidos devem se apresentar no laboratório às 8h30 de Sexta, e devem
 estar disponíveis no fim do dia às 17h para apresentar a solução.
 
-Inscreva-se para o Hackathon [aqui](https://docs.google.com/forms/d/1PU-nDsNVDfcWpklz8_IjFGKDyqEl6F3sfQdsLNZVPCY/edit?ts=5e220803).
+As inscrições estão encerradas. Os participantes serão informados por e-mail dos detalhes.
 
 **Importante:**
 - As equipes devem ter até quatro pessoas;
