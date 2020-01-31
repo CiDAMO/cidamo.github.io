@@ -41,15 +41,16 @@ title-img: "/img/logo.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-# CiDAMO: Deep purple #6c75cc
-# CiDAMO: light purple #828ad3
+# CiDAMO: Dark blue  #0927eb
+# CiDAMO: light blue #1893f8
+# CiDAMO: gold       #f6d110
 
-navbar-col: "#6c75cc"
-navbar-text-col: "#404040"
-navbar-children-col: "#828ad3"
+navbar-col: "#1893f8"
+navbar-text-col: "#00ff00"
+navbar-children-col: "#ff0000"
 page-col: "#FFFFFF"
-link-col: "#6c75cc"
-hover-col: "#828ad3"
+link-col: "#0927eb"
+hover-col: "#1893f8"
 footer-col: "#F5F5F5"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
