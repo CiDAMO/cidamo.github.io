@@ -89,7 +89,7 @@ As aulas serão as seguintes:
 
 ### Apresentação de trabalhos
 
-As sessões acontecem segunda e terça à tarde, de acordo com o seguinte [programa]({{ site.baseurl }}/files/programa.pdf).
+As sessões acontecem segunda e terça à tarde, de acordo com o seguinte [programa]({{ site.baseurl }}/files/cidweek/programa.pdf).
 
 ### Palestras de empresas
 
