@@ -63,6 +63,9 @@
 		  {% if include.type == "post" %}
 		  <span class="post-meta">Posted on {{ page.date | date: site.date_format }}</span>
 		  {% endif %}
+      {% if page.author %}
+      <br><span>by {{ page.author }}</span>
+      {% endif %}
         </div>
       </div>
     </div>
