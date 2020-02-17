@@ -22,7 +22,6 @@ description: Site do grupo CiDAMO - Ciência de Dados, Aprendizagem de Máquina,
 navbar-links:
   Sobre: "sobre"
   Equipe: "equipe"
-  CiDWeek: "CiDWeek"
 
   #Resources:
   #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
