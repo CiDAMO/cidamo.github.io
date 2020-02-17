@@ -30,14 +30,21 @@ Tivemos os seguintes minicursos:
 
 A seguinte lista de referência foi recomendado por pelo menos algum dos professores
 
+- [Alan Agresti, __Categorical Data Analysis__. New York: Wiley-Interscience, 2002](https://amzn.to/2UXkspq)
 - [Richard A. Berk, __Statistical learning from a regression perspective__. New York: Springer, 2008.](https://amzn.to/2UQcXRe)
 - [Giuseppe Ciaburro, Prateek Joshi, __Python Machine Learning Cookbook__. Packt Publishing, 2019.](https://amzn.to/2SFSoUR)
+- Pedro Domingos, Michael Pazzani, __On the optimality of the simple Bayesian classifier under zero-one loss__. Machine Learning. 29 (2/3): 103–137, 1997. 
 - [Julian J. Faraway, __Linear models with R__. Chapman and Hall/CRC, 2016.](https://amzn.to/2uHwhFm)
 - [Julian J. Faraway, __Extending the linear model with R: generalized linear, mixed effects and nonparametric regression models__. Chapman and Hall/CRC, 2016.](https://amzn.to/2Spkvst)
 - [A. Géron, __Mãos à Obra: Aprendizado de Máquina com Scikit-Learn & TensorFlow: Conceitos, Ferramentas e Técnicas para a Construção de Sistemas Inteligentes__. Alta Books Editora, 2019.](https://amzn.to/39yPwQp)
 - [Joel Grus, __Data Science from Scratch__. O'Reilly, 2015.](https://amzn.to/37kBtMM)
+- [Frank E. Harrell, __Regression Modeling Strategies__. Springer Series in Statistics (2nd ed.). New York; Springer, 2015.](https://amzn.to/2uHkW8x)
+- [David W. Hosmer, Stanley Lemeshow, __Applied Logistic Regression__, (2nd ed.). Wiley., 2002](https://amzn.to/37z27BL)
 - [G. James, D. Witten, T. Hastie e R. Tibshirani, __An Introduction to Statistical Learning with Applications in R__. Springer, 2013.](https://amzn.to/2uJfcuS)
+- [Andrew McCallum, __Graphical Models, Lecture2: Bayesian Network Represention__](https://people.cs.umass.edu/~mccallum/courses/gm2011/02-bn-rep.pdf).
 - [Wes McKinney, __Python para Análise de Dados__. O'Reilly, 2018.](https://amzn.to/2SMadSh)
+- [Andrew Y. Ng, Michael I. Jordan, __On discriminative vs. generative classifiers: A comparison of logistic regression and naive Bayes__. NIPS. 14, 2002.](http://papers.nips.cc/paper/2020-on-discriminative-vs-generative-classifiers-a-comparison-of-logistic-regression-and-naive-bayes)
+- [Harry Zhang, __The Optimality of Naive Bayes__. FLAIRS2004 conference](http://www.cs.unb.ca/~hzhang/publications/FLAIRS04ZhangH.pdf)
 
 Nota de transparência: Os links acessados dão uma porcentagem da caso os livros sejam comprados.
 
