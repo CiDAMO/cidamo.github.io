@@ -11,7 +11,7 @@ googlefonts:
 
 body {
   font-family: 'Montserrat', 'Times New Roman', serif;
-  font-size: 18px;
+  font-size: 14px;
   color: #404040;
   position: relative;
   background-color: {{ site.page-col }};
@@ -120,7 +120,7 @@ img {
 
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 1px;
   transition: 0.3s;
 }
@@ -299,7 +299,7 @@ footer .theme-by {
     padding: 50px 0;
   }
   footer .footer-links {
-    font-size: 18px;
+    font-size: 14px;
   }
   footer .copyright {
     font-size: 16px;
@@ -335,7 +335,7 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 30px;
+  font-size: 24px;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
@@ -346,7 +346,7 @@ footer .theme-by {
 .post-preview .post-meta,
 .post-heading .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 14px;
   font-style: italic;
   margin: 0 0 10px;
 }
@@ -381,7 +381,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 
@@ -390,7 +390,7 @@ footer .theme-by {
 .blog-tags {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #999;
-  font-size: 15px;
+  font-size: 12px;
   margin-bottom: 30px;
 }
 
@@ -470,15 +470,15 @@ footer .theme-by {
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 42px;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
-  font-size: 35px;
+  font-size: 26px;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 27px;
+  font-size: 20px;
   line-height: 1.1;
   display: block;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -523,13 +523,13 @@ footer .theme-by {
     padding: 150px 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 80px;
-  }
-  .intro-header .post-heading h1 {
     font-size: 50px;
   }
+  .intro-header .post-heading h1 {
+    font-size: 42px;
+  }
   .intro-header.big-img .img-desc {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -670,7 +670,7 @@ table {
 /* --- Code blocks --- */
 
 pre {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5em;
 }
 .highlight pre {
@@ -783,13 +783,13 @@ pre {
 }
 
 #full-tags-list .tag-entry a {
-  font-size: 20px;
+  font-size: 14px;
 }
 
 #full-tags-list .tag-entry .entry-date {
   color: #808080;
   font-style: italic;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .card {
@@ -966,4 +966,37 @@ p {
   img {
     width: 80%;
   }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.eventos th, .eventos td {
+  background-color: #666;
+  border: 3px solid white;
+  border-radius: 8px;
+}
+
+.evento-main td {
+  background-color: #1893f8;
+  color: white;
+}
+
+.evento-main a {
+  color: #f1c40f;
+  font-weight: bold;
+}
+
+.evento-sub td {
+  background-color: white;
+}
+
+.evento-sub td:nth-child(3n), .evento-sub td:nth-child(3n-1) {
+  background-color: #f1c40f;
+}
+
+.evento-sub a {
+  color: ##1893f8;
+  font-weight: bold;
 }

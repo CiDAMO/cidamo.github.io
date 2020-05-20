@@ -1,0 +1,16 @@
+- data: 2020-05-28
+  hora: "19h - 21h"
+  nome: "Evento em conjunto com [Thiago Marques do Estatidados](https://www.linkedin.com/in/thiagoestatidados/). A apresentação pode ser assistida pelo [Zoom do Estatidados](https://docs.google.com/forms/d/e/1FAIpQLSevn5yLy4eBtRTW5pWsjUSCvxz-Tfq9GfanNy8Ea7ppe92TcA/viewform), pelo [YouTube do Estatidados](https://www.youtube.com/channel/UC4jROkPjTvnXRkuo2GAwKXw) e pelo [Twitch do professor Abel](https://twitch.tv/abelsiqueira)."
+  partes:
+    - nome: "**Abel Soares Siqueira**<br> CiDAMO/UFPR DMAT"
+      desc: "**Otimização e Modelagem Matemática na Linguagem Julia**"
+- data: 2020-06-04
+  hora: "19h - 20h30"
+  nome: "2° Meetup do CiDAMO"
+  partes:
+    - nome: "**Mariana Kleina**<br>Departamento de Engenharia de Produção, UFPR.<br>[Site](https://docs.ufpr.br/~marianakleina) e [Lattes](http://lattes.cnpq.br/2745872488816219)"
+      desc: "**Aplicações de Redes Neurais Artificiais**<br><br>Serão abordadas diversas aplicações práticas de Redes Neurias Artificiais em problemas de previsão e classificação, realizadas por alunos da Universidade Federal do Paraná. Os problemas abordam temas variados, tais como previsão de demanda, volatilidade de criptomoedas, concessão de crédito bancário, informações futebolísticas, climatologia, entre outros."
+    - nome: "A confirmar"
+      desc: ""
+    - nome: "A confirmar"
+      desc: ""
