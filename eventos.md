@@ -38,6 +38,8 @@ Gostaria de fazer alguma apresentação no CiDAMO? Entre em contato com grupo.ci
   {% endfor %}
 {% endfor %}
 </table>
+{% else %}
+**Nenhum evento planejado por enquanto.**
 {% endif %}
 
 ## Eventos passados
