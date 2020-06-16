@@ -997,6 +997,16 @@ h2 {
 }
 
 .evento-sub a {
-  color: ##1893f8;
+  color: #1893f8;
   font-weight: bold;
+}
+
+figure {
+  text-align: center;
+}
+figure img {
+  max-width: 66%;
+}
+figcaption {
+  font-size: 0.85em;
 }
