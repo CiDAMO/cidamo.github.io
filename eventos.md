@@ -12,7 +12,7 @@ image: /img/eventos.png
 
 Segue nosso calendário de eventos públicos. Nos siga no [linkedin](https://linkedin.com/company/grupo-cidamo) para ver notificações de novos eventos.
 
-As apresentações em geral serão ao vivo pelo [Twitch](https://twitch.tv/abelsiqueira) e pelo [YouTube](https://youtube.com/AbelSiqueira). Caso contrário, avisaremos na descrição.
+As apresentações ao vivo serão em geral pelo [YouTube](https://youtube.com/AbelSiqueira). Caso contrário, avisaremos na descrição.
 
 Gostaria de fazer alguma apresentação no CiDAMO? Entre em contato com grupo.cidamo@gmail.com.
 
