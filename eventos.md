@@ -16,7 +16,6 @@ As apresentações em geral serão ao vivo pelo [Twitch](https://twitch.tv/abels
 
 Gostaria de fazer alguma apresentação no CiDAMO? Entre em contato com grupo.cidamo@gmail.com.
 
-{% if length(site.data.proxeventos) > 0 %}
 {% assign eventos=site.data.proxeventos | sort: 'data' %}
 <table class="eventos">
   <tr>
@@ -38,9 +37,6 @@ Gostaria de fazer alguma apresentação no CiDAMO? Entre em contato com grupo.ci
   {% endfor %}
 {% endfor %}
 </table>
-{% else %}
-**Nenhum evento planejado por enquanto.**
-{% endif %}
 
 ## Eventos passados
 
