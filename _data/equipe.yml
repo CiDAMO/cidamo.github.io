@@ -15,13 +15,20 @@ lucaspedroso:
   twitter:
   linkedin:
 kallychung:
-  inativo: true
+  inativo: 
   name: "Kally Chung"
-  role: Membro
+  role: Coordenadores
   img: kallychung.jpg
+  github: chunggnuhc
+  twitter: chung_kally
+  linkedin: kally-chung
+marianakleina:
+  name: "Mariana Kleina"
+  role: Coordenadores
+  img: mariana.jpg
   github:
   twitter:
-  linkedin:
+  linkedin: marianakleina
 joaosilva:
   name: "João Victor da Silva"
   role: Cientistas de Dados
@@ -85,3 +92,73 @@ rodrigoredondo:
   github: rodrigosgr
   twitter:
   linkedin: rodrigosgr
+pedrovianna:
+  name: "Pedro Vianna"
+  role: Cientistas de Dados
+  img: pedrovianna.jpg
+  github: 
+  twitter: 
+  linkedin: pedro-vianna-81b040152
+pedromoreira:
+  name: "Pedro Moreira"
+  role: Cientistas de Dados
+  img: pedromoreira.jpg
+  github: plusmoreira
+  twitter: plusmoreira
+  linkedin: plusmoreira
+victorbarbosa:
+  name: "Victor Gabriel Souza Barbosa"
+  role: Cientistas de Dados
+  img: victor.jpg
+  github: dirky07
+  twitter: TheDirky
+  linkedin: victor-gabriel-souza-barbosa-29a1ba19a
+lucasakio:
+  name: "Lucas Akio"
+  role: Cientistas de Dados
+  img: lucasakio.jpg
+  github: Lucas-Akio
+  twitter: Xedoux
+  linkedin: lucas-a-b56122141
+vinicyusbrasil:
+  name: "Vinícyus Brasil"
+  role: Cientistas de Dados
+  img: vinicyus.jpg
+  github: vinybrasil
+  twitter: 
+  linkedin: vinicyus-brasil-a6b321129
+alinexavier:
+  name: "Aline Nascimento Xavier"
+  role: Cientistas de Dados
+  img: aline.jpg
+  github: nine59
+  twitter:
+  linkedin: aline-x-b6a413b3
+leonardodionizio:
+  name: "Leonardo Dionizio"
+  role: Cientistas de Dados
+  img: dionizio.jpg
+  github: leorlik
+  twitter:
+  linkedin:
+rogeriosilva:
+  name: "Rogério Otavio Mainardes da Silva"
+  role: Cientistas de Dados
+  img: rogerio.jpg
+  github: RogerioOMDS
+  twitter:
+  linkedin: rogério-mainardes-755766169
+dennislemes:
+  name: "Dennis G. Lemes"
+  role: Cientistas de Dados
+  img: dennis.jpg
+  github: DennisLemes
+  twitter:
+  linkedin: dennisglemes
+julianishihiro:
+  name: "Julia Yumi Nishihiro"
+  role: Cientistas de Dados
+  img: julia.jpg
+  github: ynishihiro
+  twitter: yumienishi
+  linkedin: julia-nishihiro-388420197
