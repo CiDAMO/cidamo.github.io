@@ -1,34 +1,3 @@
-abelsiqueira:
-  name: "Abel Soares Siqueira"
-  role: Coordenadores
-  img: abelsiqueira.jpg
-  email1: abel.s.siqueira
-  email2: gmail.com
-  github: abelsiqueira
-  twitter: abel_siqueira
-  linkedin: abel-siqueira
-lucaspedroso:
-  name: "Lucas Garcia Pedroso"
-  role: Coordenadores
-  img: lucaspedroso.jpg
-  github:
-  twitter:
-  linkedin:
-kallychung:
-  inativo: 
-  name: "Kally Chung"
-  role: Coordenadores
-  img: kallychung.jpg
-  github: chunggnuhc
-  twitter: chung_kally
-  linkedin: kally-chung
-marianakleina:
-  name: "Mariana Kleina"
-  role: Coordenadores
-  img: mariana.jpg
-  github:
-  twitter:
-  linkedin: marianakleina
 joaosilva:
   name: "João Victor da Silva"
   role: Cientistas de Dados

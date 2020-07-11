@@ -1,0 +1,15 @@
+{% if info.github %}
+   <a href="https://github.com/{{ info.github }}" class="fa fa-2x fa-github"></a>
+{% else %}
+   <i class="fa fa-2x fa-github fa-gray"></i>
+{% endif %}
+{% if info.linkedin %}
+   <a href="https://linkedin.com/in/{{ info.linkedin }}" class="fa fa-2x fa-linkedin"></a>
+{% else %}
+   <i class="fa fa-2x fa-linkedin fa-gray"></i>
+{% endif %}
+{% if info.twitter %}
+   <a href="https://twitter.com/{{ info.twitter }}" class="fa fa-2x fa-twitter"></a>
+{% else %}
+   <i class="fa fa-2x fa-twitter fa-gray"></i>
+{% endif %}
