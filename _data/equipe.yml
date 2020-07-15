@@ -1,34 +1,3 @@
-abelsiqueira:
-  name: "Abel Soares Siqueira"
-  role: Coordenadores
-  img: abelsiqueira.jpg
-  email1: abel.s.siqueira
-  email2: gmail.com
-  github: abelsiqueira
-  twitter: abel_siqueira
-  linkedin: abel-siqueira
-lucaspedroso:
-  name: "Lucas Garcia Pedroso"
-  role: Coordenadores
-  img: lucaspedroso.jpg
-  github:
-  twitter:
-  linkedin:
-kallychung:
-  inativo: 
-  name: "Kally Chung"
-  role: Coordenadores
-  img: kallychung.jpg
-  github: chunggnuhc
-  twitter: chung_kally
-  linkedin: kally-chung
-marianakleina:
-  name: "Mariana Kleina"
-  role: Coordenadores
-  img: mariana.jpg
-  github:
-  twitter:
-  linkedin: marianakleina
 joaosilva:
   name: "João Victor da Silva"
   role: Cientistas de Dados
@@ -38,24 +7,6 @@ joaosilva:
   github: Jualns
   twitter: Jualns
   linkedin: joao-victor-silva
-renandomingues:
-  name: "Renan Oclides Domingues"
-  role: Otimizadores
-  img: renand.jpg
-  email1: renan.oclides
-  email2: hotmail.com
-  github: RenanOD
-  twitter:
-  linkedin: renanod-287142189
-joaookimoto:
-  name: "João Luis Ribeiro Okimoto"
-  role: Otimizadores
-  img: joaookimoto.jpg
-  email1: joaoluisok
-  email2: gmail.com
-  github: joaoluisro
-  twitter:
-  linkedin:
 egmara:
   name: "Egmara Antunes dos Santos"
   role: Otimizadores
@@ -83,15 +34,6 @@ joaofassina:
   github: JoaoFassina
   twitter:
   linkedin: joão-pedro-kincheski-fassina-844173154
-rodrigoredondo:
-  name: "Rodrigo Souza Garcia Redondo"
-  role: Otimizadores
-  img: rodrigo_redondo.jpg
-  email1: rodrigoredondo0
-  email2: gmail.com
-  github: rodrigosgr
-  twitter:
-  linkedin: rodrigosgr
 pedrovianna:
   name: "Pedro Vianna"
   role: Cientistas de Dados
@@ -162,3 +104,10 @@ julianishihiro:
   github: ynishihiro
   twitter: yumienishi
   linkedin: julia-nishihiro-388420197
+rafaeloliveira:
+  name: Rafael H. O. de Oliveira
+  role: Cientistas de Dados
+  img: rafaeloliveira.jpg
+  github: RHOOliveira
+  twitter:
+  linkedin: rafael-oliveira-301797128

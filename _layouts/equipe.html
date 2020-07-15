@@ -1,0 +1,53 @@
+---
+common-css:
+  - "/css/bootstrap.min.css"
+  - "/css/bootstrap-social.css"
+  - "/css/main.css"
+  - "/css/equipe.css"
+common-ext-css:
+  - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
+common-googlefonts:
+  - "Lora:400,700,400italic,700italic"
+  - "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+common-js:
+  - "/js/jquery-1.11.2.min.js"
+  - "/js/bootstrap.min.js"
+  - "/js/main.js"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  {% include head.html %}
+  {% include header.html type="page" %}
+  
+  <body>
+    {% include gtm_body.html %}
+  
+    {% include nav.html %}
+
+    <div class="container" role="main">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {{ content }}
+        {% if page.comments %}
+          <div class="disqus-comments">
+            {% include disqus.html %}
+          </div>
+            {% include fb-comment.html %}
+          <div class="staticman-comments">
+            {% include staticman-comments.html %}
+          </div>
+          <div class="justcomments-comments">
+            {% include just_comments.html %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+    </div>
+
+  {% include footer.html %}
+
+  {% include footer-scripts.html %}
+  </body>
+</html>
