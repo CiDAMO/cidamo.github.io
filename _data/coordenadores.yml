@@ -1,6 +1,6 @@
 abelsiqueira:
   name: "Abel Soares Siqueira"
-  bio: Co-fundador do CiDAMO. Professor Adjunto do Departamento de Matemática. Trabalha com otimização não linear na linguagem Julia, desenvolvendo o framework JuliaSmoothOptimizers.
+  bio: Co-fundador do CiDAMO. Professor Adjunto do Departamento de Matemática da UFPR. Trabalha com otimização não linear na linguagem Julia, desenvolvendo o framework JuliaSmoothOptimizers.
   img: abelsiqueira.jpg
   email1: abel.s.siqueira
   email2: gmail.com
@@ -9,6 +9,7 @@ abelsiqueira:
   linkedin: abel-siqueira
 lucaspedroso:
   name: "Lucas Garcia Pedroso"
+  bio: Co-fundador do CiDAMO. Professor do Departamento de Matemática da UFPR.
   role: Coordenadores
   img: lucaspedroso.jpg
   github:
@@ -17,6 +18,7 @@ lucaspedroso:
 kallychung:
   inativo: 
   name: "Kally Chung"
+  bio: Co-fundadora do CiDAMO. Professora do Departamento de Matemática da UFPR.
   role: Coordenadores
   img: kallychung.jpg
   github: chunggnuhc
@@ -24,8 +26,17 @@ kallychung:
   linkedin: kally-chung
 marianakleina:
   name: "Mariana Kleina"
+  bio: Professora adjunta do Departamento de Engenharia de Produção da UFPR.
   role: Coordenadores
   img: mariana.jpg
   github:
   twitter:
   linkedin: marianakleina
+cesartaconeli:
+  name: "Cesar Augusto Taconeli"
+  bio: Professor do Departamento de Estatística da UFPR.
+  role: Coordenadores
+  img: cesartaconeli.jpg
+  github: 
+  twitter:
+  linkedin: cesar-taconeli-5b5814ba

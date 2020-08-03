@@ -43,6 +43,7 @@ section .section-title {
     -ms-transform: rotateY(0deg);
     transform: rotateY(0deg);
     border-radius: .25rem;
+    z-index: -1;
 }
 
 .image-flip:hover .frontside,
@@ -51,6 +52,7 @@ section .section-title {
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
+    z-index: -1;
 }
 
 .mainflip {

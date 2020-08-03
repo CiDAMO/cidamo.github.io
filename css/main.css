@@ -764,6 +764,10 @@ pre {
   background-color: initial;
 }
 
+.navbar-default {
+  z-index: 500;
+}
+
 .navbar-default button.navbar-toggle[aria-expanded="true"] {
   background-color: rgba(0, 0, 0, 0.2);
 }

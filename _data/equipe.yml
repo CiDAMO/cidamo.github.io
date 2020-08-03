@@ -1,6 +1,7 @@
 joaosilva:
   name: "João Victor da Silva"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pelo ingresso de novos integrantes no CiDAMO.
   img: joaosilva.jpg
   email1: josilva602
   email2: gmail.com
@@ -9,7 +10,8 @@ joaosilva:
   linkedin: joao-victor-silva
 egmara:
   name: "Egmara Antunes dos Santos"
-  role: Otimizadores
+  role: Pesquisador de Pós-graduação
+  bio:
   img: egmara.jpg
   email1: egmara.antunes
   email2: gmail.com
@@ -18,7 +20,8 @@ egmara:
   linkedin: egmara-antunes-dos-santos-5031a218b
 talia:
   name: "Talia Correia Schulz"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pelos eventos no CiDAMO.
   img: talia.jpg
   email1: taliacschulz
   email2: gmail.com
@@ -27,7 +30,8 @@ talia:
   linkedin: talia-correia-schulz-57593318a
 joaofassina:
   name: "João Pedro Kincheski Fassina"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pelo ingresso de novos integrantes no CiDAMO.
   img: joaofassina.jpg
   email1: Jpfassina
   email2: live.com
@@ -36,77 +40,80 @@ joaofassina:
   linkedin: joão-pedro-kincheski-fassina-844173154
 pedrovianna:
   name: "Pedro Vianna"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pelos eventos no CiDAMO.
   img: pedrovianna.jpg
   github: 
   twitter: 
   linkedin: pedro-vianna-81b040152
-pedromoreira:
-  name: "Pedro Moreira"
-  role: Cientistas de Dados
-  img: pedromoreira.jpg
-  github: plusmoreira
-  twitter: plusmoreira
-  linkedin: plusmoreira
 victorbarbosa:
   name: "Victor Gabriel Souza Barbosa"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pelo marketing e site do CiDAMO.
   img: victor.jpg
   github: dirky07
   twitter: TheDirky
   linkedin: victor-gabriel-souza-barbosa-29a1ba19a
 lucasakio:
   name: "Lucas Akio"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pelo ingresso de novos integrantes no CiDAMO.
   img: lucasakio.jpg
   github: Lucas-Akio
   twitter: Xedoux
   linkedin: lucas-a-b56122141
 vinicyusbrasil:
   name: "Vinícyus Brasil"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pelo marketing e site do CiDAMO.
   img: vinicyus.jpg
   github: vinybrasil
   twitter: 
   linkedin: vinicyus-brasil-a6b321129
 alinexavier:
   name: "Aline Nascimento Xavier"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pelos eventos no CiDAMO.
   img: aline.jpg
   github: nine59
   twitter:
   linkedin: aline-x-b6a413b3
 leonardodionizio:
   name: "Leonardo Dionizio"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pelo marketing e site do CiDAMO.
   img: dionizio.jpg
   github: leorlik
   twitter:
   linkedin:
 rogeriosilva:
   name: "Rogério Otavio Mainardes da Silva"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pela infraestrutura do CiDAMO.
   img: rogerio.jpg
   github: RogerioOMDS
   twitter:
   linkedin: rogério-mainardes-755766169
 dennislemes:
   name: "Dennis G. Lemes"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pelos eventos no CiDAMO.
   img: dennis.jpg
   github: DennisLemes
   twitter:
   linkedin: dennisglemes
 julianishihiro:
   name: "Julia Yumi Nishihiro"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Faz parte da equipe responsável pela infraestrutura do CiDAMO.
   img: julia.jpg
   github: ynishihiro
   twitter: yumienishi
   linkedin: julia-nishihiro-388420197
 rafaeloliveira:
   name: Rafael H. O. de Oliveira
-  role: Cientistas de Dados
+  role: Pesquisador de Pós-graduação
+  bio:
   img: rafaeloliveira.jpg
   github: RHOOliveira
   twitter:
