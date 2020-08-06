@@ -1,0 +1,25 @@
+<table class="not-full-width-table" style="border: 1px solid #666;">
+    <tr>
+        <th colspan="4" style="background: #666; border: 1px solid #666;">{{ include.titulo }}</th>
+    </tr>
+    <tr>
+        <th colspan="2" style="background: #fff; border-width: 0px"></th>
+        <th colspan="2">Predito</th>
+    </tr>
+    <tr>
+        <th colspan="2" style="background: #fff; border-width: 0px"></th>
+        <th>V</th>
+        <th>N</th>
+    </tr>
+    <tr>
+        <th rowspan="2">Real</th>
+        <th>V</th>
+        <td>{{ include.VP }}</td>
+        <td>{{ include.FP }}</td>
+    </tr>
+    <tr>
+        <th>F</th>
+        <td>{{ include.VP }}</td>
+        <td>{{ include.FP }}</td>
+    </tr>
+</table>
