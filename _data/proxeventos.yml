@@ -1,10 +1,10 @@
-- data: 2020-08-27
+- data: 2020-09-24
   hora: "19h - 21h30"
-  nome: " CiDAMAS - 1° Meetup do CiDAMO"
+  nome: "5° Meetup do CiDAMO."
   partes:
-    - nome: "**Diandra Kubo**<br>Nubank<br>[Linkedin](https://www.linkedin.com/in/diandra-kubo-0bb05a105/)"
-      desc: "**Uso da U-Net no pré-processamento de imagens de documentos**<br>No processamento de documentos em cenários da vida real, é comum ter que lidar com artefatos que afetam negativamente a qualidade de análise. Com o objetivo de mitigar o impacto desses artefatos, usamos a rede neural convolucional U-Net, uma rede de sucesso na segmentação de imagens biomédicas. Para treinar a rede, dados artificiais foram utilizados, e nessa apresentação, iremos mostrar o passo-a-passo pra utilização do framework proposto.<br>"
-    - nome: "**Melissa Weber**<br>Quansight<br>[Linkedin](https://www.linkedin.com/in/axequalsb/)"
-      desc: "**O Ecossistema Científico no Python**<br>Quem trabalha (ou quer trabalhar) com ciência de dados sabe que o conhecimento das bibliotecas científicas coletivamente conhecidas como PyData é fundamental. Muitos projetos de ciência de dados envolvem aplicações em várias linguagens e o Python é uma das mais populares nesse contexto. Nessa palestra, falaremos sobre a utilização destas bibliotecas, a interação entre elas e as comunidades que as mantém. Além disso, discutiremos boas práticas para o desenvolvimento de software científico e de análise de dados, incluindo padrões de interação da comunidade open source e iniciativas voltadas para formar não apenas usuárias, mas também contribuidoras para estas bibliotecas.<br>"
-    - nome: "**Mesa Redonda**"
-      desc: "**Bate papo sobre a atuação das mulheres no mercado de trabalho**"
+    - nome: "**Luis Pinto**<br>Zero Gap<br>[Linkedin](https://www.linkedin.com/in/luisfdcp/)"
+      desc: "**Cases de Otimização na Indústria**<br>Apresentação de cases reais de uso de modelagem matemática para tomada de decisão em diversas áreas de negócio.<br>"
+    - nome: "**Jéssica Santos**<br>NeuralMed<br>[Linkedin](https://www.linkedin.com/in/jessica-santos-oliveira/)"
+      desc: "**IA na Medicina: motivações e desafios para um Cientista de Dados**<br>Nessa palestra iremos ver algumas das principais aplicações de inteligência Artificial na Medicina, alguns dos motivos que os fazem importantes e as principais técnicas e desafios na análise desse tipo de dado.<br>"
+    - nome: "**Lucas de Barros Teixeira**<br>AMcom<br>[Linkedin](https://www.linkedin.com/in/lucasdebarrosteixeira/)"
+      desc: "**Hack Ibama: Explorando Dados Ambientais**<br>Com abordagem simples quero trazer para todos conceitos e práticas de dados abertos, usando tecnologia/python! Vamos acessar, analisar e hackear os dados do IBAMA (órgão ambiental). SIM, vamos codar e aprender muito."

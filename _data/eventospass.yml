@@ -46,3 +46,13 @@
       desc: "**Otimização aplicada a agroindústria**<br>Será abordado de uma forma prática como a aplicação da otimização linear se integra nos processos da agroindústria desde a rotina, projetos até a tomada de decisão de futuros negócios."
     - nome: "**Alexandre Behling**<br>UFPR<br>[Lattes](http://lattes.cnpq.br/3861474565660261)"
       desc: "**Aspectos estatísticos, métodos e desafios na modelagem da biomassa**<br>O escopo que será abordado na apresentação visa contribuir para explicitar avanços metodológicos já definidos e aplicados em outros paídes e, com certeza, permitirão assegurar uma avaliação de biomassa mais apropriada, principalmente quando tratados os aspectos de compatibilidade entre as estimativas da biomassa dos componentes com a biomassa total e com maior eficiência estatística."
+- data: 2020-08-27
+  hora: "19h - 21h30"
+  nome: " CiDAMAS - 1° Meetup do CiDAMO. [Vídeo](https://youtu.be/mIwU1Vmu86c)"
+  partes:
+    - nome: "**Diandra Kubo**<br>Nubank<br>[Linkedin](https://www.linkedin.com/in/diandra-kubo-0bb05a105/)"
+      desc: "**Uso da U-Net no pré-processamento de imagens de documentos**<br>No processamento de documentos em cenários da vida real, é comum ter que lidar com artefatos que afetam negativamente a qualidade de análise. Com o objetivo de mitigar o impacto desses artefatos, usamos a rede neural convolucional U-Net, uma rede de sucesso na segmentação de imagens biomédicas. Para treinar a rede, dados artificiais foram utilizados, e nessa apresentação, iremos mostrar o passo-a-passo pra utilização do framework proposto.<br>"
+    - nome: "**Melissa Weber**<br>Quansight<br>[Linkedin](https://www.linkedin.com/in/axequalsb/)"
+      desc: "**O Ecossistema Científico no Python**<br>Quem trabalha (ou quer trabalhar) com ciência de dados sabe que o conhecimento das bibliotecas científicas coletivamente conhecidas como PyData é fundamental. Muitos projetos de ciência de dados envolvem aplicações em várias linguagens e o Python é uma das mais populares nesse contexto. Nessa palestra, falaremos sobre a utilização destas bibliotecas, a interação entre elas e as comunidades que as mantém. Além disso, discutiremos boas práticas para o desenvolvimento de software científico e de análise de dados, incluindo padrões de interação da comunidade open source e iniciativas voltadas para formar não apenas usuárias, mas também contribuidoras para estas bibliotecas.<br>"
+    - nome: "**Mesa Redonda**"
+      desc: "**Bate papo sobre a atuação das mulheres no mercado de trabalho**"
