@@ -8,3 +8,17 @@
       desc: "**IA na Medicina: motivações e desafios para um Cientista de Dados**<br>Nessa palestra iremos ver algumas das principais aplicações de inteligência Artificial na Medicina, alguns dos motivos que os fazem importantes e as principais técnicas e desafios na análise desse tipo de dado.<br>"
     - nome: "**Lucas de Barros Teixeira**<br>AMcom<br>[Linkedin](https://www.linkedin.com/in/lucasdebarrosteixeira/)"
       desc: "**Hack Ibama: Explorando Dados Ambientais**<br>Com abordagem simples quero trazer para todos conceitos e práticas de dados abertos, usando tecnologia/python! Vamos acessar, analisar e hackear os dados do IBAMA (órgão ambiental). SIM, vamos codar e aprender muito."
+- data: 2020-10-01
+  hora: "19h - 21h30"
+  nome: "Hacktoberfest 2020"
+  partes:
+    - nome: "19:00 - 19:05"
+      desc: "Apresentação"
+    - nome: "19:05 - 19:10"
+      desc: "Diga oi"
+    - nome: "19:10 - 19:20"
+      desc: "Introdução ao evento"
+    - nome: "19:20 - 19:30"
+      desc: "Software de Código Aberto"
+    - nome: "19:30 - 21:30"
+      desc: "Workshop de Git + GitHub + GitKraken"
