@@ -16,7 +16,7 @@ cesartaconeli:
   linkedin: cesar-taconeli-5b5814ba
 egmara:
   name: "Egmara Antunes dos Santos"
-  role: Pesquisador de Pós-graduação
+  role: Pesquisadores de Pós-graduação
   bio: Otimização Não-Linear em Julia - Método do Lagrangiano Aumentado com Resolução dos Subproblemas por Região de Confiança
   img: egmara.jpg
   email1: egmara.antunes
@@ -26,7 +26,7 @@ egmara:
   linkedin: egmara-antunes-dos-santos-5031a218b
 rafaeloliveira:
   name: Rafael H. O. de Oliveira
-  role: Pesquisador de Pós-graduação
+  role: Pesquisadores de Pós-graduação
   bio:
   img: rafaeloliveira.jpg
   github: RHOOliveira
@@ -34,7 +34,7 @@ rafaeloliveira:
   linkedin: rafael-oliveira-301797128
 alinexavier:
   name: "Aline Nascimento Xavier"
-  role: Pesquisador de Graduação
+  role: Pesquisadores de Graduação
   bio: Pesquisadora de TCC <br> Otimização de Carteiras de Ação
   img: aline.jpg
   github: nine59
@@ -42,7 +42,7 @@ alinexavier:
   linkedin: aline-x-b6a413b3
 dennislemes:
   name: "Dennis G. Lemes"
-  role: Pesquisador de Graduação
+  role: Pesquisadores de Graduação
   bio: Pesquisador de IC <br> Redes neurais evolutivas aplicadas a games
   img: dennis.jpg
   github: DennisLemes
@@ -50,7 +50,7 @@ dennislemes:
   linkedin: dennisglemes
 joaofassina:
   name: "João Pedro Kincheski Fassina"
-  role: Pesquisador de Graduação
+  role: Pesquisadores de Graduação
   bio: Pesquisador de IC <br> Redes recorrentes aplicadas a NLP
   img: joaofassina.jpg
   email1: Jpfassina
@@ -60,7 +60,7 @@ joaofassina:
   linkedin: joão-pedro-kincheski-fassina-844173154
 joaosilva:
   name: "João Victor da Silva"
-  role: Pesquisador de Graduação
+  role: Pesquisadores de Graduação
   bio: Pesquisador Estagiário <br> Problema do despacho hidrotérmico e árvores de decisão
   img: joaosilva.jpg
   email1: josilva602
@@ -70,7 +70,7 @@ joaosilva:
   linkedin: joao-victor-silva
 julianishihiro:
   name: "Julia Yumi Nishihiro"
-  role: Pesquisador de Graduação
+  role: Pesquisadores de Graduação
   bio: Pesquisadora de IC <br> Aprendizado de máquina na área de finanças
   img: julia.jpg
   github: ynishihiro
@@ -78,7 +78,7 @@ julianishihiro:
   linkedin: julia-nishihiro-388420197
 leonardodionizio:
   name: "Leonardo Dionizio"
-  role: Pesquisador de Graduação
+  role: Pesquisadores de Graduação
   bio: Pesquisador de IC <br> Redes neurais convolucionais para contagem de células
   img: dionizio.jpg
   github: leorlik
@@ -86,7 +86,7 @@ leonardodionizio:
   linkedin:
 lucasakio:
   name: "Lucas Akio"
-  role: Pesquisador de Graduação
+  role: Pesquisadores de Graduação
   bio: Pesquisador de IC <br> Implementação de Robôs para Day Trade
   img: lucasakio.jpg
   github: Lucas-Akio
@@ -94,7 +94,7 @@ lucasakio:
   linkedin: lucas-a-b56122141
 rogeriosilva:
   name: "Rogério Otavio Mainardes da Silva"
-  role: Pesquisador de Graduação
+  role: Pesquisadores de Graduação
   bio: Pesquisador de TCC <br> Implementação de Gradiente Estocástico para Problemas com Objetivos Separáveis
   img: rogerio.jpg
   github: RogerioOMDS
@@ -102,7 +102,7 @@ rogeriosilva:
   linkedin: rogério-mainardes-755766169
 talia:
   name: "Talia Correia Schulz"
-  role: Pesquisador de Graduação
+  role: Pesquisadores de Graduação
   bio: Pesquisadora estagiária <br>Problema do despacho hidrotérmico e árvores de decisão
   img: talia.jpg
   email1: taliacschulz
@@ -112,7 +112,7 @@ talia:
   linkedin: talia-correia-schulz-57593318a
 victorbarbosa:
   name: "Victor Gabriel Souza Barbosa"
-  role: Pesquisador de Graduação
+  role: Pesquisadores de Graduação
   bio: Pesquisador de IC <br> Redes neurais convolucionais para classificação de imagens
   img: victor.jpg
   github: dirky07
@@ -120,10 +120,17 @@ victorbarbosa:
   linkedin: victor-gabriel-souza-barbosa-29a1ba19a
 vinicyusbrasil:
   name: "Vinícyus Brasil"
-  role: Pesquisador de Graduação
-  bio: Participante <br> Algoritmos de clusterização e FRTB
+  role: Participante
+  bio: Pesquisador de IC <br> Algoritmos de clusterização e FRTB
   img: vinicyus.jpg 
   github: vinybrasil
   twitter: 
   linkedin: vinicyus-brasil-a6b321129
-
+augusto:
+  name: "Augusto dos Santos Pereira"
+  role: Pesquisador Colaborador
+  bio: Desenvolvimento de pesquisa sobre classificação de imagens com Deep Learning
+  img: augusto.jpg
+  github:
+  twitter:
+  linkedin: augusto-dos-santos-pereira-55678997
