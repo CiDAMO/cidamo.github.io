@@ -3,10 +3,10 @@ layout: equipe
 title: Equipe
 subtitle: Quem está no CiDAMO?
 roles:
+    - Pesquisador Colaborador
     - Colaboradores
     - Pesquisadores de Pós-graduação
     - Pesquisadores de Graduação
-    - Pesquisador Colaborador
     - Participante
 ---
 
