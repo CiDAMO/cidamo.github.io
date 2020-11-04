@@ -1,0 +1,26 @@
+abelsiqueira:
+  name: "Abel Soares Siqueira"
+  bio: Co-fundador do CiDAMO. Professor Adjunto do Departamento de Matemática da UFPR. Trabalha com otimização não linear na linguagem Julia, desenvolvendo o framework JuliaSmoothOptimizers.
+  img: abelsiqueira.jpg
+  email1: abel.s.siqueira
+  email2: gmail.com
+  github: abelsiqueira
+  twitter: abel_siqueira
+  linkedin: abel-siqueira
+lucaspedroso:
+  name: "Lucas Garcia Pedroso"
+  bio: Doutor em Matemática Aplicada pela Unicamp, é professor do Departamento de Matemática da UFPR. Tem trabalhado na teoria e nas aplicações de Otimização contínua, redes neurais, clusterização e SVM
+  role: Coordenadores
+  img: lucaspedroso.jpg
+  github:
+  twitter:
+  linkedin:
+kallychung:
+  inativo: 
+  name: "Kally Chung"
+  bio: Co-fundadora do CiDAMO. Ex-professora substituta do Departamento de Matemática da UFPR. Atualmente aluna de mestrado no PPRMNE (Programa de Pós Graduação em Métodos Numéricos em Engenharia) e cientista de dados na Delivery Center.
+  role: Coordenadores
+  img: kallychung.jpg
+  github: chunggnuhc
+  twitter: chung_kally
+  linkedin: kally-chung

@@ -1,87 +1,129 @@
-abelsiqueira:
-  name: "Abel Soares Siqueira"
-  role: Coordenadores
-  img: abelsiqueira.jpg
-  email1: abel.s.siqueira
-  email2: gmail.com
-  github: abelsiqueira
-  twitter: abel_siqueira
-  linkedin: abel-siqueira
-lucaspedroso:
-  name: "Lucas Garcia Pedroso"
-  role: Coordenadores
-  img: lucaspedroso.jpg
+marianakleina:
+  name: "Mariana Kleina"
+  bio: Professora Adjunta do Departamento de Engenharia de Produção da Universidade Federal do Paraná desde 2016. Tem interesse nas áreas de Pesquisa Operacional e Ciência de Dados.
+  role: Colaboradores
+  img: mariana.jpg
   github:
   twitter:
-  linkedin:
-kallychung:
-  inativo: true
-  name: "Kally Chung"
-  role: Membro
-  img: kallychung.jpg
-  github:
+  linkedin: marianakleina
+cesartaconeli:
+  name: "Cesar Augusto Taconeli"
+  bio: Professor adjunto do Departamento de Estatística da Universidade Federal do Paraná. Tem experiência na área de Probabilidade e Estatística, com ênfase em modelos de classificação e regressão por árvores.
+  role: Colaboradores
+  img: cesartaconeli.jpg
+  github: 
   twitter:
-  linkedin:
-joaosilva:
-  name: "João Victor da Silva"
-  role: Cientistas de Dados
-  img: joaosilva.jpg
-  email1: josilva602
-  email2: gmail.com
-  github: Jualns
-  twitter: Jualns
-  linkedin: joao-victor-silva
-renandomingues:
-  name: "Renan Oclides Domingues"
-  role: Otimizadores
-  img: renand.jpg
-  email1: renan.oclides
-  email2: hotmail.com
-  github: RenanOD
-  twitter:
-  linkedin: renanod-287142189
-joaookimoto:
-  name: "João Luis Ribeiro Okimoto"
-  role: Otimizadores
-  img: joaookimoto.jpg
-  email1: joaoluisok
-  email2: gmail.com
-  github: joaoluisro
-  twitter:
-  linkedin:
+  linkedin: cesar-taconeli-5b5814ba
 egmara:
   name: "Egmara Antunes dos Santos"
-  role: Otimizadores
+  role: Pesquisador de Pós-graduação
+  bio: Otimização Não-Linear em Julia - Método do Lagrangiano Aumentado com Resolução dos Subproblemas por Região de Confiança
   img: egmara.jpg
   email1: egmara.antunes
   email2: gmail.com
   github: Egmara
   twitter:
   linkedin: egmara-antunes-dos-santos-5031a218b
-talia:
-  name: "Talia Correia Schulz"
-  role: Cientistas de Dados
-  img: talia.jpg
-  email1: taliacschulz
-  email2: gmail.com
-  github: TaliaCS
+rafaeloliveira:
+  name: Rafael H. O. de Oliveira
+  role: Pesquisador de Pós-graduação
+  bio:
+  img: rafaeloliveira.jpg
+  github: RHOOliveira
   twitter:
-  linkedin: talia-correia-schulz-57593318a
+  linkedin: rafael-oliveira-301797128
+alinexavier:
+  name: "Aline Nascimento Xavier"
+  role: Pesquisador de Graduação
+  bio: Pesquisadora de TCC <br> Otimização de Carteiras de Ação
+  img: aline.jpg
+  github: nine59
+  twitter:
+  linkedin: aline-x-b6a413b3
+dennislemes:
+  name: "Dennis G. Lemes"
+  role: Pesquisador de Graduação
+  bio: Pesquisador de IC <br> Redes neurais evolutivas aplicadas a games
+  img: dennis.jpg
+  github: DennisLemes
+  twitter:
+  linkedin: dennisglemes
 joaofassina:
   name: "João Pedro Kincheski Fassina"
-  role: Cientistas de Dados
+  role: Pesquisador de Graduação
+  bio: Pesquisador de IC <br> Redes recorrentes aplicadas a NLP
   img: joaofassina.jpg
   email1: Jpfassina
   email2: live.com
   github: JoaoFassina
   twitter:
   linkedin: joão-pedro-kincheski-fassina-844173154
-rodrigoredondo:
-  name: "Rodrigo Souza Garcia Redondo"
-  role: Otimizadores
-  img: rodrigo_redondo.jpg
-  email1: rodrigoredondo0
+joaosilva:
+  name: "João Victor da Silva"
+  role: Pesquisador de Graduação
+  bio: Pesquisador Estagiário <br> Problema do despacho hidrotérmico e árvores de decisão
+  img: joaosilva.jpg
+  email1: josilva602
   email2: gmail.com
-  github: rodrigosgr
+  github: Jualns
+  twitter: Jualns
+  linkedin: joao-victor-silva
+julianishihiro:
+  name: "Julia Yumi Nishihiro"
+  role: Pesquisador de Graduação
+  bio: Pesquisadora de IC <br> Aprendizado de máquina na área de finanças
+  img: julia.jpg
+  github: ynishihiro
+  twitter: yumienishi
+  linkedin: julia-nishihiro-388420197
+leonardodionizio:
+  name: "Leonardo Dionizio"
+  role: Pesquisador de Graduação
+  bio: Pesquisador de IC <br> Redes neurais convolucionais para contagem de células
+  img: dionizio.jpg
+  github: leorlik
   twitter:
-  linkedin: rodrigosgr
+  linkedin:
+lucasakio:
+  name: "Lucas Akio"
+  role: Pesquisador de Graduação
+  bio: Pesquisador de IC <br> Implementação de Robôs para Day Trade
+  img: lucasakio.jpg
+  github: Lucas-Akio
+  twitter: Xedoux
+  linkedin: lucas-a-b56122141
+rogeriosilva:
+  name: "Rogério Otavio Mainardes da Silva"
+  role: Pesquisador de Graduação
+  bio: Pesquisador de TCC <br> Implementação de Gradiente Estocástico para Problemas com Objetivos Separáveis
+  img: rogerio.jpg
+  github: RogerioOMDS
+  twitter:
+  linkedin: rogério-mainardes-755766169
+talia:
+  name: "Talia Correia Schulz"
+  role: Pesquisador de Graduação
+  bio: Pesquisadora estagiária <br>Problema do despacho hidrotérmico e árvores de decisão
+  img: talia.jpg
+  email1: taliacschulz
+  email2: gmail.com
+  github: TaliaCS
+  twitter:
+  linkedin: talia-correia-schulz-57593318a
+victorbarbosa:
+  name: "Victor Gabriel Souza Barbosa"
+  role: Pesquisador de Graduação
+  bio: Pesquisador de IC <br> Redes neurais convolucionais para classificação de imagens
+  img: victor.jpg
+  github: dirky07
+  twitter: vector-b
+  linkedin: victor-gabriel-souza-barbosa-29a1ba19a
+vinicyusbrasil:
+  name: "Vinícyus Brasil"
+  role: Pesquisador de Graduação
+  bio: Participante <br> Algoritmos de clusterização e FRTB
+  img: vinicyus.jpg 
+  github: vinybrasil
+  twitter: 
+  linkedin: vinicyus-brasil-a6b321129
+
