@@ -1,10 +1,6 @@
-- data: 2020-10-29
+- data: 2021-04-24
   hora: "19h - 21h30"
-  nome: "7° Meetup do CiDAMO."
+  nome: "2ª CiDWeek do CiDAMO."
   partes:
-    - nome: "**Débora Cíntia Marcilio**<br>LACTEC<br>[Site](https://lactec.org.br/corpo_docente/debora-cintia-marcilio-dra/)"
-      desc: "**Aplicação de pesquisa operacional no mercado energético**<br>Nessa conversa pretendo apresentar as principais características da indústria de energia elétrica e seus segmentos, elencando os projetos já desenvolvidos pela equipe de mercado do Lactec, com foco na aplicação da pesquisa operacional no mercado de energia do Brasil.<br>"
-    - nome: "**Juliana Guamá**<br>Take Blip<br>[Linkedin](https://www.linkedin.com/in/juliana-guama/)"
-      desc: "**A carreira de Ciências de Dados**<br>Vamos percorrer alguns tópicos da carreira e atuação do cientista de dados, apresentando o que é abordado nas universidades, o que não é abordado e o que  as empresas esperam de um cientista de dados.<br>"
-    - nome: "**Flávio Galon e  Erick Douglas**<br>AI Technical Lead & Machine Learning Developer<br>[Linkedin](https://www.linkedin.com/in/erick-douglas-ba531a179/)"
-      desc: "**Mantis - Inteligência artificial a serviço da agricultura de precisão.**<br>A agricultura de precisão tem crescido exponencialmente nos últimos anos. O projeto Mantis, da empresa de tecnologias de agricultura de precisão Agres, é um belo exemplo. Utilizando sistemas inteligentes de visão computacional, o projeto visa gerar economia de recursos e diminuição do impacto ambiental. Nesta palestra iremos explicar como utilizamos a inteligência artificial no campo e quais foram os avanços já obtidos."
+    - nome: dale
+      desc: "HOLA QUE TAL."
