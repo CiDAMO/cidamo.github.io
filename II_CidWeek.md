@@ -380,20 +380,20 @@ Programação:
 As apresentações das palestras acontecerão de segunda a quarta, conforme o cronograma acima. Os palestrantes são os seguintes:
 
 - **Abertura**
- - [Angela Bassa ](https://www.linkedin.com/in/angelabassa/)
-   - Senior Director of the Data Science e Analytics Center of Excellence at iRobot
+   - <a href="https://www.linkedin.com/in/angelabassa/" target="_blank">Angela Bassa</a>
+     - Senior Director of the Data Science e Analytics Center of Excellence at iRobot
 - **Acadêmico**
- -  [Francisco Louzada](https://www.linkedin.com/in/francisco-louzada-639048b7/)
-   - Director of the MBA in Data Science na CeMEAI
-   - Eduardo Vargas Ferreira
+   - <a href="https://www.linkedin.com/in/francisco-louzada-639048b7/" target="_blank">Franscisco Louzada</a>
+      - Director of the MBA in Data Science na CeMEAI
+  - Eduardo Vargas Ferreira
     - DEST - Universidade Federal do Paraná (UFPR)
-   - Anderson Soares
+  - Anderson Soares
     - Professor na Universidade Federal de Goiás (UFG)
 - **Sociedade**
- -  [Andressa Freires](https://www.linkedin.com/in/andressafreires/)
-    - PicPay. Data Science, Inclusão Racial e de Gênero
- -  [Téo Calvo](https://www.linkedin.com/in/teocalvo/)
-    - Streamer. Professor na ASN.Rocks
+   -  <a href="https://www.linkedin.com/in/andressafreires/" target="_blank">Andressa Freires</a>
+      - PicPay. Data Science, Inclusão Racial e de Gênero
+   -  <a href="https://www.linkedin.com/in/teocalvo/" target="_blank">Téo Calvo</a>
+      - Streamer. Professor na ASN.Rocks
 
 
 
@@ -434,14 +434,15 @@ Programação:
 <div id="apresentacao"></div>
 As apresentações acadêmicas dos alunos de graduação e pós-graduação acontecem segunda e terça à tarde, e cada apresentação será de 15 a 20 minutos mais 5 minutos para perguntas. Programa das apresentações e resumos em breve. <!-- de acordo com o seguinte [programa](link editar). -->
 
-A relação dos trabalhos aceitos serão divulgados neste site e os alunos palestrantes receberão e-mail de confirmação. Para submeter um trabalho será necessário enviar um resumo para o grupo_cidamo@gmail.com seguindo um dos modelos abaixo. O e-mail deve ter o título com base no estilo "Resumo_PrimeiroNome_UltimoNome", em anexo resumo no formato **TEX** ou **DOC** (conforme modelo) e respectivo arquivo em **PDF**. 
+A relação dos trabalhos aceitos serão divulgados neste site e os alunos palestrantes receberão e-mail de confirmação. Para submeter um trabalho será necessário enviar um resumo para o grupo_cidamo@gmail.com seguindo um dos modelos abaixo. O e-mail deve ter o título com base no estilo "Resumo_PrimeiroNome_UltimoNome", em anexo resumo no formato **TEX** ou **DOC** (conforme o Modelo) e respectivo arquivo em **PDF**. 
 
 Modelos de resumo :
 
-| Tipo  | Arquivo |
-| ----- | ------- |
-| LaTeX |         |
-| Word  |         |
+| Tipo  | Arquivo                                                      |
+| ----- | ------------------------------------------------------------ |
+| LaTeX |                                                              |
+| Word  | <a href="https://drive.google.com/file/d/1lH2egK0rMSDWFKHpTo3IZ9DLBesa9sBc/view?usp=sharing" target="_blank">Modelo.doc</a> |
+| PDF   | <a href="https://drive.google.com/file/d/1toMnNJIhX7eeb8QvrIHA21cnABFrwY0p/view?usp=sharing" target="_blank">Modelo.pdf</a> |
 
 Os alunos inscritos  que forem selecionados de acordo com critérios do CiDAMO , serão avisados até dia 29 de Março e serão informados do dia e da hora da palestra por e-mail, essa informação também ficará disponível no site do CiDAMO, então iquem atentos! Caso queira cancelar sua inscrição para a palestra, favor mandar e-mail o quão antes possível para o seguinte e-mail: grupo_cidamo@gmail.com.
 
@@ -449,10 +450,10 @@ Os alunos inscritos  que forem selecionados de acordo com critérios do CiDAMO ,
 <div id="mesa_redonda"></div>
 A mesa redonda será um evento de discussão, no qual abordaremos os tema " Início da carreira em Ciência de Dados" e contaremos com uma Tech Recruiter, um cientista de dados, e um estagiário na área. Participe!
 
-- Kléber Benatti [Linkedin](https://www.linkedin.com/in/kleberbenatti/)
- - Cientista de Dados Sênior, Itaú Unibanco
+-  <a href="https://www.linkedin.com/in/kleberbenatti/" target="_blank">Kléber Benatti</a>
+   - Cientista de Dados Sênior, Itaú Unibanco
 - Tatiana Negrelli
- - Supervisora de RH e Business Partner Tech na James Delivery
-- Pessoa 3 - Estagiária de Engenharia de Dados na EBANX
-  <!-- - Lara Clink - https://www.linkedin.com/in/lara-clink-205923184/
- - Estagiária de Engenharia de Dados na EBANX -->
+   - Supervisora de RH e Business Partner Tech na James Delivery
+- <a href="https://www.linkedin.com/in/lara-clink-205923184/" target="_blank">Lara Clink</a>
+   - Estagiária de Engenharia de Dados na EBANX
+
