@@ -7,11 +7,12 @@ author: Grupo CiDAMO
 customjs:
  - https://code.jquery.com/jquery-3.5.1.js
 ---
+
 <script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous">
-
+    
 </script>
 <script type="text/javascript">
   // smooth scroll
@@ -23,10 +24,10 @@ $(document).ready(function(){
     if (this.hash !== "") {
       // Prevent default anchor click behavior
       event.preventDefault();
-    
+
       // Store hash
       var hash = this.hash;
-    
+
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
@@ -42,14 +43,6 @@ $(document).ready(function(){
   /* The sidebar menu */
 body {
     scroll-behavior: smooth;
-}
-.linkedin_icon {
-    background: url('/img/in.png');
-    background-size: cover;
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    top: 3px;
 }
 .sidenav {
   height: 50%; /* Full-height: remove this if you want "auto" height */
@@ -100,12 +93,12 @@ body {
   <a  href="#mesa_redonda">Mesa Redonda</a>
 
 </div>
+
 Seja muito bem-vindo a II Edição da **CiDWeek**, uma incrível semana de Ciência de Dados! Realizado por nós, o [Grupo CiDAMO](/sobre/). <br>O Evento ocorrerá na semana do dia 26 a 30 de abril de 2021, então marque na sua agenda e se prepare! O evento contará com palestras de cientista de dados da área, palestra de empresas, apresentações acadêmica de alunos da graduação e pós-graduação, além de uma mesa redonda com um assunto muito bacana.
 
 Os eventos acontecerão online e contarão com transmissão ao vivo no YouTube e interação na plataforma X. Participe com a gente e não perca essa incrível oportunidade!
 
 ### Inscrições e Ajustes
-<div id="inscricao"></div>
 As inscrições dos alunos para participação e para a apresentação de trabalhos no CiDWeek são de forma gratuita. As inscrições seguem as datas abaixo, assim como seus respectivos formulários. <br>Caso ainda não tenha enviado seu currículo na sua inscrição, por favor preencha o formulário de ajuste.
 
 Caso queira se inscrever como um aluno apresentador, por favor use os dois formulários (participante e apresentador), caso contrário use apenas o formulário de participante.
@@ -113,15 +106,13 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
 -   Inscrição para participante: a partir de 01/03/2021. 
 -   Inscrição para apresentação de trabalhos: de 01/03/2021 a 19/03/2021.
 
-<a href="https://docs.google.com/forms/d/1iMjGoixWtu8W-HOZMe7GPQ6tbfLrk6o00RAA79_d_Hg" target="_blank">Inscrição para Participante</a><br>
-
-<a href="https://docs.google.com/forms/d/1j9L9wk2dbmNQ2kIHKl2rE25Qbma7F-ZmIq5w6H4F-rM" target="_blank">Inscrição para Apresentador</a><br>
-
-<a href="https://docs.google.com/forms/d/1o7Wbv4gedTbUxE1asVBPn59BkmYKjrLEtqPQYtxSlAE" target="_blank">Ajuste de Dados</a><br>
+ [Form Participante](https://docs.google.com/forms/d/1iMjGoixWtu8W-HOZMe7GPQ6tbfLrk6o00RAA79_d_Hg). <br>
+ [Form Apresentador](https://docs.google.com/forms/d/1j9L9wk2dbmNQ2kIHKl2rE25Qbma7F-ZmIq5w6H4F-rM).<br>
+ [Ajuste de Dados](google.com.br).
 
 
 ### Programação
-<div id="programacao"></div>
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 #legenda{width: 30%; }
@@ -133,14 +124,14 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
 .tg .tg-rxsi{background-color:#A2C4C9;text-align:center;vertical-align:middle}
 .tg .tg-w80k{background-color:#B4A7D6;text-align:center;vertical-align:middle}
 .tg .tg-vxkg{background-color:#FF9D9D;text-align:center;vertical-align:middle}
-.tg .tg-vt8p{background-color:#0F4F00;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-vt8p{background-color:#B6D7A8;font-weight:bold;text-align:center;vertical-align:middle}
 .tg .tg-2cz1{background-color:#F193C1;text-align:center;vertical-align:middle}
 .tg .tg-in69{background-color:#89C7FF;text-align:center;vertical-align:middle}
 </style>
 <table class="tg" id="legenda">
 <thead>
   <tr>
-    <th class="tg-vt8p"><span style="font-weight:bold;background-color:#0F4F00">Legenda:</span></th>
+    <th class="tg-vt8p"><span style="font-weight:bold;background-color:#B6D7A8">Legenda:</span></th>
   </tr>
 </thead>
 <tbody>
@@ -167,7 +158,6 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
 
 <br>
 <!--  Teremos várias atividades no evento: -->
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;text-align:center;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -296,10 +286,8 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
 </tbody>
 </table>
 
-
-
 ### Palestras de Empresas
-<div id="palestra_em"></div>
+
 Estarão presentes no evento algumas empresas convidadas, as quais estarão aceitando entrega de currículos e possivelmente empregando participantes, como ocorrido na CiDWeek anterior.
 
 As palestras de empresas acontecerão de hora em hora *De Quarta a Sexta* a partir das 13h30.
@@ -327,8 +315,8 @@ E contaremos com a participação de:
    {% endfor %}
    </div>
 </div>
-<!--As empresas confirmadas são as seguintes:
 
+As empresas confirmadas são as seguintes:
 - Contabilizei
 - Ebanx
 - Magalu
@@ -340,13 +328,11 @@ E contaremos com a participação de:
 - James Delivery
 
 <!-- As empresas ainda não confirmadas:
-
 - Paraná Banco (Eduardo Veiga)
 - Olist
 - Kimberly Klark
 
 Reservas
-
 - Nubank
 - Olist
 - Picpay
@@ -360,99 +346,87 @@ Reservas
 
 <!--
 Programação:
-
 - Quinta
- - 13h30 - pessoa (empresa)
-   - 14h30 - pessoa (empresa)
-   - 15h30 - pessoa (empresa)
-   - 16h30 - pessoa (empresa)
-   - 17h30 - pessoa (empresa)
+	- 13h30 - pessoa (empresa)
+	- 14h30 - pessoa (empresa)
+	- 15h30 - pessoa (empresa)
+	- 16h30 - pessoa (empresa)
+	- 17h30 - pessoa (empresa)
 - Sexta
- - 13h30 - pessoa (empresa)
-   - 14h30 - pessoa (empresa)
-   - 15h30 - pessoa (empresa)
-   - 16h30 - pessoa (empresa)
-   - 17h30 - pessoa (empresa)
-     -->
+	- 13h30 - pessoa (empresa)
+	- 14h30 - pessoa (empresa)
+	- 15h30 - pessoa (empresa)
+	- 16h30 - pessoa (empresa)
+	- 17h30 - pessoa (empresa)
+-->
 
 ### Palestras
-
 As apresentações das palestras acontecerão de segunda a quarta, conforme o cronograma acima. Os palestrantes são os seguintes:
-
-- **Abertura**
- - [Angela Bassa ](https://www.linkedin.com/in/angelabassa/)
-   - Senior Director of the Data Science e Analytics Center of Excellence at iRobot
+- dá para colocar o símbolo do linkedin e o link clicável nele se conseguir para cada palestrante
+-  **Abertura**
+	- Angela Bassa [Linkedin](https://www.linkedin.com/in/angelabassa/)
+		- Senior Director of the Data Science e Analytics Center of Excellence at iRobot
 - **Acadêmico**
- -  [Francisco Louzada](https://www.linkedin.com/in/francisco-louzada-639048b7/)
-   - Director of the MBA in Data Science na CeMEAI
-   - Eduardo Vargas Ferreira
-    - DEST - Universidade Federal do Paraná (UFPR)
-   - Anderson Soares
-    - Professor na Universidade Federal de Goiás (UFG)
+	- Francisco Louzada [Linkedin](https://www.linkedin.com/in/francisco-louzada-639048b7/)
+		- Director of the MBA in Data Science na CeMEAI
+	- Eduardo Vargas Ferreira
+		- DEST - Universidade Federal do Paraná (UFPR)
+	- Anderson Soares
+		- Professor na Universidade Federal de Goiás (UFG)
 - **Sociedade**
- -  [Andressa Freires](https://www.linkedin.com/in/andressafreires/)
-    - PicPay. Data Science, Inclusão Racial e de Gênero
- -  [Téo Calvo](https://www.linkedin.com/in/teocalvo/)
-    - Streamer. Professor na ASN.Rocks
-
-
-
-<!-- Denise Tsunoda - https://www.linkedin.com/in/denise-tsunoda-65ab59/
-
-DECIGI - Universidade Federal do Paraná (UFPR) (os palestrantes comentados retirar quando confirmados - lista baseada com o que está no Discord) 
- Lenora Schwaitzer - https://www.linkedin.com/in/lenoraschwaitzer/
-
-Sócia e responsável técnica da GDGI 
-Juliana Guamá - https://www.linkedin.com/in/juliana-guama/
-
-Take Blip. e PyLadies BH -->
+	- Andressa Freires [Linkedin](https://www.linkedin.com/in/andressafreires/)
+		- PicPay. Data Science, Inclusão Racial e de Gênero
+	- Téo Calvo [Linkedin](https://www.linkedin.com/in/teocalvo/)
+		- Streamer. Professor na ASN.Rocks
+<!-- - Denise Tsunoda - https://www.linkedin.com/in/denise-tsunoda-65ab59/
+	- DECIGI - Universidade Federal do Paraná (UFPR) (os palestrantes comentados retirar quando confirmados - lista baseada com o que está no Discord) -->
+<!-- - Lenora Schwaitzer - https://www.linkedin.com/in/lenoraschwaitzer/
+	- Sócia e responsável técnica da GDGI -->
+<!-- - Juliana Guamá - https://www.linkedin.com/in/juliana-guama/
+	- Take Blip. e PyLadies BH -->
 
 <!--
 Programação:
-
 - Segunda
- - 13h30 - palestrante
-   - 14h30 - palestrante
-   - 15h30 - palestrante
-   - 16h30 - palestrante
-   - 17h30 - palestrante
+	- 13h30 - palestrante
+	- 14h30 - palestrante
+	- 15h30 - palestrante
+	- 16h30 - palestrante
+	- 17h30 - palestrante
 - Terça
- - 13h30 - palestrante
-   - 14h30 - palestrante
-   - 19h30 - palestrante
-   - 20h00 - palestrante
-   - 20h30 - palestrante
-   - 21h00 - palestrante
+	- 13h30 - palestrante
+	- 14h30 - palestrante
+	- 19h30 - palestrante
+	- 20h00 - palestrante
+	- 20h30 - palestrante
+	- 21h00 - palestrante
 - Quarta
- - 13h30 - palestrante
-   - 14h30 - palestrante
-   - 19h30 - palestrante
-   - 20h00 - palestrante
-     -->
+	- 13h30 - palestrante
+	- 14h30 - palestrante
+	- 19h30 - palestrante
+	- 20h00 - palestrante
+-->
 
 ### Apresentações Acadêmica de Alunos
-<div id="apresentacao"></div>
 As apresentações acadêmicas dos alunos de graduação e pós-graduação acontecem segunda e terça à tarde, e cada apresentação será de 15 a 20 minutos mais 5 minutos para perguntas. Programa das apresentações e resumos em breve. <!-- de acordo com o seguinte [programa](link editar). -->
 
 A relação dos trabalhos aceitos serão divulgados neste site e os alunos palestrantes receberão e-mail de confirmação. Para submeter um trabalho será necessário enviar um resumo para o grupo_cidamo@gmail.com seguindo um dos modelos abaixo. O e-mail deve ter o título com base no estilo "Resumo_PrimeiroNome_UltimoNome", em anexo resumo no formato **TEX** ou **DOC** (conforme modelo) e respectivo arquivo em **PDF**. 
 
 Modelos de resumo :
-
-| Tipo  | Arquivo |
-| ----- | ------- |
-| LaTeX |         |
-| Word  |         |
+|       Tipo       |   Arquivo    |
+|------------------|--------------|
+|       LaTeX      |              |
+|       Word       |              |
 
 Os alunos inscritos  que forem selecionados de acordo com critérios do CiDAMO , serão avisados até dia 29 de Março e serão informados do dia e da hora da palestra por e-mail, essa informação também ficará disponível no site do CiDAMO, então iquem atentos! Caso queira cancelar sua inscrição para a palestra, favor mandar e-mail o quão antes possível para o seguinte e-mail: grupo_cidamo@gmail.com.
 
 ### Mesa Redonda
-<div id="mesa_redonda"></div>
 A mesa redonda será um evento de discussão, no qual abordaremos os tema " Início da carreira em Ciência de Dados" e contaremos com uma Tech Recruiter, um cientista de dados, e um estagiário na área. Participe!
 
 - Kléber Benatti [Linkedin](https://www.linkedin.com/in/kleberbenatti/)
- - Cientista de Dados Sênior, Itaú Unibanco
+	- Cientista de Dados Sênior, Itaú Unibanco
 - Tatiana Negrelli
- - Supervisora de RH e Business Partner Tech na James Delivery
+	- Supervisora de RH e Business Partner Tech na James Delivery
 - Pessoa 3 - Estagiária de Engenharia de Dados na EBANX
-  <!-- - Lara Clink - https://www.linkedin.com/in/lara-clink-205923184/
- - Estagiária de Engenharia de Dados na EBANX -->
+<!-- - Lara Clink - https://www.linkedin.com/in/lara-clink-205923184/
+	- Estagiária de Engenharia de Dados na EBANX -->
