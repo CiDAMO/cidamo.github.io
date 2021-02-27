@@ -94,9 +94,10 @@ body {
 <!-- Side navigation -->
 <div class="sidenav">
   <a  href="#inscricao" >Inscrição</a>
+  <a  href="#programacao">Programação</a>
+  <a  href="#apresentacao">Apresentações de Alunos</a>
   <a  href="#palestra_em">Palestra de Empresas</a>
   <a  href="#palestras">Palestras</a>
-  <a  href="#apresentacao">Apresentações de Alunos</a>
   <a  href="#mesa_redonda">Mesa Redonda</a>
 
 </div>
@@ -123,12 +124,8 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
 ### Programação
 <div id="programacao"></div>
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
 #legenda{width: 30%; }
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg td{font-size: 16px;}
 .tg .tg-j5fz{background-color:#FFD966;text-align:center;vertical-align:middle}
 .tg .tg-rxsi{background-color:#A2C4C9;text-align:center;vertical-align:middle}
 .tg .tg-w80k{background-color:#B4A7D6;text-align:center;vertical-align:middle}
@@ -169,11 +166,6 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
 <!--  Teremos várias atividades no evento: -->
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;text-align:center;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-j5fz{background-color:#FFD966;text-align:center;vertical-align:middle}
 .tg .tg-rxsi{background-color:#A2C4C9;text-align:center;vertical-align:middle}
@@ -295,6 +287,32 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
   </tr>
 </tbody>
 </table>
+
+### Apresentações Acadêmica de Alunos
+<div id="apresentacao"></div>
+As apresentações acadêmicas dos alunos de graduação e pós-graduação acontecem segunda e terça à tarde, e cada apresentação será de 15 a 20 minutos mais 5 minutos para perguntas. Programa das apresentações e resumos em breve. <!-- de acordo com o seguinte [programa](link editar). -->
+
+A relação dos trabalhos aceitos serão divulgados neste site e os alunos palestrantes receberão e-mail de confirmação. Para submeter um trabalho será necessário enviar um resumo para o grupo_cidamo@gmail.com seguindo um dos modelos abaixo. O e-mail deve ter o título com base no estilo "Resumo_PrimeiroNome_UltimoNome", em anexo resumo no formato **TEX** ou **DOC** (conforme o Modelo) e respectivo arquivo em **PDF**. 
+
+Modelos de resumo :
+
+| Tipo  | Arquivo                                                      |
+| ----- | ------------------------------------------------------------ |
+| LaTeX |                                                              |
+| Word  | <a href="https://drive.google.com/file/d/1lH2egK0rMSDWFKHpTo3IZ9DLBesa9sBc/view?usp=sharing" target="_blank">Modelo.doc</a> |
+
+Os alunos inscritos  que forem selecionados de acordo com critérios do CiDAMO , serão avisados até dia 29 de Março e serão informados do dia e da hora da palestra por e-mail, essa informação também ficará disponível no site do CiDAMO, então iquem atentos! Caso queira cancelar sua inscrição para a palestra, favor mandar e-mail o quão antes possível para o seguinte e-mail: grupo_cidamo@gmail.com.
+
+### Mesa Redonda
+<div id="mesa_redonda"></div>
+A mesa redonda será um evento de discussão, no qual abordaremos os tema " Início da carreira em Ciência de Dados" e contaremos com uma Tech Recruiter, um cientista de dados, e um estagiário na área. Participe!
+
+-  <a href="https://www.linkedin.com/in/kleberbenatti/" target="_blank">Kléber Benatti</a>
+   - Cientista de Dados Sênior, Itaú Unibanco
+- Tatiana Negrelli
+   - Supervisora de RH e Business Partner Tech na James Delivery
+- <a href="https://www.linkedin.com/in/lara-clink-205923184/" target="_blank">Lara Clink</a>
+   - Estagiária de Engenharia de Dados na EBANX
 
 
 
@@ -429,31 +447,4 @@ Programação:
    - 19h30 - palestrante
    - 20h00 - palestrante
      -->
-
-### Apresentações Acadêmica de Alunos
-<div id="apresentacao"></div>
-As apresentações acadêmicas dos alunos de graduação e pós-graduação acontecem segunda e terça à tarde, e cada apresentação será de 15 a 20 minutos mais 5 minutos para perguntas. Programa das apresentações e resumos em breve. <!-- de acordo com o seguinte [programa](link editar). -->
-
-A relação dos trabalhos aceitos serão divulgados neste site e os alunos palestrantes receberão e-mail de confirmação. Para submeter um trabalho será necessário enviar um resumo para o grupo_cidamo@gmail.com seguindo um dos modelos abaixo. O e-mail deve ter o título com base no estilo "Resumo_PrimeiroNome_UltimoNome", em anexo resumo no formato **TEX** ou **DOC** (conforme o Modelo) e respectivo arquivo em **PDF**. 
-
-Modelos de resumo :
-
-| Tipo  | Arquivo                                                      |
-| ----- | ------------------------------------------------------------ |
-| LaTeX |                                                              |
-| Word  | <a href="https://drive.google.com/file/d/1lH2egK0rMSDWFKHpTo3IZ9DLBesa9sBc/view?usp=sharing" target="_blank">Modelo.doc</a> |
-| PDF   | <a href="https://drive.google.com/file/d/1toMnNJIhX7eeb8QvrIHA21cnABFrwY0p/view?usp=sharing" target="_blank">Modelo.pdf</a> |
-
-Os alunos inscritos  que forem selecionados de acordo com critérios do CiDAMO , serão avisados até dia 29 de Março e serão informados do dia e da hora da palestra por e-mail, essa informação também ficará disponível no site do CiDAMO, então iquem atentos! Caso queira cancelar sua inscrição para a palestra, favor mandar e-mail o quão antes possível para o seguinte e-mail: grupo_cidamo@gmail.com.
-
-### Mesa Redonda
-<div id="mesa_redonda"></div>
-A mesa redonda será um evento de discussão, no qual abordaremos os tema " Início da carreira em Ciência de Dados" e contaremos com uma Tech Recruiter, um cientista de dados, e um estagiário na área. Participe!
-
--  <a href="https://www.linkedin.com/in/kleberbenatti/" target="_blank">Kléber Benatti</a>
-   - Cientista de Dados Sênior, Itaú Unibanco
-- Tatiana Negrelli
-   - Supervisora de RH e Business Partner Tech na James Delivery
-- <a href="https://www.linkedin.com/in/lara-clink-205923184/" target="_blank">Lara Clink</a>
-   - Estagiária de Engenharia de Dados na EBANX
 

@@ -846,7 +846,8 @@ article p {
 }
 
 .empresa {
-  min-height: 350px;
+  min-height: 275px;
+  max-width: 350px;
   text-align: center;
 }
 
@@ -870,7 +871,7 @@ article p {
 }
 
 .pessoa-logo {
-  max-width: 150px;
+  max-width: 100px;
   border-radius: 100%;
   border: 1px solid #0927eb;
   box-shadow: 0;
@@ -889,7 +890,7 @@ article p {
 }
 
 .empresa-logo {
-  max-width: 100px;
+  max-width: 70px;
   margin: 5px;
 }
 
