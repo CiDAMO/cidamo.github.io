@@ -1016,3 +1016,59 @@ figcaption {
   width: auto;
   margin-bottom: 10px;
 }
+
+/*Menu lateral cidweek*/
+body {
+    scroll-behavior: smooth;
+}
+.linkedin_icon {
+    background: url('/img/in.png');
+    background-size: cover;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    top: 3px;
+}
+.sidenav {
+  height: 50%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  left: 0;
+  background-color: transparent;
+  overflow-x: hidden; 
+  padding-top: 20px;
+  border-radius: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #5C5C5C;
+  display: block;
+}
+.sidenav a:hover {
+  color: #000000;
+}
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*Tabelas CidWeek - Cronograma*/
+#legenda{width: 30%; }
+.tg td{font-size: 12px;text-align: center;}
+.td_legenda{background-color:#045000;text-align:center;vertical-align:middle}
+.tg .td_horario{text-align:center;vertical-align:top}
+.tg .td_encerramento{background-color:#FFD966;text-align:center;vertical-align:middle}
+.tg .td_empresas{background-color:#A2C4C9;text-align:center;vertical-align:middle}
+.tg .td_palestrantes{background-color:#B4A7D6;text-align:center;vertical-align:middle}
+.tg .td_apresentacao{background-color:#FF9D9D;text-align:center;vertical-align:middle}
+.tg .td_mesa_redonda{background-color:#F193C1;text-align:center;vertical-align:middle}
+.tg .td_space{text-align:left;vertical-align:top}
+.tg .td_intervalo{background-color:#89C7FF;text-align:center;vertical-align:top}
