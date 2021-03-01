@@ -201,18 +201,6 @@ Modelos de resumo :
 
 Os alunos inscritos  que forem selecionados de acordo com critérios do CiDAMO , serão avisados até dia 29 de Março e serão informados do dia e da hora da palestra por e-mail, essa informação também ficará disponível no site do CiDAMO, então iquem atentos! Caso queira cancelar sua inscrição para a palestra, favor mandar e-mail o quão antes possível para o seguinte e-mail: grupo_cidamo@gmail.com.
 
-### Mesa Redonda
-<div id="mesa_redonda"></div>
-A mesa redonda será um evento de discussão, no qual abordaremos os tema " Início da carreira em Ciência de Dados" e contaremos com uma Tech Recruiter, um cientista de dados, e um estagiário na área. Participe!
-
--  <a href="https://www.linkedin.com/in/kleberbenatti/" target="_blank">Kléber Benatti</a>
-   - Cientista de Dados Sênior, Itaú Unibanco
-- Tatiana Negrelli
-   - Supervisora de RH e Business Partner Tech na James Delivery
-- <a href="https://www.linkedin.com/in/lara-clink-205923184/" target="_blank">Lara Clink</a>
-   - Estagiária de Engenharia de Dados na EBANX
-
-
 
 ### Palestras de Empresas
 <div id="palestra_em"></div>
@@ -255,7 +243,7 @@ E contaremos com a participação de:
 - Pacer
 - James Delivery
 
-<!-- As empresas ainda não confirmadas:
+ As empresas ainda não confirmadas:
 
 - Paraná Banco (Eduardo Veiga)
 - Olist
@@ -311,7 +299,16 @@ As apresentações das palestras acontecerão de segunda a quarta, conforme o cr
    -  <a href="https://www.linkedin.com/in/teocalvo/" target="_blank">Téo Calvo</a>
       - Streamer. Professor na ASN.Rocks
 
+### Mesa Redonda
+<div id="mesa_redonda"></div>
+A mesa redonda será um evento de discussão, no qual abordaremos os tema " Início da carreira em Ciência de Dados" e contaremos com uma Tech Recruiter, um cientista de dados, e um estagiário na área. Participe!
 
+-  <a href="https://www.linkedin.com/in/kleberbenatti/" target="_blank">Kléber Benatti</a>
+   - Cientista de Dados Sênior, Itaú Unibanco
+- Tatiana Negrelli
+   - Supervisora de RH e Business Partner Tech na James Delivery
+- <a href="https://www.linkedin.com/in/lara-clink-205923184/" target="_blank">Lara Clink</a>
+   - Estagiária de Engenharia de Dados na EBANX
 
 <!-- Denise Tsunoda - https://www.linkedin.com/in/denise-tsunoda-65ab59/
 
