@@ -4,15 +4,7 @@ title: II CiDWeek
 subtitle: II Semana de Ciência de Dados do CiDAMO
 image: /img/chairs.jpg
 author: Grupo CiDAMO
-customjs:
- - https://code.jquery.com/jquery-3.5.1.js
 ---
-<script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous">
-</script>
-
 <div class="sidenav">
   <a  href="#inscricao" >Inscrição</a>
   <a  href="#programacao">Programação</a>
@@ -24,7 +16,7 @@ customjs:
 </div>
 Seja muito bem-vindo a II Edição da **CiDWeek**, uma incrível semana de Ciência de Dados! Realizado por nós, o [Grupo CiDAMO](/sobre/). <br>O Evento ocorrerá na semana do dia 26 a 30 de abril de 2021, então marque na sua agenda e se prepare! O evento contará com palestras de cientista de dados da área, palestra de empresas, apresentações acadêmica de alunos da graduação e pós-graduação, além de uma mesa redonda com um assunto muito bacana.
 
-Os eventos acontecerão online e contarão com transmissão ao vivo no YouTube e interação na plataforma X. Participe com a gente e não perca essa incrível oportunidade!
+Os eventos acontecerão online e contarão com transmissão e interação ao vivo no YouTube. Participe com a gente e não perca essa incrível oportunidade!
 
 ### Inscrições e Ajustes
 <div id="inscricao"></div>
@@ -212,13 +204,13 @@ E contaremos com a participação de:
 
 <div class="container-full">
    <div class="row">
-   {% for p in site.data.empresas %}
+   {% for p in site.data.empresas_cidweek %}
    <div class="row col-sm-12 col-md-6">
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
-      <img class="pessoa-logo" src="/img/cidweek-logos-empresas/{{ p.logo }}">
+      <img class="pessoa-logo" src="/img/cidweek-empresas/{{ p.logo }}">
       {% if p.logoemp %}
-      <img class="empresa-logo" src="/img/cidweek-logos-empresas/{{ p.logoemp }}"> <br>
+      <img class="empresa-logo" src="/img/cidweek-empresas/{{ p.logoemp }}"> <br>
       {% else %}
       {{ p.empresa }} <br>
       {% endif %}
@@ -283,6 +275,24 @@ Programação:
 
 As apresentações das palestras acontecerão de segunda a quarta, conforme o cronograma acima. Os palestrantes são os seguintes:
 
+<div class="container-full">
+   <div class="row">
+   {% for p in site.data.palestrantes %}
+   <div class="row col-sm-12 col-md-6">
+      <a class="empresa-link" href="{{ p.linkedin }}">
+      <div class="empresa">
+      <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
+      <br>
+      <span class="nome">{{ p.nome }}</span> <br>
+      <span class="nome-empresa">{{ p.empresa }}</span> <br>
+      <span class="empresa-titulo">{{ p.title }}</span>
+      </div>
+      </a>
+   </div>
+   {% endfor %}
+   </div>
+</div>
+<!--
 - **Abertura**
    - <a href="https://www.linkedin.com/in/angelabassa/" target="_blank">Angela Bassa</a>
      - Senior Director of the Data Science e Analytics Center of Excellence at iRobot
@@ -298,18 +308,35 @@ As apresentações das palestras acontecerão de segunda a quarta, conforme o cr
       - PicPay. Data Science, Inclusão Racial e de Gênero
    -  <a href="https://www.linkedin.com/in/teocalvo/" target="_blank">Téo Calvo</a>
       - Streamer. Professor na ASN.Rocks
-
+-->
 ### Mesa Redonda
 <div id="mesa_redonda"></div>
 A mesa redonda será um evento de discussão, no qual abordaremos os tema " Início da carreira em Ciência de Dados" e contaremos com uma Tech Recruiter, um cientista de dados, e um estagiário na área. Participe!
-
+<div class="container-full">
+   <div class="row">
+   {% for p in site.data.mesa_redonda %}
+   <div class="row col-sm-12 col-md-6">
+      <a class="empresa-link" href="{{ p.linkedin }}">
+      <div class="empresa">
+      <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
+      <br>
+      <span class="nome">{{ p.nome }}</span> <br>
+      <span class="nome-empresa">{{ p.empresa }}</span> <br>
+      <span class="empresa-titulo">{{ p.title }}</span>
+      </div>
+      </a>
+   </div>
+   {% endfor %}
+   </div>
+</div>
+<!--
 -  <a href="https://www.linkedin.com/in/kleberbenatti/" target="_blank">Kléber Benatti</a>
    - Cientista de Dados Sênior, Itaú Unibanco
 - Tatiana Negrelli
    - Supervisora de RH e Business Partner Tech na James Delivery
 - <a href="https://www.linkedin.com/in/lara-clink-205923184/" target="_blank">Lara Clink</a>
    - Estagiária de Engenharia de Dados na EBANX
-
+-->
 <!-- Denise Tsunoda - https://www.linkedin.com/in/denise-tsunoda-65ab59/
 
 DECIGI - Universidade Federal do Paraná (UFPR) (os palestrantes comentados retirar quando confirmados - lista baseada com o que está no Discord) 

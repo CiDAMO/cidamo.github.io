@@ -5,9 +5,11 @@ subtitle: Semana de Ciência de Dados
 image: /img/chairs.jpg
 ---
 
-Na semana dos dias 26 a 30 de Abril o CiDAMO irá realizar a II CiDWeek -- uma Semana de Ciência de Dados.
-Este evento contará com um minicurso de introdução à Aprendizagem de Máquina com Python, apresentações de trabalhos, e encontro com empresas.
-O evento está em fases iniciais de desenvolvimento, então mantenha-se atento, e verifique sempre [a página do evento](/II-CiDWeek/).
+## >Procurar Imagem diferente para a cidweek<
+
+Na semana dos dias 26 a 30 de Abril o CiDAMO irá realizar o II CiDWeek -- uma Semana de Ciência de Dados.
+Este evento ocorrerá online com transmissão ao vivo no YouTube e interação na plataforma X, contará palestras de pessoas da área, encontro com empresas, mesa redonda. Além disso, teremos apresentações alunos da graduação e pós-graduação, onde você pode participar.
+O evento está em desenvolvimento, então mantenha-se atento, e verifique sempre [a página do evento](/II-CiDWeek/).
 
 ---
 
