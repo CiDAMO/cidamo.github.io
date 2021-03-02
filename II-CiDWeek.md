@@ -12,7 +12,6 @@ author: Grupo CiDAMO
   <a  href="#palestra_em">Palestra de Empresas</a>
   <a  href="#palestras">Palestras</a>
   <a  href="#mesa_redonda">Mesa Redonda</a>
-
 </div>
 Seja muito bem-vindo a II Edição da **CiDWeek**, uma incrível semana de Ciência de Dados! Realizado por nós, o [Grupo CiDAMO](/sobre/). <br>O Evento ocorrerá na semana do dia 26 a 30 de abril de 2021, então marque na sua agenda e se prepare! O evento contará com palestras de cientista de dados da área, palestra de empresas, apresentações acadêmica de alunos da graduação e pós-graduação, além de uma mesa redonda com um assunto muito bacana.
 
@@ -24,7 +23,7 @@ As inscrições dos alunos para participação e para a apresentação de trabal
 
 Caso queira se inscrever como um aluno apresentador, por favor use os dois formulários (participante e apresentador), caso contrário use apenas o formulário de participante.
 
--   Inscrição para participante: a partir de 01/03/2021. 
+-   Inscrição para participante: a partir de 01/03/2021.
 -   Inscrição para apresentação de trabalhos: de 01/03/2021 a 19/03/2021.
 
 <a href="https://docs.google.com/forms/d/1iMjGoixWtu8W-HOZMe7GPQ6tbfLrk6o00RAA79_d_Hg" target="_blank">Inscrição para Participante</a><br>
@@ -36,29 +35,21 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
 
 ### Programação
 <div id="programacao"></div>
-<table class="tg" id="legenda">
+<table class="prog-cidweek-ii" id="legenda">
 <thead>
   <tr>
-    <th class="td_legenda"><span>Legenda:</span></th>
+    <th colspan="3" class="td_legenda"><span>Legenda:</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="td_encerramento"><span>Organizadores</span></td>
-  </tr>
-  <tr>
     <td class="td_empresas"><span>Empresas</span></td>
-  </tr>
-  <tr>
     <td class="td_palestrantes"><span>Palestrantes</span></td>
   </tr>
   <tr>
     <td class="td_apresentacao"><span>Alunos</span></td>
-  </tr>
-  <tr>
     <td class="td_intervalo"><span >Intervalo</span></td>
-  </tr>
-  <tr>
     <td class="td_mesa_redonda"><span>Mesa redonda</span></td>
   </tr>
 </tbody>
@@ -66,7 +57,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
 
 <br>
 <!--  Teremos várias atividades no evento: -->
-<table class="tg">
+<table class="prog-cidweek-ii">
 <thead>
   <tr>
     <th class="td_space">Horário</th>
@@ -79,7 +70,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
 </thead>
 <tbody>
   <tr>
-    <td class="td_horario">8h30-10h</td>
+    <td class="td_horario">08h30</td>
     <td class="td_space"></td>
     <td class="td_space"></td>
     <td class="td_apresentacao"><span>Palestras Alunos</span></td>
@@ -87,7 +78,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
     <td class="td_apresentacao"><span>Palestras Alunos</span></td>
   </tr>
   <tr>
-    <td class="td_horario">10h-10h30</td>
+    <td class="td_horario">10h00</td>
     <td class="td_space"></td>
     <td class="td_space"></td>
     <td class="td_intervalo"><span>Intervalo</span></td>
@@ -95,7 +86,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
     <td class="td_intervalo"><span>Intervalo</span></td>
   </tr>
   <tr>
-    <td class="td_horario">10h30-12h</td>
+    <td class="td_horario">10h30</td>
     <td class="td_space"></td>
     <td class="td_space"></td>
     <td class="td_apresentacao"><span>Palestras Alunos</span></td>
@@ -103,7 +94,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
     <td class="td_apresentacao"><span>Palestras Alunos</span></td>
   </tr>
   <tr>
-    <td class="td_horario">12h-13h15</td>
+    <td class="td_horario">12h00</td>
     <td class="td_space"></td>
     <td class="td_space"></td>
     <td class="td_intervalo" rowspan="2">Intervalo</td>
@@ -116,7 +107,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
     <td class="td_space"></td>
   </tr>
   <tr>
-    <td class="td_horario">13h30-14h30</td>
+    <td class="td_horario">13h30</td>
     <td class="td_palestrantes"><span>Angela Bassa</span></td>
     <td class="td_palestrantes"><span>Palestra</span></td>
     <td class="td_empresas"><span>James Delivery</span></td>
@@ -124,7 +115,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
     <td class="td_empresas"><span>Math Analytics</span></td>
   </tr>
   <tr>
-    <td class="td_space">14h30-15h30</td>
+    <td class="td_horario">14h30</td>
     <td class="td_palestrantes"><span>Francisco Louzada</span></td>
     <td class="td_palestrantes"><span>Palestra</span></td>
     <td class="td_empresas"><span>O Boticario</span></td>
@@ -132,7 +123,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
     <td class="td_empresas"><span>Nestlé</span></td>
   </tr>
   <tr>
-    <td class="td_space">15h30-16h30</td>
+    <td class="td_horario">15h30</td>
     <td class="td_palestrantes"><span>Palestra </span></td>
     <td class="td_palestrantes"><span>Palestra</span></td>
     <td class="td_empresas"><span>Contabilizei</span></td>
@@ -140,7 +131,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
     <td class="td_empresas"><span>Paraná Bco/Olist</span></td>
   </tr>
   <tr>
-    <td class="td_space">16h30-17h30</td>
+    <td class="td_horario">16h30</td>
     <td class="td_palestrantes"><span>Palestra</span></td>
     <td class="td_palestrantes"><span>Palestra</span></td>
     <td class="td_empresas"><span>NeuralMed</span></td>
@@ -148,19 +139,15 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
     <td class="td_empresas"><span>Bosch</span></td>
   </tr>
   <tr>
-    <td class="td_space">17h30-17h45</td>
-    <td class="td_intervalo" rowspan="2">Intervalo</td>
-    <td class="td_intervalo" rowspan="2">Intervalo</td>
-    <td class="td_intervalo" rowspan="2">Intervalo</td>
-    <td class="td_intervalo" rowspan="2">Intervalo</td>
+    <td class="td_horario">17h30</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_intervalo">Intervalo</td>
     <td class="td_encerramento"><span>Encerramento</span></td>
   </tr>
   <tr>
-    <td class="td_space">17h45-19h30</td>
-    <td class="td_space"></td>
-  </tr>
-  <tr>
-    <td class="td_space">19h30-20h30</td>
+    <td class="td_horario">19h30</td>
     <td class="td_palestrantes"><span>Lenora Schwaitzer</span></td>
     <td class="td_palestrantes"><span>Anderson Soares</span></td>
     <td class="td_palestrantes"><span>Eduardo Ferreira</span></td>
@@ -168,7 +155,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
     <td class="td_space"></td>
   </tr>
   <tr>
-    <td class="td_space">20h30-21h30</td>
+    <td class="td_horario">20h30</td>
     <td class="td_palestrantes"><span>Palestra</span></td>
     <td class="td_palestrantes"><span>Téo Calvo</span></td>
     <td class="td_palestrantes"><span>Denise Tsunoda</span></td>
@@ -182,7 +169,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
 <div id="apresentacao"></div>
 As apresentações acadêmicas dos alunos de graduação e pós-graduação acontecem segunda e terça à tarde, e cada apresentação será de 15 a 20 minutos mais 5 minutos para perguntas. Programa das apresentações e resumos em breve. <!-- de acordo com o seguinte [programa](link editar). -->
 
-A relação dos trabalhos aceitos serão divulgados neste site e os alunos palestrantes receberão e-mail de confirmação. Para submeter um trabalho será necessário enviar um resumo para o grupo_cidamo@gmail.com seguindo um dos modelos abaixo. O e-mail deve ter o título com base no estilo "Resumo_PrimeiroNome_UltimoNome", em anexo resumo no formato **TEX** ou **DOC** (conforme o Modelo) e respectivo arquivo em **PDF**. 
+A relação dos trabalhos aceitos serão divulgados neste site e os alunos palestrantes receberão e-mail de confirmação. Para submeter um trabalho será necessário enviar um resumo para o grupo_cidamo@gmail.com seguindo um dos modelos abaixo. O e-mail deve ter o título com base no estilo "Resumo_PrimeiroNome_UltimoNome", em anexo resumo no formato **TEX** ou **DOC** (conforme o Modelo) e respectivo arquivo em **PDF**.
 
 Modelos de resumo :
 
@@ -200,7 +187,7 @@ Estarão presentes no evento algumas empresas convidadas, as quais estarão acei
 
 As palestras de empresas acontecerão de hora em hora *De Quarta a Sexta* a partir das 13h30.
 
-E contaremos com a participação de: 
+E contaremos com a participação de:
 
 <div class="container-full">
    <div class="row">
@@ -339,10 +326,10 @@ A mesa redonda será um evento de discussão, no qual abordaremos os tema " Iní
 -->
 <!-- Denise Tsunoda - https://www.linkedin.com/in/denise-tsunoda-65ab59/
 
-DECIGI - Universidade Federal do Paraná (UFPR) (os palestrantes comentados retirar quando confirmados - lista baseada com o que está no Discord) 
+DECIGI - Universidade Federal do Paraná (UFPR) (os palestrantes comentados retirar quando confirmados - lista baseada com o que está no Discord)
  Lenora Schwaitzer - https://www.linkedin.com/in/lenoraschwaitzer/
 
-Sócia e responsável técnica da GDGI 
+Sócia e responsável técnica da GDGI
 Juliana Guamá - https://www.linkedin.com/in/juliana-guama/
 
 Take Blip. e PyLadies BH -->
@@ -369,4 +356,3 @@ Programação:
    - 19h30 - palestrante
    - 20h00 - palestrante
      -->
-
