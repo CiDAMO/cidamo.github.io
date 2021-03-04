@@ -2,7 +2,7 @@
 layout: page
 title: II CiDWeek
 subtitle: II Semana de Ciência de Dados do CiDAMO
-image: /img/chairs.jpg
+image: /img/extras.jpg
 author: Grupo CiDAMO
 ---
 <div class="sidenav">
@@ -189,10 +189,9 @@ As palestras de empresas acontecerão de hora em hora *De Quarta a Sexta* a part
 
 E contaremos com a participação de:
 
-<div class="container-full">
-   <div class="row">
+<div class="container_em">
    {% for p in site.data.empresas_cidweek %}
-   <div class="row col-sm-12 col-md-6">
+   <div class="caixa_empresa" >
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
       <img class="pessoa-logo" src="/img/cidweek-empresas/{{ p.logo }}">
@@ -208,7 +207,7 @@ E contaremos com a participação de:
       </a>
    </div>
    {% endfor %}
-   </div>
+   <div style="clear:both"></div>
 </div>
 <!--As empresas confirmadas são as seguintes:
 
@@ -262,10 +261,9 @@ Programação:
 
 As apresentações das palestras acontecerão de segunda a quarta, conforme o cronograma acima. Os palestrantes são os seguintes:
 
-<div class="container-full">
-   <div class="row">
+<div class="container_em">
    {% for p in site.data.palestrantes %}
-   <div class="row col-sm-12 col-md-6">
+   <div class="caixa_empresa" >
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
       <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
@@ -277,7 +275,6 @@ As apresentações das palestras acontecerão de segunda a quarta, conforme o cr
       </a>
    </div>
    {% endfor %}
-   </div>
 </div>
 <!--
 - **Abertura**
@@ -299,10 +296,9 @@ As apresentações das palestras acontecerão de segunda a quarta, conforme o cr
 ### Mesa Redonda
 <div id="mesa_redonda"></div>
 A mesa redonda será um evento de discussão, no qual abordaremos os tema " Início da carreira em Ciência de Dados" e contaremos com uma Tech Recruiter, um cientista de dados, e um estagiário na área. Participe!
-<div class="container-full">
-   <div class="row">
+<div class="container_em">
    {% for p in site.data.mesa_redonda %}
-   <div class="row col-sm-12 col-md-6">
+   <div class="caixa_empresa">
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
       <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
@@ -314,25 +310,7 @@ A mesa redonda será um evento de discussão, no qual abordaremos os tema " Iní
       </a>
    </div>
    {% endfor %}
-   </div>
 </div>
-<!--
--  <a href="https://www.linkedin.com/in/kleberbenatti/" target="_blank">Kléber Benatti</a>
-   - Cientista de Dados Sênior, Itaú Unibanco
-- Tatiana Negrelli
-   - Supervisora de RH e Business Partner Tech na James Delivery
-- <a href="https://www.linkedin.com/in/lara-clink-205923184/" target="_blank">Lara Clink</a>
-   - Estagiária de Engenharia de Dados na EBANX
--->
-<!-- Denise Tsunoda - https://www.linkedin.com/in/denise-tsunoda-65ab59/
-
-DECIGI - Universidade Federal do Paraná (UFPR) (os palestrantes comentados retirar quando confirmados - lista baseada com o que está no Discord)
- Lenora Schwaitzer - https://www.linkedin.com/in/lenoraschwaitzer/
-
-Sócia e responsável técnica da GDGI
-Juliana Guamá - https://www.linkedin.com/in/juliana-guama/
-
-Take Blip. e PyLadies BH -->
 
 <!--
 Programação:

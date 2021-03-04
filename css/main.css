@@ -230,6 +230,8 @@ img {
   border-width: 0 1px 1px 1px;
   font-weight: normal;
 }
+
+
 @media only screen and (max-width: 767px) {
   .navbar-custom .nav .navlinks-container.show-children {
     background: rgba(0, 0, 0, 0.2);
@@ -237,9 +239,20 @@ img {
   .navbar-custom .nav .navlinks-container.show-children .navlinks-children {
     display: block;
   }
+  .sidenav{
+    display: none;
+  }
+  .nome {
+    font-size: 0.7em;
+  }
+  .nome_empresa{
+    font-size: 0.4em;
+  }
+
 }
+
 @media only screen and (min-width: 768px) {
-  .navbar-custom .nav .navlinks-container {
+   .navbar-custom .nav .navlinks-container {
     text-align: center;
   }
   .navbar-custom .nav .navlinks-container:hover {
@@ -846,7 +859,7 @@ article p {
 }
 
 .empresa {
-  min-height: 275px;
+  min-height: 16em;
   max-width: 350px;
   text-align: center;
 }
@@ -871,7 +884,7 @@ article p {
 }
 
 .pessoa-logo {
-  max-width: 100px;
+  max-width: 4em;
   border-radius: 100%;
   border: 1px solid #0927eb;
   box-shadow: 0;
@@ -880,7 +893,7 @@ article p {
 
 .nome-empresa {
   font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.25em;
+  font-size: 1em;
   color: #d14;
 }
 
@@ -1128,4 +1141,37 @@ body {
   background-color:#eee;
   text-align:center;
   vertical-align:top
+}
+
+.container_em{
+  position: relative;
+  width: 100%;
+  height: auto;
+  /*overflow: auto;*/
+  display: block;
+  overflow: hidden;
+}
+.caixa_empresa{
+
+  float: left;
+  width: 33%;
+  min-height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .nome {
+    font-size: 0.8em;
+  }
+  .nome-empresa{
+    font-size: 0.6em;
+  }
+  .empresa-titulo
+  {
+    font-size: 0.6em;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .sidenav{
+    display: none;
+  }
 }
