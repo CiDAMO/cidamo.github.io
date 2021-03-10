@@ -2,9 +2,11 @@
 layout: page
 title: II CiDWeek
 subtitle: II Semana de Ciência de Dados do CiDAMO
-image: /img/extras.jpg
+image: /img/II-CiDWeek.jpg
 author: Grupo CiDAMO
 ---
+
+
 <div class="sidenav">
   <a  href="#inscricao" >Inscrição</a>
   <a  href="#programacao">Programação</a>
@@ -13,24 +15,24 @@ author: Grupo CiDAMO
   <a  href="#palestras">Palestras</a>
   <a  href="#mesa_redonda">Mesa Redonda</a>
 </div>
-Seja muito bem-vindo a II Edição da **CiDWeek**, uma incrível semana de Ciência de Dados! Realizado por nós, o [Grupo CiDAMO](/sobre/). <br>O Evento ocorrerá na semana do dia 26 a 30 de abril de 2021, então marque na sua agenda e se prepare! O evento contará com palestras de cientista de dados da área, palestra de empresas, apresentações acadêmica de alunos da graduação e pós-graduação, além de uma mesa redonda com um assunto muito bacana.
+Sejam bem-vindos à página do 2º **CiDWeek**, a semana de Ciência de Dados do [Grupo CiDAMO](/sobre/)<br>, que ocorrerá entre os dias 26 e 30 de abril de 2021. O evento será online e as inscrições são gratuitas. Entre as atividades, teremos:
 
-Os eventos acontecerão online e contarão com transmissão e interação ao vivo no YouTube. Participe com a gente e não perca essa incrível oportunidade!
+- Palestras de pesquisadores e profissionais renomados, que abordarão o assunto sob diversos aspectos;
+- Apresentações de empresas com forte atuação em Ciência de Dados e que contratam profissionais nesta área;
+- Apresentações de alunos de graduação, pós-graduação e especialização, que terão a oportunidade de compartilhar com a comunidade os trabalhos que vêm desenvolvendo.
 
-### Inscrições e Ajustes
+Contamos com sua participação!
+
+### Inscrições e Submissão de Currículos
+
 <div id="inscricao"></div>
-As inscrições dos alunos para participação e para a apresentação de trabalhos no CiDWeek são de forma gratuita. As inscrições seguem as datas abaixo, assim como seus respectivos formulários. <br>Caso ainda não tenha enviado seu currículo na sua inscrição, por favor preencha o formulário de ajuste.
 
-Caso queira se inscrever como um aluno apresentador, por favor use os dois formulários (participante e apresentador), caso contrário use apenas o formulário de participante.
+A inscrição para o CiDWeek é totalmente gratuita. Abaixo estão os links para as inscrições, bem como as datas a serem observadas.
 
--   Inscrição para participante: a partir de 01/03/2021.
--   Inscrição para apresentação de trabalhos: de 01/03/2021 a 19/03/2021.
-
-<a href="https://docs.google.com/forms/d/1iMjGoixWtu8W-HOZMe7GPQ6tbfLrk6o00RAA79_d_Hg" target="_blank">Inscrição para Participante</a><br>
-
-<a href="https://docs.google.com/forms/d/1j9L9wk2dbmNQ2kIHKl2rE25Qbma7F-ZmIq5w6H4F-rM" target="_blank">Inscrição para Apresentador</a><br>
-
-<a href="https://docs.google.com/forms/d/1o7Wbv4gedTbUxE1asVBPn59BkmYKjrLEtqPQYtxSlAE" target="_blank">Ajuste de Dados</a><br>
+-   **Inscrição para o CiDWeek:** a partir de 15/03/2021. <a href="https://docs.google.com/forms/d/1iMjGoixWtu8W-HOZMe7GPQ6tbfLrk6o00RAA79_d_Hg" target="_blank">Clique aqui.</a>
+-   **Inscrições para apresentar no CiDWeek:** de 12/03/2021 a 05/04/2021. <a href="https://docs.google.com/forms/d/1j9L9wk2dbmNQ2kIHKl2rE25Qbma7F-ZmIq5w6H4F-rM" target="_blank">Clique aqui.</a>
+    -- **Obs:** note que os alunos que desejam apresentar trabalhos precisam preencher **os dois** formulários acima. Além disso, será necessário e envio do título do trabalho e de um resumo. Para mais detalhes, clique em Apresentações de Alunos no menu à esquerda.
+-   **Submissão posterior de currículo:** a partir de 15/03/2021. Apenas para quem deseja enviar currículo às empresas participantes porém não o fez durante a inscrição. <a href="https://docs.google.com/forms/d/1o7Wbv4gedTbUxE1asVBPn59BkmYKjrLEtqPQYtxSlAE" target="_blank">Clique aqui.</a>
 
 
 ### Programação
@@ -167,9 +169,7 @@ Caso queira se inscrever como um aluno apresentador, por favor use os dois formu
 
 ### Apresentações Acadêmica de Alunos
 <div id="apresentacao"></div>
-As apresentações acadêmicas dos alunos de graduação e pós-graduação acontecem segunda e terça à tarde, e cada apresentação será de 15 a 20 minutos mais 5 minutos para perguntas. Programa das apresentações e resumos em breve. <!-- de acordo com o seguinte [programa](link editar). -->
-
-A relação dos trabalhos aceitos serão divulgados neste site e os alunos palestrantes receberão e-mail de confirmação. Para submeter um trabalho será necessário enviar um resumo para o grupo_cidamo@gmail.com seguindo um dos modelos abaixo. O e-mail deve ter o título com base no estilo "Resumo_PrimeiroNome_UltimoNome", em anexo resumo no formato **TEX** ou **DOC** (conforme o Modelo) e respectivo arquivo em **PDF**.
+As apresentações de trabalhos de alunos terão duração de até 20 minutos e mais 5 minutos reservados para as perguntas. Durante a inscrição para apresentar um trabalho, será necessária a submissão de um resumo seguindo um dos modelos abaixo.
 
 Modelos de resumo :
 
@@ -178,19 +178,18 @@ Modelos de resumo :
 | LaTeX |                                                              |
 | Word  | <a href="https://drive.google.com/file/d/1lH2egK0rMSDWFKHpTo3IZ9DLBesa9sBc/view?usp=sharing" target="_blank">Modelo.doc</a> |
 
-Os alunos inscritos  que forem selecionados de acordo com critérios do CiDAMO , serão avisados até dia 29 de Março e serão informados do dia e da hora da palestra por e-mail, essa informação também ficará disponível no site do CiDAMO, então iquem atentos! Caso queira cancelar sua inscrição para a palestra, favor mandar e-mail o quão antes possível para o seguinte e-mail: grupo_cidamo@gmail.com.
+Os autores dos trabalhos selecionados pelo comitê científico do evento serão contactados num prazo de até duas semanas após o envio do resumo. O dia e horário da apresentação serão comunicados por e-mail e também ficarão disponíveis nesta página, fiquem atentos!
 
 
 ### Palestras de Empresas
 <div id="palestra_em"></div>
-Estarão presentes no evento algumas empresas convidadas, as quais estarão aceitando entrega de currículos e possivelmente empregando participantes, como ocorrido na CiDWeek anterior.
+Algumas empresas farão apresentações no evento, abordando temas como: problemas práticos resolvidos dentro da empresa, vagas e regras dos processos de contratação e estágio, ambiente de trabalho na empresa, desafios diários enfrentados por um cientista de dados, tipos de parcerias com a comunidade acadêmica que a empresa tem ou deseja iniciar, problemas que ainda estão em aberto, dentre outros.
 
-As palestras de empresas acontecerão de hora em hora *De Quarta a Sexta* a partir das 13h30.
-
-E contaremos com a participação de:
+Teremos a participação de 12 representantes de empresas, dentre os quais estão:
 
 <div class="container_em">
    {% for p in site.data.empresas_cidweek %}
+   <div class="row col-sm-12 col-md-4">
    <div class="caixa_empresa" >
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
@@ -206,6 +205,7 @@ E contaremos com a participação de:
       </div>
       </a>
    </div>
+  </div>
    {% endfor %}
    <div style="clear:both"></div>
 </div>
@@ -258,11 +258,12 @@ Programação:
      -->
 
 ### Palestras
-
-As apresentações das palestras acontecerão de segunda a quarta, conforme o cronograma acima. Os palestrantes são os seguintes:
+<div id="palestra"></div>
+Foram convidados palestrantes com muito domínio sobre os tópicos referentes às suas áreas de atuação. Será uma oportunidade única de refletir e aprender sobre a área de Ciência de Dados. Entre os temas abordados estarão empreendedorismo, parcerias universidade-empresas, questões de gênero e raça, avanços científicos em Aprendizagem de Máquina, entre outros. A lista (incompleta) dos palestrantes está abaixo.
 
 <div class="container_em">
-   {% for p in site.data.palestrantes %}
+   {% for p in site.data.palestrantes%}
+   <div class="row col-sm-12 col-md-4">
    <div class="caixa_empresa" >
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
@@ -274,6 +275,7 @@ As apresentações das palestras acontecerão de segunda a quarta, conforme o cr
       </div>
       </a>
    </div>
+  </div>
    {% endfor %}
 </div>
 <!--
@@ -295,10 +297,12 @@ As apresentações das palestras acontecerão de segunda a quarta, conforme o cr
 -->
 ### Mesa Redonda
 <div id="mesa_redonda"></div>
-A mesa redonda será um evento de discussão, no qual abordaremos os tema " Início da carreira em Ciência de Dados" e contaremos com uma Tech Recruiter, um cientista de dados, e um estagiário na área. Participe!
+Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema "Início da carreira em Ciência de Dados". Dentre os participantes confirmados, haverá uma recrutadora, um cientista de dados sênior e uma estagiária. Cada um deles tem experiências diferentes e bem interessantes sobre o assunto debatido, o que certamente resultará em uma discussão bastante enriquecedora. Participe!
+
 <div class="container_em">
-   {% for p in site.data.mesa_redonda %}
-   <div class="caixa_empresa">
+   {% for p in site.data.mesa_redonda%}
+   <div class="row col-sm-12 col-md-4">
+   <div class="caixa_empresa" >
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
       <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
@@ -309,9 +313,9 @@ A mesa redonda será um evento de discussão, no qual abordaremos os tema " Iní
       </div>
       </a>
    </div>
+  </div>
    {% endfor %}
 </div>
-
 <!--
 Programação:
 

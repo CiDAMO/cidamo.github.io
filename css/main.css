@@ -245,9 +245,7 @@ img {
   .nome {
     font-size: 0.7em;
   }
-  .nome_empresa{
-    font-size: 0.4em;
-  }
+
 
 }
 
@@ -1153,21 +1151,21 @@ body {
 }
 .caixa_empresa{
 
-  float: left;
-  width: 33%;
+  /*float: left;
+  width: 33%;*/
   min-height: auto;
 }
 
 @media only screen and (max-width: 767px) {
   .nome {
-    font-size: 0.8em;
+    font-size: 2em;
   }
   .nome-empresa{
-    font-size: 0.6em;
+    font-size: 1.5em;
   }
   .empresa-titulo
   {
-    font-size: 0.6em;
+    font-size: 1em;
   }
 }
 @media only screen and (max-width: 1024px) {
