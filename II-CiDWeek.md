@@ -15,7 +15,7 @@ author: Grupo CiDAMO
   <a  href="#palestras">Palestras</a>
   <a  href="#mesa_redonda">Mesa Redonda</a>
 </div>
-Sejam bem-vindos à página do 2º **CiDWeek**, a semana de Ciência de Dados do [Grupo CiDAMO](/sobre/)<br>, que ocorrerá entre os dias 26 e 30 de abril de 2021. O evento será online e as inscrições são gratuitas. Entre as atividades, teremos:
+Sejam bem-vindos à página do 2º **CiDWeek**, a semana de Ciência de Dados do [Grupo CiDAMO](/sobre/), que ocorrerá entre os dias 26 e 30 de abril de 2021. O evento será online e as inscrições são gratuitas. Entre as atividades, teremos:
 
 - Palestras de pesquisadores e profissionais renomados, que abordarão o assunto sob diversos aspectos;
 - Apresentações de empresas com forte atuação em Ciência de Dados e que contratam profissionais nesta área;
@@ -188,9 +188,9 @@ Algumas empresas farão apresentações no evento, abordando temas como: problem
 Teremos a participação de 12 representantes de empresas, dentre os quais estão:
 
 <div class="container_em">
+   <div class="row">
    {% for p in site.data.empresas_cidweek %}
-   <div class="row col-sm-12 col-md-4">
-   <div class="caixa_empresa" >
+   <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
       <img class="pessoa-logo" src="/img/cidweek-empresas/{{ p.logo }}">
@@ -205,8 +205,8 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
       </div>
       </a>
    </div>
-  </div>
    {% endfor %}
+  </div>
    <div style="clear:both"></div>
 </div>
 <!--As empresas confirmadas são as seguintes:
@@ -262,9 +262,9 @@ Programação:
 Foram convidados palestrantes com muito domínio sobre os tópicos referentes às suas áreas de atuação. Será uma oportunidade única de refletir e aprender sobre a área de Ciência de Dados. Entre os temas abordados estarão empreendedorismo, parcerias universidade-empresas, questões de gênero e raça, avanços científicos em Aprendizagem de Máquina, entre outros. A lista (incompleta) dos palestrantes está abaixo.
 
 <div class="container_em">
+   <div class="row">
    {% for p in site.data.palestrantes%}
-   <div class="row col-sm-12 col-md-4">
-   <div class="caixa_empresa" >
+   <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
       <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
@@ -275,8 +275,8 @@ Foram convidados palestrantes com muito domínio sobre os tópicos referentes à
       </div>
       </a>
    </div>
-  </div>
    {% endfor %}
+  </div>
 </div>
 <!--
 - **Abertura**
@@ -300,9 +300,9 @@ Foram convidados palestrantes com muito domínio sobre os tópicos referentes à
 Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema "Início da carreira em Ciência de Dados". Dentre os participantes confirmados, haverá uma recrutadora, um cientista de dados sênior e uma estagiária. Cada um deles tem experiências diferentes e bem interessantes sobre o assunto debatido, o que certamente resultará em uma discussão bastante enriquecedora. Participe!
 
 <div class="container_em">
+   <div class="row">
    {% for p in site.data.mesa_redonda%}
-   <div class="row col-sm-12 col-md-4">
-   <div class="caixa_empresa" >
+   <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4" >
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
       <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
@@ -313,8 +313,8 @@ Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema 
       </div>
       </a>
    </div>
-  </div>
    {% endfor %}
+  </div>
 </div>
 <!--
 Programação:

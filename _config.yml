@@ -20,7 +20,7 @@ description: Site do grupo CiDAMO - Ciência de Dados, Aprendizagem de Máquina,
 
 # List of links in the navigation bar
 navbar-links:
-  II CiDWeek: "II-CiDweek"
+  II CiDWeek: "II-CiDWeek"
   Eventos: "eventos"
   Sobre: "sobre"
   Equipe: "equipe"

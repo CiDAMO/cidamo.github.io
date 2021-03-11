@@ -865,7 +865,7 @@ article p {
 .empresa {
   background: #f3f3ff;
   border: 1px solid #e3e3ef;
-  margin: 5px;
+  margin-bottom: 5px;
   transition: background 0.3s;
 }
 
@@ -882,11 +882,11 @@ article p {
 }
 
 .pessoa-logo {
-  max-width: 4em;
+  max-width: 7em;
   border-radius: 100%;
   border: 1px solid #0927eb;
   box-shadow: 0;
-  margin: 20px;
+  margin: 10px;
 }
 
 .nome-empresa {
@@ -1168,7 +1168,7 @@ body {
     font-size: 1em;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1124px) {
   .sidenav{
     display: none;
   }
