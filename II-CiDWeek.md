@@ -15,7 +15,7 @@ author: Grupo CiDAMO
   <a  href="#palestras">Palestras</a>
   <a  href="#mesa_redonda">Mesa Redonda</a>
 </div>
-Sejam bem-vindos à página do 2º **CiDWeek**, a semana de Ciência de Dados do [Grupo CiDAMO](/sobre/), que ocorrerá entre os dias 26 e 30 de abril de 2021. O evento será online e as inscrições são gratuitas. Entre as atividades, teremos:
+Sejam bem-vindos à página da 2º **CiDWeek**, a semana de Ciência de Dados do [Grupo CiDAMO](/sobre/), que ocorrerá entre os dias 26 e 30 de abril de 2021. O evento será online e as inscrições são gratuitas. Entre as atividades, teremos:
 
 - Palestras de pesquisadores e profissionais renomados, que abordarão o assunto sob diversos aspectos;
 - Apresentações de empresas com forte atuação em Ciência de Dados e que contratam profissionais nesta área;
@@ -27,10 +27,10 @@ Contamos com sua participação!
 
 <div id="inscricao"></div>
 
-A inscrição para o CiDWeek é totalmente gratuita. Abaixo estão os links para as inscrições, bem como as datas a serem observadas.
+A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para as inscrições, bem como as datas a serem observadas.
 
--   **Inscrição para o CiDWeek:** a partir de 15/03/2021. <a href="https://docs.google.com/forms/d/1iMjGoixWtu8W-HOZMe7GPQ6tbfLrk6o00RAA79_d_Hg" target="_blank">Clique aqui.</a>
--   **Inscrições para apresentar no CiDWeek:** de 12/03/2021 a 05/04/2021. <a href="https://docs.google.com/forms/d/1j9L9wk2dbmNQ2kIHKl2rE25Qbma7F-ZmIq5w6H4F-rM" target="_blank">Clique aqui.</a>
+-   **Inscrição para a CiDWeek:** a partir de 15/03/2021. <a href="https://docs.google.com/forms/d/1iMjGoixWtu8W-HOZMe7GPQ6tbfLrk6o00RAA79_d_Hg" target="_blank">Clique aqui.</a>
+-   **Inscrições para apresentar na CiDWeek:** de 12/03/2021 a 05/04/2021. <a href="https://docs.google.com/forms/d/1j9L9wk2dbmNQ2kIHKl2rE25Qbma7F-ZmIq5w6H4F-rM" target="_blank">Clique aqui.</a>
     -- **Obs:** note que os alunos que desejam apresentar trabalhos precisam preencher **os dois** formulários acima. Além disso, será necessário e envio do título do trabalho e de um resumo. Para mais detalhes, clique em Apresentações de Alunos no menu à esquerda.
 -   **Submissão posterior de currículo:** a partir de 15/03/2021. Apenas para quem deseja enviar currículo às empresas participantes porém não o fez durante a inscrição. <a href="https://docs.google.com/forms/d/1o7Wbv4gedTbUxE1asVBPn59BkmYKjrLEtqPQYtxSlAE" target="_blank">Clique aqui.</a>
 
