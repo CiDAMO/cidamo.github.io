@@ -1,18 +1,18 @@
 - nome: "Kléber Benatti"
   empresa: Itaú Unibanco
-  logo: Kléber Aderaldo.jpg
+  #logo: Kléber Aderaldo.jpg
   #logoemp: itau.png
   title: Cientista de Dados Sênior
   linkedin: https://www.linkedin.com/in/kleberbenatti/
 - nome: "Tatiana Negrelli"
   empresa: James Delivery
-  logo: Taiana Negrelli.jpg
+  #logo: Taiana Negrelli.jpg
   #logoemp: James Delivery.png
   title: Supervisora de RH e Business Partner Tech
   linkedin: https://www.linkedin.com/in/francisco-louzada-639048b7/
 - nome: "Lara Clink"
   empresa: EBANX
-  logo: Lara Clink .jpg
+  #logo: Lara Clink .jpg
   #logoemp: EBANX.png
   title: Estagiária de Engenharia de Dados
   linkedin: https://www.linkedin.com/in/lara-clink-205923184/

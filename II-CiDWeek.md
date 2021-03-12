@@ -65,12 +65,15 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
    <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
+      {% if p.logo%}
       <img class="pessoa-logo" src="/img/cidweek-empresas/{{ p.logo }}">
-      {% if p.logoemp %}
-      <img class="empresa-logo" src="/img/cidweek-empresas/{{ p.logoemp }}"> <br>
-      {% else %}
-      {{ p.empresa }} <br>
+      {%else%}
+      <img class="pessoa-logo" src="/img/cidweek-empresas/speaker.png">
       {% endif %}
+      {% if p.logoemp%}
+          <img class="empresa-logo" src="/img/cidweek-empresas/{{ p.logoemp }}">
+      {% endif %}
+      <br>
       <span class="nome">{{ p.nome }}</span> <br>
       <span class="nome-empresa">{{ p.empresa }}</span> <br>
       <span class="empresa-titulo">{{ p.title }}</span>
@@ -92,7 +95,14 @@ Foram convidados palestrantes com muito domínio sobre os tópicos referentes à
    <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
-      <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
+      {% if p.logo%}
+      <img class="pessoa-logo" src="/img/cidweek-empresas/{{ p.logo }}">
+      {%else%}
+      <img class="pessoa-logo" src="/img/cidweek-empresas/speaker.png">
+      {% endif %}
+      {% if p.logoemp%}
+          <img class="empresa-logo" src="/img/cidweek-empresas/{{ p.logoemp }}">
+      {% endif %}
       <br>
       <span class="nome">{{ p.nome }}</span> <br>
       <span class="nome-empresa">{{ p.empresa }}</span> <br>
@@ -116,7 +126,14 @@ Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema 
    <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4" >
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
-      <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
+      {% if p.logo%}
+      <img class="pessoa-logo" src="/img/cidweek-empresas/{{ p.logo }}">
+      {%else%}
+      <img class="pessoa-logo" src="/img/cidweek-empresas/speaker.png">
+      {% endif %}
+      {% if p.logoemp%}
+          <img class="empresa-logo" src="/img/cidweek-empresas/{{ p.logoemp }}">
+      {% endif %}
       <br>
       <span class="nome">{{ p.nome }}</span> <br>
       <span class="nome-empresa">{{ p.empresa }}</span> <br>
@@ -128,3 +145,5 @@ Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema 
   </div>
 </div>
 
+
+Icone de Palestrante por <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://www.freepik.com" target="_blank" rel="noopener noreferrer" title="Freepik from flaticon.com"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Freepik</span></a>
