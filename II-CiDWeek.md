@@ -15,6 +15,7 @@ author: Grupo CiDAMO
   <a  href="#palestras">Palestras</a>
   <a  href="#mesa_redonda">Mesa Redonda</a>
 </div>
+
 Sejam bem-vindos à página da 2º **CiDWeek**, a semana de Ciência de Dados do [Grupo CiDAMO](/sobre/), que ocorrerá entre os dias 26 e 30 de abril de 2021. O evento será online e as inscrições são gratuitas. Entre as atividades, teremos:
 
 - Palestras de pesquisadores e profissionais renomados, que abordarão o assunto sob diversos aspectos;
@@ -36,136 +37,7 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
 
 
 ### Programação
-<div id="programacao"></div>
-<table class="prog-cidweek-ii" id="legenda">
-<thead>
-  <tr>
-    <th colspan="3" class="td_legenda"><span>Legenda:</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="td_encerramento"><span>Organizadores</span></td>
-    <td class="td_empresas"><span>Empresas</span></td>
-    <td class="td_palestrantes"><span>Palestrantes</span></td>
-  </tr>
-  <tr>
-    <td class="td_apresentacao"><span>Alunos</span></td>
-    <td class="td_intervalo"><span >Intervalo</span></td>
-    <td class="td_mesa_redonda"><span>Mesa redonda</span></td>
-  </tr>
-</tbody>
-</table>
-
-<br>
-<!--  Teremos várias atividades no evento: -->
-<table class="prog-cidweek-ii">
-<thead>
-  <tr>
-    <th class="td_space">Horário</th>
-    <th class="td_space">Segunda-Feira</th>
-    <th class="td_space">Terça-Feira</th>
-    <th class="td_space">Quarta-Feira</th>
-    <th class="td_space">Quinta-Feira</th>
-    <th class="td_space">Sexta-Feira</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="td_horario">08h30</td>
-    <td class="td_space"></td>
-    <td class="td_space"></td>
-    <td class="td_apresentacao"><span>Palestras Alunos</span></td>
-    <td class="td_apresentacao"><span>Palestras Alunos</span></td>
-    <td class="td_apresentacao"><span>Palestras Alunos</span></td>
-  </tr>
-  <tr>
-    <td class="td_horario">10h00</td>
-    <td class="td_space"></td>
-    <td class="td_space"></td>
-    <td class="td_intervalo"><span>Intervalo</span></td>
-    <td class="td_intervalo"><span>Intervalo</span></td>
-    <td class="td_intervalo"><span>Intervalo</span></td>
-  </tr>
-  <tr>
-    <td class="td_horario">10h30</td>
-    <td class="td_space"></td>
-    <td class="td_space"></td>
-    <td class="td_apresentacao"><span>Palestras Alunos</span></td>
-    <td class="td_apresentacao"><span>Palestras Alunos</span></td>
-    <td class="td_apresentacao"><span>Palestras Alunos</span></td>
-  </tr>
-  <tr>
-    <td class="td_horario">12h00</td>
-    <td class="td_space"></td>
-    <td class="td_space"></td>
-    <td class="td_intervalo" rowspan="2">Intervalo</td>
-    <td class="td_intervalo" rowspan="2">Intervalo</td>
-    <td class="td_intervalo" rowspan="2">Intervalo</td>
-  </tr>
-  <tr>
-    <td class="td_horario">13h15</td>
-    <td class="td_encerramento"><span>Abertura</span></td>
-    <td class="td_space"></td>
-  </tr>
-  <tr>
-    <td class="td_horario">13h30</td>
-    <td class="td_palestrantes"><span>Angela Bassa</span></td>
-    <td class="td_palestrantes"><span>Palestra</span></td>
-    <td class="td_empresas"><span>James Delivery</span></td>
-    <td class="td_empresas"><span>Ebanx</span></td>
-    <td class="td_empresas"><span>Math Analytics</span></td>
-  </tr>
-  <tr>
-    <td class="td_horario">14h30</td>
-    <td class="td_palestrantes"><span>Francisco Louzada</span></td>
-    <td class="td_palestrantes"><span>Palestra</span></td>
-    <td class="td_empresas"><span>O Boticario</span></td>
-    <td class="td_empresas"><span>Magalu</span></td>
-    <td class="td_empresas"><span>Nestlé</span></td>
-  </tr>
-  <tr>
-    <td class="td_horario">15h30</td>
-    <td class="td_palestrantes"><span>Palestra </span></td>
-    <td class="td_palestrantes"><span>Palestra</span></td>
-    <td class="td_empresas"><span>Contabilizei</span></td>
-    <td class="td_empresas"><span>Pacer</span></td>
-    <td class="td_empresas"><span>Paraná Bco/Olist</span></td>
-  </tr>
-  <tr>
-    <td class="td_horario">16h30</td>
-    <td class="td_palestrantes"><span>Palestra</span></td>
-    <td class="td_palestrantes"><span>Palestra</span></td>
-    <td class="td_empresas"><span>NeuralMed</span></td>
-    <td class="td_empresas"><span>Kimberly-Clark</span></td>
-    <td class="td_empresas"><span>Bosch</span></td>
-  </tr>
-  <tr>
-    <td class="td_horario">17h30</td>
-    <td class="td_intervalo">Intervalo</td>
-    <td class="td_intervalo">Intervalo</td>
-    <td class="td_intervalo">Intervalo</td>
-    <td class="td_intervalo">Intervalo</td>
-    <td class="td_encerramento"><span>Encerramento</span></td>
-  </tr>
-  <tr>
-    <td class="td_horario">19h30</td>
-    <td class="td_palestrantes"><span>Lenora Schwaitzer</span></td>
-    <td class="td_palestrantes"><span>Anderson Soares</span></td>
-    <td class="td_palestrantes"><span>Eduardo Ferreira</span></td>
-    <td class="td_palestrantes"><span>Andressa Freires</span></td>
-    <td class="td_space"></td>
-  </tr>
-  <tr>
-    <td class="td_horario">20h30</td>
-    <td class="td_palestrantes"><span>Palestra</span></td>
-    <td class="td_palestrantes"><span>Téo Calvo</span></td>
-    <td class="td_palestrantes"><span>Denise Tsunoda</span></td>
-    <td class="td_mesa_redonda"><span>Mesa Redonda</span></td>
-    <td class="td_space"></td>
-  </tr>
-</tbody>
-</table>
+A Programação da CiDWeek estará disponível em breve...
 
 ### Apresentações Acadêmica de Alunos
 <div id="apresentacao"></div>
@@ -173,10 +45,10 @@ As apresentações de trabalhos de alunos terão duração de até 20 minutos e 
 
 Modelos de resumo :
 
-| Tipo  | Arquivo                                                      |
-| ----- | ------------------------------------------------------------ |
-| LaTeX |                                                              |
-| Word  | <a href="https://drive.google.com/file/d/1lH2egK0rMSDWFKHpTo3IZ9DLBesa9sBc/view?usp=sharing" target="_blank">Modelo.doc</a> |
+|  Tipo |                                                           Arquivo                                                           |
+|:-----:|:---------------------------------------------------------------------------------------------------------------------------:|
+| LaTeX | <a href="https://drive.google.com/file/d/1B2PIuyYSQH3ypMjFkj03BhaIJmfuyRcD/view?usp=sharing" target="_blank">Modelo.tex</a> |
+|  Word | <a href="https://drive.google.com/file/d/1lH2egK0rMSDWFKHpTo3IZ9DLBesa9sBc/view?usp=sharing" target="_blank">Modelo.doc</a> |
 
 Os autores dos trabalhos selecionados pelo comitê científico do evento serão contactados num prazo de até duas semanas após o envio do resumo. O dia e horário da apresentação serão comunicados por e-mail e também ficarão disponíveis nesta página, fiquem atentos!
 
@@ -209,53 +81,6 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
   </div>
    <div style="clear:both"></div>
 </div>
-<!--As empresas confirmadas são as seguintes:
-
-- Contabilizei
-- Ebanx
-- Magalu
-- Math Analytcs
-- Nestlé
-- NeuralMed
-- O Boticário
-- Pacer
-- James Delivery
-
- As empresas ainda não confirmadas:
-
-- Paraná Banco (Eduardo Veiga)
-- Olist
-- Kimberly Klark
-
-Reservas
-
-- Nubank
-- Olist
-- Picpay
-- Mercado Livre
-- Condor
-- BCred
-- Eletrolux
-- Paraná Banco
-- Bothub
-- Pipefy -->
-
-<!--
-Programação:
-
-- Quinta
- - 13h30 - pessoa (empresa)
-   - 14h30 - pessoa (empresa)
-   - 15h30 - pessoa (empresa)
-   - 16h30 - pessoa (empresa)
-   - 17h30 - pessoa (empresa)
-- Sexta
- - 13h30 - pessoa (empresa)
-   - 14h30 - pessoa (empresa)
-   - 15h30 - pessoa (empresa)
-   - 16h30 - pessoa (empresa)
-   - 17h30 - pessoa (empresa)
-     -->
 
 ### Palestras
 <div id="palestra"></div>
@@ -278,23 +103,9 @@ Foram convidados palestrantes com muito domínio sobre os tópicos referentes à
    {% endfor %}
   </div>
 </div>
-<!--
-- **Abertura**
-   - <a href="https://www.linkedin.com/in/angelabassa/" target="_blank">Angela Bassa</a>
-     - Senior Director of the Data Science e Analytics Center of Excellence at iRobot
-- **Acadêmico**
-   - <a href="https://www.linkedin.com/in/francisco-louzada-639048b7/" target="_blank">Franscisco Louzada</a>
-      - Director of the MBA in Data Science na CeMEAI
-  - Eduardo Vargas Ferreira
-    - DEST - Universidade Federal do Paraná (UFPR)
-  - Anderson Soares
-    - Professor na Universidade Federal de Goiás (UFG)
-- **Sociedade**
-   -  <a href="https://www.linkedin.com/in/andressafreires/" target="_blank">Andressa Freires</a>
-      - PicPay. Data Science, Inclusão Racial e de Gênero
-   -  <a href="https://www.linkedin.com/in/teocalvo/" target="_blank">Téo Calvo</a>
-      - Streamer. Professor na ASN.Rocks
--->
+
+
+
 ### Mesa Redonda
 <div id="mesa_redonda"></div>
 Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema "Início da carreira em Ciência de Dados". Dentre os participantes confirmados, haverá uma recrutadora, um cientista de dados sênior e uma estagiária. Cada um deles tem experiências diferentes e bem interessantes sobre o assunto debatido, o que certamente resultará em uma discussão bastante enriquecedora. Participe!
@@ -316,25 +127,4 @@ Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema 
    {% endfor %}
   </div>
 </div>
-<!--
-Programação:
 
-- Segunda
- - 13h30 - palestrante
-   - 14h30 - palestrante
-   - 15h30 - palestrante
-   - 16h30 - palestrante
-   - 17h30 - palestrante
-- Terça
- - 13h30 - palestrante
-   - 14h30 - palestrante
-   - 19h30 - palestrante
-   - 20h00 - palestrante
-   - 20h30 - palestrante
-   - 21h00 - palestrante
-- Quarta
- - 13h30 - palestrante
-   - 14h30 - palestrante
-   - 19h30 - palestrante
-   - 20h00 - palestrante
-     -->
