@@ -96,12 +96,12 @@ Foram convidados palestrantes com muito domínio sobre os tópicos referentes à
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
       {% if p.logo%}
-      <img class="pessoa-logo" src="/img/cidweek-empresas/{{ p.logo }}">
+      <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
       {%else%}
       <img class="pessoa-logo" src="/img/cidweek-empresas/speaker.png">
       {% endif %}
       {% if p.logoemp%}
-          <img class="empresa-logo" src="/img/cidweek-empresas/{{ p.logoemp }}">
+          <img class="empresa-logo" src="/img/cidweek-palestrantes/{{ p.logoemp }}">
       {% endif %}
       <br>
       <span class="nome">{{ p.nome }}</span> <br>
@@ -127,12 +127,12 @@ Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema 
       <a class="empresa-link" href="{{ p.linkedin }}">
       <div class="empresa">
       {% if p.logo%}
-      <img class="pessoa-logo" src="/img/cidweek-empresas/{{ p.logo }}">
+      <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
       {%else%}
       <img class="pessoa-logo" src="/img/cidweek-empresas/speaker.png">
       {% endif %}
       {% if p.logoemp%}
-          <img class="empresa-logo" src="/img/cidweek-empresas/{{ p.logoemp }}">
+          <img class="empresa-logo" src="/img/cidweek-palestrantes/{{ p.logoemp }}">
       {% endif %}
       <br>
       <span class="nome">{{ p.nome }}</span> <br>
