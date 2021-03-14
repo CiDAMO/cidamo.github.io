@@ -1,31 +1,40 @@
 - nome: "Frederico  Horst"
   empresa: Contabilizei
   linkedin: https://www.linkedin.com/in/fredericohorst/
+  title: Cientista e Engenheiro de Dados
 - nome: "Romulo Leite"
   empresa: Ebanx
   linkedin: https://www.linkedin.com/in/romulo-leite-04aa8942
+  title: Analista de Finanças Sênior
 - nome: "João Manrique"
   empresa: James Delivery
   linkedin: https://www.linkedin.com/in/joaomanrique/
+  title: Cientista de Dados Líder
 - nome: "Fernando Nagano"
   empresa: Magalu
   linkedin: https://www.linkedin.com/in/fernando-nagano-391215/
+  title: Diretor de Analytics
 - nome: "Luiz Hadich"
   empresa: Math Analytics
   logo: Luiz Carlos Hadich (Math Analytics).jpg
   linkedin: https://www.linkedin.com/in/luizhadich/
+  title: COO e Co-Founder
 - nome: "Priscilla Wagner"
   empresa: NeuralMed
   logo: Priscilla Wagner.png
   logoemp: NeuralMed.png
-  linkedin: https://www.linkedin.com/in/priscilla-wagner/ 
+  linkedin: https://www.linkedin.com/in/priscilla-wagner/
+  title: Cientista de Dados
 - nome: "Maristela Salles"
   empresa: O Boticário
   linkedin: https://www.linkedin.com/in/maristela-salles/
+  title: Gerente de Ciência de Dados
 - nome: "Guinther Kovalski"
   empresa: Pacer
   linkedin: https://www.linkedin.com/in/guinther-kovalski/
+  title: Engenheiro de Aprendizagem de Máquinas
 - nome: "Rodrigo Meira de Andrade"
   empresa: Bosch
-  linkedin: https://www.linkedin.com/in/petersonzilli/
+  linkedin: https://www.linkedin.com/in/rodrigo-meira-de-andrade-b8b147aa/
+  title: Engenheiro de Tecnologia e Inovação
 
