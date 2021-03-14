@@ -42,7 +42,7 @@ A Programação da CiDWeek estará disponível em breve...
 
 ### Apresentações de Alunos
 <div id="apresentacao"></div>
-As apresentações de trabalhos de alunos terão duração de até 20 minutos e mais 5 minutos reservados para as perguntas. Durante a inscrição para apresentar um trabalho, ...será necessária a submissão de um resumo seguindo um dos modelos abaixo. **Atenção: o documento deve ser convertido para o formato PDF para que o envio seja aceito.**
+As apresentações de trabalhos de alunos terão duração de até 20 minutos e mais 5 minutos reservados para as perguntas. Durante a inscrição para apresentar um trabalho, será necessária a submissão de um resumo seguindo um dos modelos abaixo. **Atenção: o documento deve ser convertido para o formato PDF para que o envio seja aceito.**
 
 Modelos de resumo :
 
@@ -146,5 +146,5 @@ Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema 
   </div>
 </div>
 
-
+<hr>
 Icone de Palestrante por <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://www.freepik.com" target="_blank" rel="noopener noreferrer" title="Freepik from flaticon.com"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Freepik</span></a>
