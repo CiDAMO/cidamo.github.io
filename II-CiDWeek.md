@@ -29,12 +29,11 @@ Contamos com sua participação!
 <div id="inscricao"></div>
 
 A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para as inscrições, bem como as datas a serem observadas.
-
--   **Inscrição para a CiDWeek:** a partir de 15/03/2021. <a href="https://docs.google.com/forms/d/1iMjGoixWtu8W-HOZMe7GPQ6tbfLrk6o00RAA79_d_Hg" target="_blank">Clique aqui.</a>
--   **Inscrições para apresentar na CiDWeek:** de 15/03/2021 a 05/04/2021. <a href="https://docs.google.com/forms/d/1j9L9wk2dbmNQ2kIHKl2rE25Qbma7F-ZmIq5w6H4F-rM" target="_blank">Clique aqui.</a> 
+-   **Inscrição para a CiDWeek:** a partir de 15/03/2021. <a href="https://forms.gle/kBRHJUBY7DfXwzCJ7" target="_blank">Clique aqui.</a>
+-   **Inscrições para apresentar na CiDWeek:** de 15/03/2021 a 05/04/2021. <a href="https://forms.gle/WvNkhUPfRtVzqXxN6" target="_blank">Clique aqui.</a> 
     -- **Obs:** note que os alunos que desejam apresentar trabalhos precisam preencher os dois formulários acima. Além disso, será necessário e envio do título do trabalho e de um resumo. Para mais detalhes, consulte abaixo a seção **Apresentações de Alunos**.
 
--   **Submissão posterior de currículo:** a partir de 15/03/2021. Apenas para quem deseja enviar currículo às empresas participantes porém não o fez durante a inscrição. <a href="https://docs.google.com/forms/d/1o7Wbv4gedTbUxE1asVBPn59BkmYKjrLEtqPQYtxSlAE" target="_blank">Clique aqui.</a>
+-   **Submissão posterior de currículo:** a partir de 15/03/2021. Apenas para quem deseja enviar currículo às empresas participantes porém não o fez durante a inscrição. <a href="https://forms.gle/2n8kzXBfm9KsL8d89" target="_blank">Clique aqui.</a>
 
 
 ### Programação
