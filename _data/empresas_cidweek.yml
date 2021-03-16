@@ -1,55 +1,42 @@
-- nome: "Camila Bonilla"
-  empresa: PagSeguro
-  logo: Camila Jardim Bonilla (PagSeguro).jpg
-  logoemp: PagSeguro.png
-  title: 
-  linkedin: https://www.linkedin.com/in/camilajcbonilla/
-- nome: "Eduardo Veiga"
-  empresa: Paraná Banco
-  logo: Eduardo Veiga (Paraná Banco).jpg
-  logoemp: Paraná Banco.png
-  title: 
-  linkedin: https://www.linkedin.com/in/eduardo-veiga/
+- nome: "Frederico  Horst"
+  empresa: Contabilizei
+  linkedin: https://www.linkedin.com/in/fredericohorst/
+  title: Cientista e Engenheiro de Dados
+  logo: Frederico_Horst.jpg
+- nome: "Romulo Leite"
+  empresa: Ebanx
+  linkedin: https://www.linkedin.com/in/romulo-leite-04aa8942
+  title: Analista de Finanças Sênior
+- nome: "João Manrique"
+  empresa: James Delivery
+  linkedin: https://www.linkedin.com/in/joaomanrique/
+  title: Cientista de Dados Líder
 - nome: "Fernando Nagano"
   empresa: Magalu
-  logo: Fernando Nagano (Magalu).jpg
-  logoemp: Magazine Luiza.png
-  title: 
   linkedin: https://www.linkedin.com/in/fernando-nagano-391215/
-- nome: "Frederico  Horst"
-  empresa: BRF
-  logo: Frederico Horst (Contabilizei).jpg
-  logoemp: Contabilizei.jpg
-  title: 
-  linkedin: https://www.linkedin.com/in/fredericohorst/
-- nome: "Guinther Kovalski"
-  empresa: Pacer
-  logo: Guinther Kovalski (Pacer).jpg
-  logoemp: Pacer.jpg
-  title: 
-  linkedin: https://www.linkedin.com/in/guinther-kovalski/
-- nome: "Jéssica Santos"
-  empresa: NeuralMed
-  logo: Jéssica Santos (NeuralMed).jpg
-  logoemp: NeuralMed.png
-  title: 
-  linkedin: https://www.linkedin.com/in/jessica-santos-oliveira/
+  title: Diretor de Analytics
 - nome: "Luiz Hadich"
   empresa: Math Analytics
   logo: Luiz Carlos Hadich (Math Analytics).jpg
-  logoemp: Math Analytics.jpg
-  title: 
+  logoemp: MathAnalytics.png
   linkedin: https://www.linkedin.com/in/luizhadich/
+  title: COO e Co-Founder
+- nome: "Priscilla Wagner"
+  empresa: NeuralMed
+  logo: Priscilla Wagner.png
+  logoemp: NeuralMed.png
+  linkedin: https://www.linkedin.com/in/priscilla-wagner/
+  title: Cientista de Dados
 - nome: "Maristela Salles"
   empresa: O Boticário
-  logo: Maristela Salles (O Boticário).jpg
-  logoemp: O Boticário.jpg
-  title: 
   linkedin: https://www.linkedin.com/in/maristela-salles/
-- nome: "Peterson Zilli"
-  empresa: Mercado Livre
-  logo: Peterson Zilli (Mercado Livre).jpg
-  logoemp: Mercado Livre.jpg
-  title: 
-  linkedin: https://www.linkedin.com/in/petersonzilli/
+  title: Gerente de Ciência de Dados
+- nome: "Guinther Kovalski"
+  empresa: Pacer
+  linkedin: https://www.linkedin.com/in/guinther-kovalski/
+  title: Engenheiro de Aprendizagem de Máquinas
+- nome: "Rodrigo Meira de Andrade"
+  empresa: Bosch
+  linkedin: https://www.linkedin.com/in/rodrigo-meira-de-andrade-b8b147aa/
+  title: Engenheiro de Tecnologia e Inovação
 
