@@ -138,3 +138,17 @@ var main = {
 // 2fc73a3a967e97599c9763d05e564189
 
 document.addEventListener('DOMContentLoaded', main.init);
+
+$(document).ready(function(){
+  $('a[href*="#"]').on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - 140
+      }, 500, function(){
+        
+      });
+    }
+  });
+});

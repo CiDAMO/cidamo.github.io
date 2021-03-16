@@ -1,8 +1,8 @@
 ---
 layout: null
 googlefonts:
-  - Nunito
-  - Montserrat
+- Nunito
+- Montserrat
 ---
 
 @import url("pygment_highlights.css");
@@ -230,6 +230,8 @@ img {
   border-width: 0 1px 1px 1px;
   font-weight: normal;
 }
+
+
 @media only screen and (max-width: 767px) {
   .navbar-custom .nav .navlinks-container.show-children {
     background: rgba(0, 0, 0, 0.2);
@@ -237,9 +239,18 @@ img {
   .navbar-custom .nav .navlinks-container.show-children .navlinks-children {
     display: block;
   }
+  .sidenav{
+    display: none;
+  }
+  .nome {
+    font-size: 0.7em;
+  }
+
+
 }
+
 @media only screen and (min-width: 768px) {
-  .navbar-custom .nav .navlinks-container {
+   .navbar-custom .nav .navlinks-container {
     text-align: center;
   }
   .navbar-custom .nav .navlinks-container:hover {
@@ -680,7 +691,7 @@ pre {
 }
 .highlight > pre {
   background-image: linear-gradient(
-    rgba(0,0,0,0.06), rgba(0,0,0,0.06) 1.5em, rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.03) 3em);
+  rgba(0,0,0,0.06), rgba(0,0,0,0.06) 1.5em, rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.03) 3em);
   background-size: auto 3em;
   background-position-y: 10px;
   border: 1px solid rgba(0,0,0,0.1);
@@ -704,9 +715,9 @@ pre {
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .lineno {
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .lineno::selection, .lineno::-moz-selection {
   background: none;
@@ -846,14 +857,15 @@ article p {
 }
 
 .empresa {
-  min-height: 350px;
+  min-height: 18em;
+  max-width: 350px;
   text-align: center;
 }
 
 .empresa {
   background: #f3f3ff;
   border: 1px solid #e3e3ef;
-  margin: 5px;
+  margin-bottom: 5px;
   transition: background 0.3s;
 }
 
@@ -870,16 +882,16 @@ article p {
 }
 
 .pessoa-logo {
-  max-width: 150px;
+  max-width: 7em;
   border-radius: 100%;
   border: 1px solid #0927eb;
   box-shadow: 0;
-  margin: 20px;
+  margin: 10px;
 }
 
 .nome-empresa {
   font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.25em;
+  font-size: 1em;
   color: #d14;
 }
 
@@ -889,7 +901,7 @@ article p {
 }
 
 .empresa-logo {
-  max-width: 100px;
+  max-width: 70px;
   margin: 5px;
 }
 
@@ -1014,4 +1026,150 @@ figcaption {
 .not-full-width-table {
   width: auto;
   margin-bottom: 10px;
+}
+
+/*Menu lateral cidweek*/
+body {
+  scroll-behavior: smooth;
+}
+.linkedin_icon {
+  background: url('/img/in.png');
+  background-size: cover;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  top: 3px;
+}
+.sidenav {
+  height: 50%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  left: 0;
+  background-color: transparent;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #5C5C5C;
+  display: block;
+}
+.sidenav a:hover {
+  color: #000000;
+}
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*Tabelas CidWeek - Cronograma*/
+.prog-cidweek-ii {
+  font-family: Lato;
+  font-size: 12px;
+}
+#legenda{
+  width: 100%;
+}
+#legenda td {
+  width: 33%;
+}
+.prog-cidweek-ii td, .prog-cidweek-ii th {
+  border: 3px solid white;
+  border-radius: 8px;
+  color: #000;
+  text-align: center
+}
+.prog-cidweek-ii th {
+  background-color: #666;
+  color: #fff;
+}
+.prog-cidweek-ii td {
+  background-color: #fff;
+}
+.td_legenda{
+  text-align:center;
+  vertical-align:middle
+}
+.prog-cidweek-ii .td_horario{
+  background-color: #89C7FF;
+  text-align:center;
+  vertical-align:top
+}
+.prog-cidweek-ii .td_encerramento{
+  background: repeating-linear-gradient(0deg, #FFD966, #FFD966 5px, #ffebae 5px, #ffebae 10px);
+  text-align:center;
+  vertical-align:middle
+}
+.prog-cidweek-ii .td_empresas{
+  background: repeating-linear-gradient(90deg, #b3d6db, #b3d6db 5px, #cbedf3 5px, #cbedf3 10px);
+  text-align:center;
+  vertical-align:middle
+}
+.prog-cidweek-ii .td_palestrantes{
+  background: repeating-linear-gradient(-45deg, #bbb0d6, #bbb0d6 5px, #ded1ff 5px, #ded1ff 10px);
+  /* background-color:#B4A7D6; */
+  text-align:center;
+  vertical-align:middle
+}
+.prog-cidweek-ii .td_apresentacao{
+  background: repeating-linear-gradient(45deg, #ff9d9d, #ff9d9d 5px, #f6c4c4 5px, #f6c4c4 10px);
+  /* background-color:#FF9D9D; */
+  text-align:center;
+  vertical-align:middle
+}
+.prog-cidweek-ii .td_mesa_redonda{
+  background-color:#F193C1;
+  text-align:center;
+  vertical-align:middle
+}
+.prog-cidweek-ii .td_space{
+  text-align:center;
+  vertical-align:top
+}
+.prog-cidweek-ii .td_intervalo{
+  background-color:#eee;
+  text-align:center;
+  vertical-align:top
+}
+
+.container_em{
+  position: relative;
+  width: 100%;
+  height: auto;
+  /*overflow: auto;*/
+  display: block;
+  overflow: hidden;
+}
+.caixa_empresa{
+
+  /*float: left;
+  width: 33%;*/
+  min-height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .nome {
+    font-size: 2em;
+  }
+  .nome-empresa{
+    font-size: 1.5em;
+  }
+  .empresa-titulo
+  {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 1124px) {
+  .sidenav{
+    display: none;
+  }
 }
