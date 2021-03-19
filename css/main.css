@@ -856,7 +856,9 @@ article p {
   text-align: justify;
 }
 
-.empresa {
+/*---------------------------------*/
+/*Layout de palestrantes/mesa-redonda*/
+.apresentador {
   background: #f3f3ff;
   border: 1px solid #e3e3ef;
   margin-bottom: 5px;
@@ -866,11 +868,14 @@ article p {
   max-width: 350px;
   text-align: center;
 }
-.empresa:hover {
+/*Hover de palestrantes/mesa-redonda*/
+.apresentador:hover {
   background: #e3e3ff;
   border: 1px solid #d3d3df;
   transition: background 0.3s;
 }
+
+/*Layout da estrutura da empresa*/
 .empresa_layout
 {
   background: #f3f3ff;
@@ -881,7 +886,6 @@ article p {
   max-width: 350px;
   text-align: center;
 }
-
 .palestrantes_empresa
 {
  height: 65%;
@@ -891,6 +895,8 @@ article p {
 .palestrantes_empresa a{
   text-decoration: none;
 }
+
+/*Estilo dos apresentadores de cada empresa */
 .estilo-empresa
 {
   margin: 5px;
@@ -903,10 +909,21 @@ article p {
   -o-transition: 0.3s ease-in !important;
   transition: 0.3s ease-in !important;
 }
-.nome {
-  font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
-  color: #0927eb;
+.estilo-empresa-img
+{
+  width: 40%;
+  /*border: thin solid red;*/
+  height: 100%;
+  float: left;
+}
+.estilo-empresa-data
+{
+  width: 60%;
+  /*border: thin solid blue;*/
+  height: 100%;
+  float: left;
+  padding: 16px 0;
+
 }
 
 .pessoa-logo {
@@ -932,6 +949,7 @@ article p {
   height: 30%;
   margin: 5% 5% 5% 5%;
   border-radius: 20px;
+  border: 1px ridge rgba(0,0,0,0.40);
 
 }
 .nome-titulo-empresa
@@ -941,9 +959,8 @@ article p {
   color: #d14;
 }
 
-
 .pessoa-logo_empresa{
-  max-height: 40%;
+
   border-radius: 200px;
   border: 1px ridge rgba(0,0,0,0.40);
 
@@ -951,20 +968,55 @@ article p {
 
 .empresa_3{
   height: 30%;
-  margin: 2%;
+  margin: 1%;
   font-size: 0.7em;
 }
 .empresa_2{
   height: 45%;
-  margin: 5%
-  font-size: 1.5em;
+  margin: 2%
+  font-size: 1em;
 }
 .empresa_1{
   height: 90%;
   padding: 10px;
   font-size: 1em;
 }
+.empresa_1 .estilo-empresa-img{
+  width: 100%;
+  height: 40%;
+  padding: 10px;
+  font-size: 1em;
+  float: left;
+}
+.empresa_1 .estilo-empresa-img img {
+  height: 100%;
+}
+.empresa_1 .estilo-empresa-data{
+  width: 100%;
+  height: 60%;
+  float: left;
+  padding: 10px;
+  font-size: 1em;
+}
+.empresa_2 .pessoa-logo_empresa{
+  width: 70%;
+  height: 6em;
+  width: 6em;
+  margin-top: 1em;
+}
+.empresa_3 .pessoa-logo_empresa{
+  width: 70%;
+  height: 7em;
+  width: 7em;
+  margin-top: 0.25em;
 
+}
+
+.nome {
+  font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  color: #0927eb;
+}
 
 
 .empresa-link:hover {

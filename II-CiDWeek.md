@@ -71,14 +71,17 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
     {% for p in em.membros %}
         <a class="" href="{{ p.linkedin }}" target="_blank">
         <div class="estilo-empresa empresa_{{em.numero}}">
-            {% if p.logo%}
-              <img class="pessoa-logo_empresa" src="/img/cidweek-empresas/{{ p.logo }}">
-            {%else%}
-              <img class="pessoa-logo_empresa" src="/img/cidweek-empresas/speaker.png">
+            <div class="estilo-empresa-img">
+              {% if p.logo%}
+                <img class="pessoa-logo_empresa" src="/img/cidweek-empresas/{{ p.logo }}">
+              {%else%}
+                <img class="pessoa-logo_empresa" src="/img/cidweek-empresas/speaker.png">
             {% endif %}
-            <br>
-            <span class="nome">{{ p.nome }}</span><br>
-            <span class="empresa-titulo">{{ p.title }}</span>         
+            </div>
+            <div class="estilo-empresa-data">
+              <span class="nome">{{ p.nome }}</span><br>
+              <span class="empresa-titulo">{{ p.title }}</span>
+            </div>        
         </div>
         </a>
     {% endfor %}
@@ -156,7 +159,7 @@ Foram convidados palestrantes com muito domínio sobre os tópicos referentes à
    {% for p in site.data.palestrantes%}
    <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
       <a class="empresa-link" href="{{ p.linkedin }}" target="_blank">
-      <div class="empresa">
+      <div class="apresentador">
       {% if p.logo%}
       <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
       {%else%}
