@@ -190,7 +190,7 @@ Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema 
    {% for p in site.data.mesa_redonda%}
    <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4" >
       <a class="empresa-link" href="{{ p.linkedin }}" target="_blank">
-      <div class="empresa">
+      <div class="apresentador">
       {% if p.logo%}
       <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
       {%else%}
