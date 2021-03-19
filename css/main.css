@@ -857,24 +857,52 @@ article p {
 }
 
 .empresa {
-  min-height: 18em;
-  max-width: 350px;
-  text-align: center;
-}
-
-.empresa {
   background: #f3f3ff;
   border: 1px solid #e3e3ef;
   margin-bottom: 5px;
   transition: background 0.3s;
+  min-height: 400px;
+  min-height: 18em;
+  max-width: 350px;
+  text-align: center;
 }
-
 .empresa:hover {
   background: #e3e3ff;
   border: 1px solid #d3d3df;
   transition: background 0.3s;
 }
+.empresa_layout
+{
+  background: #f3f3ff;
+  border: 1px solid #e3e3ef;
+  margin-bottom: 5px;
+  transition: background 0.3s;
+  height: 400px;
+  max-width: 350px;
+  text-align: center;
+}
 
+.palestrantes_empresa
+{
+ height: 65%;
+ width: 100%;
+ /*border: thin solid blue;*/
+}
+.palestrantes_empresa a{
+  text-decoration: none;
+}
+.estilo-empresa
+{
+  margin: 5px;
+  /*border: thin solid red;*/
+}
+.estilo-empresa:hover{
+  background-color: #e3e3ff;
+  -webkit-transition: 0.3s ease-in !important;
+  -moz-transition: 0.3s ease-in !important;
+  -o-transition: 0.3s ease-in !important;
+  transition: 0.3s ease-in !important;
+}
 .nome {
   font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.5em;
@@ -901,9 +929,43 @@ article p {
 }
 
 .empresa-logo {
-  max-width: 70px;
-  margin: 5px;
+  height: 30%;
+  margin: 5% 5% 5% 5%;
+  border-radius: 20px;
+
 }
+.nome-titulo-empresa
+{
+  font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  color: #d14;
+}
+
+
+.pessoa-logo_empresa{
+  max-height: 40%;
+  border-radius: 200px;
+  border: 1px ridge rgba(0,0,0,0.40);
+
+}
+
+.empresa_3{
+  height: 30%;
+  margin: 2%;
+  font-size: 0.7em;
+}
+.empresa_2{
+  height: 45%;
+  margin: 5%
+  font-size: 1.5em;
+}
+.empresa_1{
+  height: 90%;
+  padding: 10px;
+  font-size: 1em;
+}
+
+
 
 .empresa-link:hover {
   text-decoration: none;
@@ -1173,3 +1235,4 @@ body {
     display: none;
   }
 }
+

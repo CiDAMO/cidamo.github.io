@@ -60,6 +60,34 @@ Algumas empresas farão apresentações no evento, abordando temas como: problem
 Teremos a participação de 12 representantes de empresas, dentre os quais estão:
 
 <div class="container_em">
+{% for em in site.data.empresas_apresentadores.empresas %}
+  <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
+    <div class="empresa_layout">
+    {% if em.logoemp%}
+        <img class="empresa-logo" src="/img/cidweek-empresas/{{ em.logoemp }}">
+    {% endif %}
+    <!-- <span class="nome-titulo-empresa">{{ em.nome }}</span><br> -->
+    <div class="palestrantes_empresa">
+    {% for p in em.membros %}
+        <a class="" href="{{ p.linkedin }}" target="_blank">
+        <div class="estilo-empresa empresa_{{em.numero}}">
+            {% if p.logo%}
+              <img class="pessoa-logo_empresa" src="/img/cidweek-empresas/{{ p.logo }}">
+            {%else%}
+              <img class="pessoa-logo_empresa" src="/img/cidweek-empresas/speaker.png">
+            {% endif %}
+            <br>
+            <span class="nome">{{ p.nome }}</span><br>
+            <span class="empresa-titulo">{{ p.title }}</span>         
+        </div>
+        </a>
+    {% endfor %}
+    </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+<!--<div class="container_em">
    <div class="row">
    {% for p in site.data.empresas_cidweek %}
    <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
@@ -83,7 +111,41 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
    {% endfor %}
   </div>
    <div style="clear:both"></div>
+</div>-->
+
+<!-- 
+ 
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img1.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
+<br>
+
+The dots/circles 
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>-->
 
 ### Palestras
 <div id="palestra"></div>
