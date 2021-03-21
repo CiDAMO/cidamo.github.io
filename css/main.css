@@ -859,7 +859,7 @@ article p {
 /*---------------------------------*/
 /*Layout de palestrantes/mesa-redonda*/
 .apresentador {
-  background: #f3f3ff;
+  background: #1893f8;
   border: 1px solid #e3e3ef;
   margin-bottom: 5px;
   transition: background 0.3s;
@@ -867,24 +867,45 @@ article p {
   min-height: 18em;
   max-width: 350px;
   text-align: center;
+  padding: 10px;
 }
 /*Hover de palestrantes/mesa-redonda*/
 .apresentador:hover {
-  background: #e3e3ff;
   border: 1px solid #d3d3df;
-  transition: background 0.3s;
+  background-color: #e3e3ff;
+  -webkit-transition: 0.3s ease-in !important;
+  -moz-transition: 0.3s ease-in !important;
+  -o-transition: 0.3s ease-in !important;
+  transition: 0.3s ease-in !important;
 }
+.apresentador:hover .nome{
+    color: #1893f8;
+}
+.apresentador:hover .empresa-titulo
+{
+  color: #777;
+}
+.apresentador:hover .pessoa-logo {
+  border: 3px solid #1893f8;
+}
+.apresentador:hover .nome-empresa {
+  color: #ff0404;
+}
+
+
 
 /*Layout da estrutura da empresa*/
 .empresa_layout
 {
-  background: #f3f3ff;
-  border: 1px solid #e3e3ef;
-  margin-bottom: 5px;
-  transition: background 0.3s;
-  height: 400px;
-  max-width: 350px;
-  text-align: center;
+    background: #1893f8;
+    border: 1px solid #e3e3ef;
+    margin-bottom: 5px;
+    transition: background 0.3s;
+    height: 400px;
+    /* padding: 10px; */
+    border: 2px;
+    max-width: 350px;
+    text-align: center;
 }
 .palestrantes_empresa
 {
@@ -897,18 +918,6 @@ article p {
 }
 
 /*Estilo dos apresentadores de cada empresa */
-.estilo-empresa
-{
-  margin: 5px;
-  /*border: thin solid red;*/
-}
-.estilo-empresa:hover{
-  background-color: #e3e3ff;
-  -webkit-transition: 0.3s ease-in !important;
-  -moz-transition: 0.3s ease-in !important;
-  -o-transition: 0.3s ease-in !important;
-  transition: 0.3s ease-in !important;
-}
 .estilo-empresa-img
 {
   width: 40%;
@@ -923,13 +932,12 @@ article p {
   height: 100%;
   float: left;
   padding: 16px 0;
-
 }
 
 .pessoa-logo {
   max-width: 7em;
   border-radius: 100%;
-  border: 1px solid #0927eb;
+  border: 3px solid #e3e3ff;
   box-shadow: 0;
   margin: 10px;
 }
@@ -937,19 +945,19 @@ article p {
 .nome-empresa {
   font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1em;
-  color: #d14;
+  color: #000;
 }
 
 .empresa-titulo {
-  color: #777;
+  color: #f3f701;
   font-family: 'Montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 }
 
 .empresa-logo {
   height: 30%;
   margin: 5% 5% 5% 5%;
-  border-radius: 20px;
-  border: 1px ridge rgba(0,0,0,0.40);
+  border-radius: 100px;
 
 }
 .nome-titulo-empresa
@@ -962,14 +970,14 @@ article p {
 .pessoa-logo_empresa{
 
   border-radius: 200px;
-  border: 1px ridge rgba(0,0,0,0.40);
+  border: 2px solid #e3e3ff;
 
 }
 
 .empresa_3{
   height: 30%;
-  margin: 1%;
   font-size: 0.7em;
+  padding: 3px 10px 0px 10px;
 }
 .empresa_2{
   height: 45%;
@@ -991,6 +999,7 @@ article p {
 .empresa_1 .estilo-empresa-img img {
   height: 100%;
 }
+
 .empresa_1 .estilo-empresa-data{
   width: 100%;
   height: 60%;
@@ -1011,11 +1020,30 @@ article p {
   margin-top: 0.25em;
 
 }
-
 .nome {
   font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.5em;
-  color: #0927eb;
+  color: #ffffff;
+}
+
+
+.estilo-empresa:hover{
+  background-color: #e3e3ff;
+  -webkit-transition: 0.3s ease-in !important;
+  -moz-transition: 0.3s ease-in !important;
+  -o-transition: 0.3s ease-in !important;
+  transition: 0.3s ease-in !important;
+}
+.estilo-empresa:hover .nome
+{
+  color: #1893f8;
+}
+.estilo-empresa:hover .empresa-titulo {
+ 
+  color: #777;
+}
+.estilo-empresa:hover .pessoa-logo_empresa{
+  border: 2px solid #1893f8;
 }
 
 
