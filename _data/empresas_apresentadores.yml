@@ -22,6 +22,7 @@ empresas:
       - nome: "Romulo Leite"
         linkedin: https://www.linkedin.com/in/romulo-leite-04aa8942
         title: Analista de Finanças Sênior
+        logo: romulo.jpg
   - nome: James Delivery
     logoemp: james.png
     numero: 1
@@ -30,6 +31,7 @@ empresas:
         empresa: James Delivery
         linkedin: https://www.linkedin.com/in/joaomanrique/
         title: Cientista de Dados Líder
+        logo: joao.png
   - nome: Magalu
     logoemp: magalu.png
     numero: 1
