@@ -944,12 +944,16 @@ article p {
 
 .nome-empresa {
   font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px #000000
   font-size: 1em;
   color: #000;
 }
 
 .empresa-titulo {
-  color: #4e0175;
+  color: #ffdf2b;
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
   font-family: 'Montserrat', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 }
@@ -1023,6 +1027,8 @@ article p {
 .nome {
   font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
   color: #ffffff;
 }
 
