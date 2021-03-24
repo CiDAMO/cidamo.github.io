@@ -39,6 +39,7 @@ empresas:
       - nome: "Fernando Nagano"
         linkedin: https://www.linkedin.com/in/fernando-nagano-391215/
         title: Diretor de Analytics
+        logo: fernando.jpg
   - nome: Math Analytics
     logoemp: Math Analytics.jpg
     numero: 1
