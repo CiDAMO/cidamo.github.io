@@ -12,7 +12,7 @@ empresas:
         title: Engenheiro de Dados
         logo: jeoronei_ribinski.jpg
       - nome: Brenno de Mello
-        linkedin: www.linkedin.com/in/brenno-mello-8502a5b9
+        linkedin: http://www.linkedin.com/in/brenno-mello-8502a5b9
         title: Engenheiro de Dados
         logo: brenno_mello.jpg
   - nome: Ebanx
@@ -84,3 +84,10 @@ empresas:
       - nome: "Pedro Tardivo"
         linkedin: https://www.linkedin.com/in/pedrotardivo/
         title: Gerente de Planejamento de Demandas
+  - nome: Nestlé
+    logoemp: nestle.png
+    numero: 1
+    membros:
+      - nome: "Natalia Hamaue Togni"
+        linkedin: https://www.linkedin.com/in/natalia-hamaue-togni-aa9b3058/
+        title: Gerente Planejamento de Demanda
