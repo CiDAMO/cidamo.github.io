@@ -1,12 +1,12 @@
 empresas:
   - nome: Contabilizei
-    logoemp: contabilizei.jpg
+    logoemp: contab.png
     numero: 3
     membros:
       - nome: Frederico Horst
         linkedin: https://www.linkedin.com/in/fredericohorst/
         title: Cientista e Engenheiro de Dados
-        logo: Frederico_Horst.jpg
+        logo: frederico.jpg
       - nome: Jeoronei Ribinski
         linkedin: https://www.linkedin.com/in/jeoronei-ribinski/
         title: Engenheiro de Dados
@@ -41,11 +41,11 @@ empresas:
         title: Diretor de Analytics
         logo: fernando.jpg
   - nome: Math Analytics
-    logoemp: Math Analytics.jpg
+    logoemp: mathanalytics.jpg
     numero: 1
     membros:
       - nome: "Luiz Hadich"
-        logo: Luiz Carlos Hadich (Math Analytics).jpg
+        logo: hadich.jpg
         title: COO e Co-Founder
         linkedin: https://www.linkedin.com/in/luizhadich/
   - nome: NeuralMed
@@ -53,7 +53,7 @@ empresas:
     numero: 1
     membros:
       - nome: "Priscilla Wagner"
-        logo: Priscilla Wagner.png
+        logo: priscilla.png
         logoemp: NeuralMed.png
         linkedin: https://www.linkedin.com/in/priscilla-wagner/
         title: Cientista de Dados
