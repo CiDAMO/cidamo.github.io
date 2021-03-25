@@ -939,7 +939,11 @@ article p {
   border-radius: 100%;
   border: 3px solid #e3e3ff;
   box-shadow: 0;
-  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: -10px;
 }
 
 .nome-empresa {
