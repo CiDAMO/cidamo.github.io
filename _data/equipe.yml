@@ -1,46 +1,19 @@
-marianakleina:
-  name: "Mariana Kleina"
-  bio: Professora Adjunta do Departamento de Engenharia de Produção da Universidade Federal do Paraná desde 2016. Tem interesse nas áreas de Pesquisa Operacional e Ciência de Dados.
-  role: Colaboradores
-  img: mariana.jpg
-  github:
-  twitter:
-  linkedin: marianakleina
-cesartaconeli:
-  name: "Cesar Augusto Taconeli"
-  bio: Professor adjunto do Departamento de Estatística da Universidade Federal do Paraná. Tem experiência na área de Probabilidade e Estatística, com ênfase em modelos de classificação e regressão por árvores.
-  role: Colaboradores
-  img: cesartaconeli.jpg
-  github: 
-  twitter:
-  linkedin: cesar-taconeli-5b5814ba
-egmara:
-  name: "Egmara Antunes dos Santos"
-  role: Ex-alunos
-  bio: Mestre em Matemática pelo PPGM <br> Otimização Não-Linear em Julia - Método do Lagrangiano Aumentado com Resolução dos Subproblemas por Região de Confiança. Orientada por Elizabeth Karas e Abel Soares Siqueira.
-  ano: 2020
-  img: egmara.jpg
-  email1: egmara.antunes
-  email2: gmail.com
-  github: Egmara
-  twitter:
-  linkedin: egmara-antunes-dos-santos-5031a218b
-rafaeloliveira:
-  name: Rafael H. O. de Oliveira
-  role: Pesquisadores de Pós-graduação
-  bio:
-  img: rafaeloliveira.jpg
-  github: RHOOliveira
-  twitter:
-  linkedin: rafael-oliveira-301797128
 alinexavier:
   name: "Aline Nascimento Xavier"
   role: Pesquisadores de Graduação
   bio: Pesquisadora de TCC <br> Otimização de Carteiras de Ação
   img: aline.jpg
-  github: nine59
+  github: 
   twitter:
   linkedin: aline-x-b6a413b3
+augusto:
+  name: "Augusto dos Santos Pereira"
+  role: Pesquisador Colaborador
+  bio: Desenvolvimento de pesquisa sobre classificação de imagens com Deep Learning
+  img: augusto.jpg
+  github:
+  twitter:
+  linkedin: augusto-dos-santos-pereira-55678997
 dennislemes:
   name: "Dennis G. Lemes"
   role: Pesquisadores de Graduação
@@ -49,6 +22,14 @@ dennislemes:
   github: DennisLemes
   twitter:
   linkedin: dennisglemes
+eleonora:
+  name: "Eleonora Avello"
+  role: Pesquisadores de Graduação
+  bio: Pesquisador de IC
+  img: eleonora.jpg
+  github: EleonoraAvello
+  twitter:
+  linkedin: eleonora-avello-709350185
 fillipe:
   name: "Fillipe Rafael Bianek Pierin"
   role: Pesquisadores de Graduação
@@ -57,16 +38,14 @@ fillipe:
   github: fillipepierin
   twitter: 
   linkedin: fillipe-rafael-bianek-pierin-22b830192/
-joaofassina:
-  name: "João Pedro Kincheski Fassina"
+gustavorodrigues:
+  name: "Gustavo Rodrigues da Silva"
   role: Pesquisadores de Graduação
-  bio: Pesquisador de IC <br> Redes recorrentes aplicadas a NLP
-  img: joaofassina.jpg
-  email1: Jpfassina
-  email2: live.com
-  github: JoaoFassina
-  twitter:
-  linkedin: joão-pedro-kincheski-fassina-844173154
+  bio: Pesquisador de IC
+  img: gustavorodrigues.jpg
+  github: gustavor10silva
+  twitter: 
+  linkedin: gustavo-rodrigues-da-silva/
 joaosilva:
   name: "João Victor da Silva"
   role: Pesquisadores de Graduação
@@ -77,14 +56,6 @@ joaosilva:
   github: Jualns
   twitter: Jualns
   linkedin: joao-victor-silva
-julianishihiro:
-  name: "Julia Yumi Nishihiro"
-  role: Pesquisadores de Graduação
-  bio: Pesquisadora de IC <br> Aprendizado de máquina na área de finanças
-  img: julia.jpg
-  github: ynishihiro
-  twitter: yumienishi
-  linkedin: julia-nishihiro-388420197
 leonardodionizio:
   name: "Leonardo Dionizio"
   role: Pesquisadores de Graduação
@@ -93,14 +64,22 @@ leonardodionizio:
   github: leorlik
   twitter:
   linkedin:
-lucasakio:
-  name: "Lucas Akio"
+leonel:
+  name: "Leonel Fernandes Balbino"
   role: Pesquisadores de Graduação
-  bio: Pesquisador de IC <br> Implementação de Robôs para Day Trade
-  img: lucasakio.jpg
-  github: Lucas-Akio
-  twitter: Xedoux
-  linkedin: lucas-a-b56122141
+  bio: Pesquisador de IC
+  img: leonel.jpg
+  github: LeoFernanndes
+  twitter: leofernanndes_
+  linkedin: leonel-fernandes-balbino-288705ba
+priscilla:
+  name: "Priscilla Pereira de Souza"
+  role: Pesquisadores de Graduação
+  bio: Pesquisador de IC
+  img: priscilla.jpg
+  github: 
+  twitter:
+  linkedin: priscilla-pereira-de-souza-704849138
 rogeriosilva:
   name: "Rogério Otavio Mainardes da Silva"
   role: Pesquisadores de Graduação
@@ -124,22 +103,6 @@ victorbarbosa:
   role: Pesquisadores de Graduação
   bio: Pesquisador de IC <br> Redes neurais convolucionais para classificação de imagens
   img: victor.jpg
-  github: dirky07
-  twitter: vector-b
-  linkedin: victor-gabriel-souza-barbosa-29a1ba19a
-vinicyusbrasil:
-  name: "Vinícyus Brasil"
-  role: Participante
-  bio: Pesquisador de IC <br> Algoritmos de clusterização e FRTB
-  img: vinicyus.jpg 
-  github: vinybrasil
+  github: 
   twitter: 
-  linkedin: vinicyus-brasil-a6b321129
-augusto:
-  name: "Augusto dos Santos Pereira"
-  role: Pesquisador Colaborador
-  bio: Desenvolvimento de pesquisa sobre classificação de imagens com Deep Learning
-  img: augusto.jpg
-  github:
-  twitter:
-  linkedin: augusto-dos-santos-pereira-55678997
+  linkedin: victor-gabriel-souza-barbosa-29a1ba19a
