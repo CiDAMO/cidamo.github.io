@@ -1,6 +1,6 @@
 empresas:
   - nome: Contabilizei
-    logoemp: contab.png
+    logoemp: "contab.png"
     numero: 3
     membros:
       - nome: Frederico Horst
@@ -16,7 +16,7 @@ empresas:
         title: Engenheiro de Dados
         logo: brenno_mello.jpg
   - nome: Ebanx
-    logoemp: ebanx.jpg
+    logoemp: "ebanx.jpg"
     numero: 1
     membros:
       - nome: "Romulo Leite"
@@ -24,7 +24,7 @@ empresas:
         title: Analista de Finanças Sênior
         logo: romulo.jpg
   - nome: James Delivery
-    logoemp: james.png
+    logoemp: "james.png"
     numero: 1
     membros:
       - nome: "João Manrique"
@@ -41,15 +41,15 @@ empresas:
         title: Diretor de Analytics
         logo: fernando.jpg
   - nome: Math Analytics
-    logoemp: mathanalytics.jpg
+    logoemp: "mathanalytics.jpg"
     numero: 1
     membros:
       - nome: "Luiz Hadich"
-        logo: hadich.jpg
+        logo: "hadich.jpg"
         title: COO e Co-Founder
         linkedin: https://www.linkedin.com/in/luizhadich/
   - nome: NeuralMed
-    logoemp: neuralmed.jpg
+    logoemp: "neuralmed.jpg"
     numero: 1
     membros:
       - nome: "Priscilla Wagner"
@@ -58,35 +58,35 @@ empresas:
         linkedin: https://www.linkedin.com/in/priscilla-wagner/
         title: Cientista de Dados
   - nome: O Boticário
-    logoemp: boticario.png
+    logoemp: "boticario.png"
     numero: 1
     membros:
       - nome: "Maristela Salles"
         linkedin: https://www.linkedin.com/in/maristela-salles/
         title: Gerente de Ciência de Dados
   - nome: Pacer
-    logoemp: pacer.png
+    logoemp: "pacer.png"
     numero: 1
     membros:
       - nome: "Guinther Kovalski"
         linkedin: https://www.linkedin.com/in/guinther-kovalski/
         title: Engenheiro de Aprendizagem de Máquinas
   - nome: Bosch
-    logoemp: bosch.png
+    logoemp: "bos.png"
     numero: 1
     membros:
       - nome: "Rodrigo Meira de Andrade"
         linkedin: https://www.linkedin.com/in/rodrigo-meira-de-andrade-b8b147aa/
         title: Engenheiro de Tecnologia e Inovação
   - nome: Kimberly-Clark
-    logoemp: kimberly.png
+    logoemp: "kimberly.png"
     numero: 1
     membros:
       - nome: "Pedro Tardivo"
         linkedin: https://www.linkedin.com/in/pedrotardivo/
         title: Gerente de Planejamento de Demandas
   - nome: Nestlé
-    logoemp: nestle.png
+    logoemp: "nestle.png"
     numero: 1
     membros:
       - nome: "Natalia Hamaue Togni"
