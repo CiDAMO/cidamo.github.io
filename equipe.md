@@ -31,7 +31,7 @@ roles:
                      <ul class="list-inline">
                         <div class="card-info">
                            {% if p[1].github %}
-                              <a href="https://github.com/{{ p[1].github }}" class="fa fa-2x fa-github" style="border-color: #1893f8 !important"></a>
+                              <a href="https://github.com/{{ p[1].github }}" class="fa fa-2x  fa-github" style="border-color: #1893f8 !important"></a>
                            {% else %}
                               <i class="fa fa-2x fa-github fa-gray"></i>
                            {% endif %}
