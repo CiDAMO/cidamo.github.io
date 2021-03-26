@@ -17,16 +17,16 @@
   title: Professor do Departamento de Estatística - UFPR
   linkedin: http://lattes.cnpq.br/6295059687055801
 - nome: "Téo Calvo"
-  empresa: Téo Me Why e ASN.Rocks
+  empresa: Téo Me Why e Gamers Club
   logo: teo.jpg
   #logoemp: 
-  title: Streamer no Téo Me Why
+  title: Streamer e Head of Data na Gamers Club
   linkedin: https://www.linkedin.com/in/teocalvo/
 - nome: "Francisco Louzada"
-  empresa: CeMEAI
+  empresa: CeMEAI / USP
   logo: francisco.jpg
   #logoemp: Cemeai.png
-  title: Diretor do MBA em Data Science da USP
+  title: CeMEAI ICMC USP São Carlos Brazil
   linkedin: https://www.linkedin.com/in/francisco-louzada-639048b7/
 - nome: "Anderson Soares"
   empresa: CEIA - Centro de Excelência em Inteligência Artificial
@@ -39,5 +39,23 @@
   logo: larissa_xavier.jpg
   #logoemp: 
   title: Data Scientist Consultant
-  linkedin: https://www.linkedin.com/in/larissa-xavier-de-melo/ 
+  linkedin: https://www.linkedin.com/in/larissa-xavier-de-melo/
+- nome: "Ana Caroline Sanchez Silva"
+  empresa: Microsoft
+  logo: ana_caroline.jpg
+  title: Cloud Solution Architect
+  linkedin: https://www.linkedin.com/in/anacaroliness9/
+- nome: "Erika Nagamine"
+  empresa: Oracle
+  logo: 
+  title: Arquiteta de Computação em Nuvem para Plataforma de dados 
+  linkedin: https://www.linkedin.com/in/erikanagamine/
+- nome: "Sofia Marshallowitz Apuzzo"
+  empresa: QuintoAndar e Lawgorithm
+  logo: 
+  title: Especialista em Privacidade de Dados na QuintoAndar e Pesquisadora em I.A. e Lei na Lawgorithm
+  linkedin: https://www.linkedin.com/in/marshallowitz/
+
+
+
 
