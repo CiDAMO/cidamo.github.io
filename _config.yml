@@ -50,7 +50,7 @@ navbar-col: "#1893f8"
 navbar-text-col: "#00ff00"
 navbar-children-col: "#ff0000"
 page-col: "#FFFFFF"
-link-col: "#0927eb"
+link-col: "#1893f8"
 hover-col: "#1893f8"
 footer-col: "#F5F5F5"
 footer-text-col: "#777777"
@@ -82,12 +82,12 @@ social-network-links:
   instagram: grupo.cidamo
   #linkedin: grupo-cidamo
   #facebook: deanattali
-  #github: daattali
+  github: CiDAMO
   #reddit: yourname
   #xing: yourname
   #stackoverflow: "3943160/daattali"
   #snapchat: deanat78
-  #youtube: user/deanat78
+  youtube: channel/UCiVFjGGCh63QZ3-kswfQdRw
   #spotify: yourname
   #telephone: +14159998888
   #steam: deanat78
