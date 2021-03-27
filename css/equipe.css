@@ -81,6 +81,8 @@ section .section-title {
     top: 0;
     left: 0;
     background: white;
+    z-index: 2;
+    margin-bottom: 10px;
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
@@ -114,10 +116,10 @@ section .section-title {
     min-height: 420px;
 }
 
-.backside .card a {
+/* .backside .card a {
     font-size: 18px;
     color: #1893f8 !important;
-}
+} */
 
 .frontside .card .card-title,
 .backside .card .card-title {
@@ -130,4 +132,10 @@ section .section-title {
     border-radius: 50%;
     margin-top: 30px;
     margin-bottom: 10px;
+}
+
+.position{
+    position: absolute;
+    bottom: 6%;
+    right: 28%
 }

@@ -29,9 +29,9 @@ roles:
                      <h4 class="card-title">{{ p[1].name }}</h4>
                      <p class="card-text">{{ p[1].bio }}</p>
                      <ul class="list-inline">
-                        <div class="card-info">
+                        <div class="card-info position">
                            {% if p[1].github %}
-                              <a href="https://github.com/{{ p[1].github }}" class="fa fa-2x  fa-github" style="border-color: #1893f8 !important"></a>
+                              <a href="https://github.com/{{ p[1].github }}" class="fa fa-2x  fa-github"></a>
                            {% else %}
                               <i class="fa fa-2x fa-github fa-gray"></i>
                            {% endif %}
@@ -73,7 +73,7 @@ roles:
                         <h4 class="card-title">{{ p[1].name }}</h4>
                         <p class="card-text">{{ p[1].bio }}</p>
                         <ul class="list-inline">
-                           <div class="card-info">
+                           <div class="card-info position">
                               {% if p[1].github %}
                                  <a href="https://github.com/{{ p[1].github }}" class="fa fa-2x fa-github"></a>
                               {% else %}
