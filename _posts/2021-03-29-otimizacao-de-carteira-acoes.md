@@ -448,6 +448,16 @@ Agora apresentamos os rendimentos dos ativos de cada uma das bolsas de valores, 
 
 Nesta etapa, realizamos a comparação em relação tempo computacional e a alocação de memória (espaço em HD) utilizado na otimização para obter os pesos em cada modelo. Conforme a tabela 1, encontramos que o modelo CVaR com LSR que é o que mais usa tempo computacional e o Fracionário é o que menos usa tempo computacional. Em relação à alocação de memória o MLSR é o que mais usa espaço em HD, por outro lado o modelo Fracionário é o mais econômico. Assim, concluímos que apesar do modelo Fracionário não ser o melhor na análise de retorno e risco para todas as carteiras das bolsas consideradas, este modelo apresenta um desempenho computacional melhor comparado com os outros modelos em termos de tempo computacional e alocação de memória.
 
+|       Modelo       | Tempo Computacional | Alocação de Memória |
+|:------------------:|:-------------------:|:-------------------:|
+|  Markowtiz com LSR |       69.0822s      |      4192.63 MB     |
+|    CVaR com LSR    |       41.9702s      |      1180.88 MB     |
+| Fracionário Linear |       4.1037s       |      303.083 MB     |
+
+<p style="text-align: center;">Tabela 1. Tempo computacional e espaço em HD ocupada para calcular os pesos de cada modelo. Fonte: autor.</p>
+
+Por último, verificamos os resultados de tempo computacional e alocação de memória utilizada nas otimizações necessárias durante a elaboração da fronteira eficiente. Para cada fronteira eficiente foi utilizado um grid para o valor de $\lambda$ com tamanho 200 variando de 0 a 1, sendo que para cada um dos 200 valores de $\lambda$ realizamos a otimização usando o modelo MLSR e obteve-se a fronteira eficiente. Pela tabela 2, concluímos que quanto maior for a quantidade de dados (meses de retorno da bolsa de valores ou carteira) maior será a quantidade de alocação de memória e tempo computacional que será necessário, em que no total dos dados utilizados no trabalho foi necessário 33935.6 Megabytes de alocação de memória e 1.1270 minutos de tempo computacional.
+
 | Bolsa de Valores | Tempo Computacional | Alocação de Memória | Tamanho Matriz de Dados |
 |:----------------:|:-------------------:|:-------------------:|:-----------------------:|
 |     Ibovespa     |       11.2811s      |      4983.47 MB     |        1963 x 63        |
@@ -456,19 +466,6 @@ Nesta etapa, realizamos a comparação em relação tempo computacional e a aloc
 |     Hang_Seng    |       5.3270s       |      528.721 MB     |        1950 x 25        |
 |      Nasdaq      |       21.5093s      |      14772.0 MB     |        1992 x 93        |
 |      S&P/TSX     |       18.9540s      |      12316.0 MB     |        1953 x 87        |
-
-<p style="text-align: center;">Tabela 1. Tempo computacional e espaço em HD ocupada para calcular os pesos de cada modelo. Fonte: autor.</p>
-
-Por último, verificamos os resultados de tempo computacional e alocação de memória utilizada nas otimizações necessárias durante a elaboração da fronteira eficiente. Para cada fronteira eficiente foi utilizado um grid para o valor de $\lambda$ com tamanho 200 variando de 0 a 1, sendo que para cada um dos 200 valores de $\lambda$ realizamos a otimização usando o modelo MLSR e obteve-se a fronteira eficiente. Pela tabela 2, concluímos que quanto maior for a quantidade de dados (meses de retorno da bolsa de valores ou carteira) maior será a quantidade de alocação de memória e tempo computacional que será necessário, em que no total dos dados utilizados no trabalho foi necessário 33935.6 Megabytes de alocação de memória e 1.1270 minutos de tempo computacional.
-
-| Bolsa de Valores | Tempo Computacional | Alocação de Memória | Tamanho Matriz de Dados |
-|------------------|---------------------|---------------------|-------------------------|
-| Ibovespa         | 11.2811s            | 4983.47 MB          | 1963 x 63               |
-| BSE_SENSEX       | 5.2414s             | 616.235 MB          | 1948 x 27               |
-| Dow_Jones        | 5.3051s             | 719.165 MB          | 1992 x 29               |
-| Hang_Seng        | 5.3270s             | 528.721 MB          | 1950 x 25               |
-| Nasdaq           | 21.5093s            | 14772.0 MB          | 1992 x 93               |
-| S&P/TSX          | 18.9540s            | 12316.0 MB          | 1953 x 87               |
 
 <p style="text-align: center;">Tabela 2. Tempo computacional e espaço em HD ocupada para calcular a fronteira eficiente por bolsa de valores. Fonte: autor.</p>
 
