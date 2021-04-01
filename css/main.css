@@ -981,6 +981,13 @@ article p {
   border: 2px solid #e3e3ff;
 
 }
+.nome {
+  font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
+  color: #ffffff;
+}
 
 .empresa_3{
   height: 30%;
@@ -1017,10 +1024,18 @@ article p {
 }
 .empresa_2 .pessoa-logo_empresa{
   width: 70%;
-  height: 6em;
-  width: 6em;
-  margin-top: 1em;
+  height: 5em;
+  width: 5em;
+  margin-top: 1.75em;
 }
+.empresa_2 .nome {
+  font-size: 1em;
+}
+.empresa_2 .estilo-empresa-data
+{
+  padding: 25px 10px;
+}
+
 .empresa_3 .pessoa-logo_empresa{
   width: 70%;
   height: 7em;
@@ -1028,13 +1043,7 @@ article p {
   margin-top: 0.25em;
 
 }
-.nome {
-  font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  text-shadow: 1px 1px #000000;
-  color: #ffffff;
-}
+
 
 
 .estilo-empresa:hover{

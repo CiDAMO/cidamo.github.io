@@ -92,3 +92,15 @@ empresas:
       - nome: "Natalia Hamaue Togni"
         linkedin: https://www.linkedin.com/in/natalia-hamaue-togni-aa9b3058/
         title: Gerente Planejamento de Demanda
+  - nome: Porto Seguro
+    logoemp: "p_seguro.png"
+    numero: 2
+    membros:
+      - nome: "Catarina Proglhof"
+        linkedin: https://www.linkedin.com/in/catarina-proglhof/
+        title: Cientista de Dados
+        logo: catarina.jpg
+      - nome: "Lilian Fontes"
+        linkedin: 
+        title: Cientista de Dados
+        logo: lilian.jpg
