@@ -46,7 +46,7 @@ Por fim, nosso vetor pode ser usado na [rede neural artificial](https://www.supe
 
 A rede neural artificial então faz sua previsão da classe baseando-se nos dados do vetor e os pesos sinápticos. A classe que apresentar as maiores probabilidades de possuir as características do nosso vetor, mantendo também a posição relativa entre as características, será a escolhida pelo modelo. Abaixo temos um exemplo de rede neural para exemplificar.
 
-{% include image.html url="http://www.texample.net/media/tikz/examples/PNG/neural-network.png" description="Exemplo de uma Rede Neural Artificial usada para estimar as probabilidades de cada classe. Fonte: TEXample [9]" %}
+{% include image.html url="../img/reconhecimento-caracteres/neural-network.png" description="Exemplo de uma Rede Neural Artificial usada para estimar as probabilidades de cada classe. Fonte: TEXample [9]" %}
 
 ## Obtenção do Banco de Dados
 
