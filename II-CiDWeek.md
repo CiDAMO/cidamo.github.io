@@ -69,7 +69,11 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
     <!-- <span class="nome-titulo-empresa">{{ em.nome }}</span><br> -->
     <div class="palestrantes_empresa">
     {% for p in em.membros %}
+        {% if p.linkedin%}
         <a class="" href="{{ p.linkedin }}" target="_blank">
+        {% else %}
+        <a>
+        {% endif %}
         <div class="estilo-empresa empresa_{{em.numero}}">
             <div class="estilo-empresa-img">
               {% if p.logo%}
