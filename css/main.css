@@ -1033,9 +1033,11 @@ article p {
 }
 .empresa_2 .estilo-empresa-data
 {
-  padding: 25px 10px;
+  padding: 2.1em 10px 0 0;
 }
-
+.empresa_2  .empresa-titulo{
+  font-size: 0.7em;
+}
 .empresa_3 .pessoa-logo_empresa{
   width: 70%;
   height: 7em;
