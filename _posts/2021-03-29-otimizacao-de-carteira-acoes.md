@@ -8,7 +8,7 @@ author: Fillipe Rafael Bianek Pierin
 ## **Introdução**
 O problema de otimização de carteiras consiste na escolha dos melhores investimentos em um conjunto de ativos possíveis. Os investidores buscam uma carteira que gera o menor risco e maior retorno, porém isso nem sempre é possível. Desta forma, na prática se procura equilibrar o retorno monetário e o risco de perdas.
 
-Ao considerar ativos e carteiras num horizonte de tempo, o investidor deve levar em consideração que nesse processo existem vários riscos do mercado, de crédito e operações. Desta forma, a diversificação dos ativos escolhidos é necessária para que o risco seja diminuído, possibilitando o aumento do retorno obtido na carteira de ativos.
+Ao considerar ativos e carteiras num horizonte de tempo, o investidor deve levar em consideração que nesse processo existem vários riscos do mercado, de crédito e de operações. Desta forma, a diversificação dos ativos escolhidos é necessária para que o risco seja diminuído, possibilitando o aumento do retorno obtido na carteira de ativos.
 
 Neste projeto consideramos o modelo fracionário, ou racional, e sua linearização apresentadas por Brar et. al. [3], para fazer a otimização de carteira de ações ou ativos. Este modelo fracionário otimiza o retorno da carteira minimizando o risco da mesma, simultaneamente. Para a análise dos modelos, utilizamos ativos de várias bolsas de valores, comparando os resultados por bolsa de valores ou modelos. Anteriormente ao uso do modelo fracionário, comparamos os ativos das bolsas de valores usando o modelo de Markowitz e o modelo CVaR. Além disso, consideramos o modelo Markowitz Multi-Objetivo para fazer a fronteira eficiente e respectiva análise.
 
@@ -23,7 +23,7 @@ Os dados compreendem sete base de dados de diferentes bolsa de valores com seus 
 
 Os dados das bases, em csv, foram obtidos através de Web Scraping, do site do Yahoo Finance [10], usando o pacote yfinance da linguagem de programação Python [8]. Nas bases de dados somente foi considerado os ativos que possuem dados em todos os dias em que houve pregão na cidade específica da bolsa de valores em questão. Por isso, a quantidade de ações que compõem as bolsas é diferente.
 
-As análises e implementações dos modelos de otimização de ações foram realizadas na linguagem de programação Julia [2]. O pacote com as funções implementadas e testes podem ser obtidos em [https://github.com/CiDAMO/PortfolioOptimization.jl](https://github.com/CiDAMO/PortfolioOptimization.jl) e os códigos do script em [https://github.com/fillipepierin/IC-Otimizacao-de-Carteiras-de-Acoes](https://github.com/fillipepierin/IC-Otimizacao-de-Carteiras-de-Acoes).
+As análises e implementações dos modelos de otimização de ações foram realizadas na linguagem de programação Julia [2]. O pacote com as funções implementadas e testes podem ser obtidos em [github.com/CiDAMO/PortfolioOptimization.jl](https://github.com/CiDAMO/PortfolioOptimization.jl) e os códigos do script em [github.com/fillipepierin/IC-Otimizacao-de-Carteiras-de-Acoes](https://github.com/fillipepierin/IC-Otimizacao-de-Carteiras-de-Acoes).
 
 ## **Metodologia - Modelos**
 
@@ -33,24 +33,24 @@ Os modelos considerados e utilizados foram o modelo de Markowitz, o modelo de Ma
 
 O modelo de Markowitz (MW), também conhecido por modelo de média-variância foi um modelo construído por Markowitz em 1952 [6], em que se procuram as combinações de ativos, utilizando dados históricos de retorno. Este modelo é chamado de média-variância, pois utiliza a média e o desvio padrão dos retornos dos ativos, denominado por Markowitz por retorno e risco no modelo, para encontrar o peso de cada ativo, $x_{i}, i \in {1, \dots, n}$ que compõe a carteira. O retorno e risco são dados por $\mu^{T} x$ e $x^{T} \sigma x$, respectivamente. Os investidores tentam encontrar os pesos dos ativos, por modelos matemáticos, de forma a maximizar o retorno e ou minimizar o risco. O modelo de Markowitz é dado por um problema de otimização da seguinte forma
 
-$$ {\displaystyle {\begin{aligned}&{\underset {x}{\operatorname {minimizar} }}&&x^T \sigma x\\
+$$ \begin{equation} {\displaystyle {\begin{aligned}&{\underset {x}{\operatorname {minimizar} }}&&x^T \sigma x\\
     &\operatorname {sujeito\;a} &&\sum_{i} x_{i} = 1, i = 1, \dots, n,\\
-    &&&x \geq 0,\end{aligned}}} $$
+    &&&x \geq 0,\end{aligned}}} \end{equation} $$
 onde $\sigma$ é a matriz de covariância entre os ativos da carteira de ações em questão.
 
 Além disso, podemos acrescentar restrições no modelo MW para considerar um risco mínimo ou um retorno máximo, onde teremos os modelos MW com limite superior de risco (LSR) e MW com limite inferior de retorno esperado (LIRE). O modelo MW com LSR é o modelo de Markowitz apresentado anteriormente, adicionando a restrição
-$$ \mu^{T} x \geq \mu_{min} + \lambda * (\mu_{max} - \mu_{min}), $$
+$$ \begin{equation} \mu^{T} x \geq \mu_{min} + \lambda * (\mu_{max} - \mu_{min}), \end{equation} $$
 em que $\mu_{min}$ e $\mu_{max}$ são o menor e o maior valores de retorno (média) entre as ações da carteira. Já o modelo MW de máximo com LIRE é o modelo de Markowitz anterior acrescentando a restrição
 
-$$ x^{T} σ x ≤ σ_{max} + λ * (σ_{max} - σ_{min})), $$
+$$ \begin{equation} x^{T} σ x ≤ σ_{max} + λ * (σ_{max} - σ_{min})), \end{equation} $$
 em que $σ_{max}$ e $σ_{min}$ são o menor e o maior valores da covariância entre os ativos da carteira.
 
 **Modelo Markowitz Multi-Objetivo**
 
 No modelo Markowitz Multi-Objetivo, a função objetivo é a combinação dos objetivos dos modelos de Markowitz, em que o primeiro leva em consideração a restrição de limite inferior para o retorno e o segundo a restrição de limite superior para o risco. Este modelo de otimização tem a seguinte forma:
-$$ \displaystyle {\begin{aligned}&{\underset {x}{\operatorname {minimizar} }}&&-\mu^{T} x + \lambda x^T \sigma x\\
+$$\begin{equation} \displaystyle {\begin{aligned}&{\underset {x}{\operatorname {minimizar} }}&&-\mu^{T} x + \lambda x^T \sigma x\\
     &\operatorname {sujeito\;a} &&\sum_{i} x_{i} = 1, i = 1, \dots, n,\\
-    &&&x \geq 0.\end{aligned}} $$
+    &&&x \geq 0.\end{aligned}} \end{equation} $$
 
 O script da modelagem na programação Julia, que engloba os modelos Markowitz, Markowitz com limite superior de risco (mínimo de risco), Markowitz com limite inferior de retorno esperado (máximo de retorno) e Markowitz Multi-Objetivo (mixed), é apresentado a seguir. Neste script também se usa os otimizadores Ipopt e Cbc.
 
@@ -141,15 +141,15 @@ end
 **Modelo CVaR**
 
 O VaR (Value at Risk ou valor sujeito à risco) é a avaliação do potencial de máxima perda, em um intervalo de confiança especificado com nível de significância $\beta\%$, que um investidor está exposto num horizonte de tempo considerado [7]. Philippe Artzner e autores, em [1], define a medida VaR de $100 (1 - \beta)\%$ de nível de confiança $\left ( VaR_{\beta}(X) \right )$ da seguinte maneira
-$$ VaR_{\beta}(X) = -inf\left \{ x | P\left [ X \leq x \right ] > \beta \right \}, $$
+$$ \begin{equation} VaR_{\beta}(X) = -inf\left \{ x | P\left [ X \leq x \right ] > \beta \right \}, \end{equation} $$
 onde $inf\left \{ x | A \right \}$ é o limite inferior de $x$ dado o evento $A$, $inf\left \{ x | P\left [ X \leq x \right ] > \beta \right \}$ representa o percentil de $100 \beta$ da distribuição de lucros e perdas e $X$ é a perda de lucro de uma determinada carteira de ativos.
 
 O VaR pode ser calculado de duas maneiras, a paramétrica ou a histórica. O VaR paramétrico, calcula a perda máxima considerando que os retornos dos ativos tem distribuição normal. A fórmula do VaR paramétrico é dada por
-$$VaR = \mu - Z_{\beta} * S,$$
+$$ \begin{equation} VaR = \mu - Z_{\beta} * S, \end{equation} $$
 sendo $\mu$ a média dos retornos do ativo, $S$ o desvio padrão do ativo $Z_{\beta}$ é o valor encontrado na tabela normal referente ao nível de significância $\beta$. Por outro lado, o VaR histórico não leva nenhum suposição dos dados, somente separa os $\beta\%$ dos retorno dos ativos e procura o valor do respectivo retorno. Ou seja, colocamos em ordem crescente os retornos dos ativos, separamos em $\beta\%$ e encontramos o respectivo valor. Em termos gerais, podemos calcular esse valor usando a medida descritiva percentil, que divide os dados em ordem crescente em 100 partes. Desta forma, o VaR é o valor de retorno da carteira no percentil de $\beta\%$.
 
 O CVaR (Conditional Value at Risk ou valor condicional sujeito à risco) é uma medida que indica a perda média que excede o VaR, isto é, o quanto grande é na média a perda ou risco que o investidor está sujeito nos piores $(1 - \beta)\%$. A fórmula do cálculo do CVaR é a seguinte
-$$ CVaR_{\beta}(X) = E[X | X \geq VaR_{\beta}(X)], $$
+$$ \begin{equation} CVaR_{\beta}(X) = E[X | X \geq VaR_{\beta}(X)], \end{equation} $$
 sendo $X$ é o retorno do ativo ou perda esperada.
 
 A perda é calculada como $y_{ik} = \frac{P_{ik_{i-1}} - P_{ik_{i}}}{P_{ik_{i}}}$, em que $P_{ik_{i}}$ sendo o preço de fechamento da $i$-ésima ação no $k_{i}$-ésimo cenário, conforme, [9]. O preço de fechamento do $k_{i-1}$-ésimo cenário é o preço de abertura do $k_{i}$-ésimo cenário. A perda é definida como negativa (lucro positiva).
@@ -163,11 +163,11 @@ Agora apresentamos a representação gráfica dos conceitos Value at Risk (VaR),
 
 O modelo utilizado para minimiar o CVaR de uma carteira de ações, conforme Maffra [5], tem como função objetivo uma função obtida utilizando integração de Monte Carlo, que é usada para calcular o CVaR. O modelo para minimizar o CVaR, que é um problema de otimização, é dado por
 
-$$ {\displaystyle {\begin{aligned}&{\underset {x, \alpha, u}{\operatorname {minimizar} }}&&CVaR_{\beta} = \alpha + \frac{1}{q(1 - \beta)} \sum_{k = 1}^{q} u_k\\
+$$ \begin{equation} {\displaystyle {\begin{aligned}&{\underset {x, \alpha, u}{\operatorname {minimizar} }}&&CVaR_{\beta} = \alpha + \frac{1}{q(1 - \beta)} \sum_{k = 1}^{q} u_k\\
     &\operatorname {sujeito\;a} &&u_k + x^T r_k + \alpha \geq 0, k = 1, \dots, q,\\
     &&&\sum_{i} x_{i} = 1, i = 1, \dots, n,\\
     &&&u_k \geq 0, k = 1, \dots, q,\\
-    &&&x \geq 0,\end{aligned}}} $$
+    &&&x \geq 0,\end{aligned}}} \end{equation} $$
 em que $\alpha \in \mathbb{R}$ é o VaR com nível de significância $\beta$, $q$ é o número de amostras do conjunto $\left \{ y_{1k}, \dots, y_{qk} \right \}$, $u_{k} \in \mathbb{R}, k = \left \{ 1, \dots, q \right \}$ são as variáveis de folga do modelo e $r_{k}$ é o retorno do ativo, conforme [5].
 
 O script da modelagem na programação Julia, que engloba os modelos Markowitz, Markowitz com limite superior de risco (mínimo de risco), Markowitz com limite inferior de retorno esperado (máximo de retorno) e Markowitz Multi-Objetivo (mixed), é apresentado a seguir. Neste script também se usa os otimizadores Ipopt e Cbc.
@@ -249,21 +249,21 @@ No modelo CVaR também podemos considerar restrições com limite superior de ri
 
 O modelo fracionário, também conhecido por modelo racional, é um modelo com taxa de retorno sobre o risco [3]. Este modelo simultaneamente minimiza o risco e maximiza o retorno esperado da carteira de ações obtida. Como nos outros modelos obtemos uma combinação de pesos, para obter uma carteira ótima. Este modelo pode ser formulado da seguinte maneira
 
-$$ {\displaystyle {\begin{aligned}&{\underset {x, \alpha, u}{\operatorname {maximize} }}&&\frac{-\hat{y}^T x}{CVaR_{\beta}} = \frac{\mu^T x}{\alpha + \frac{1}{q(1 - \beta)} \sum_{k = 1}^{q} u_k}\\
+$$ \begin{equation} {\displaystyle {\begin{aligned}&{\underset {x, \alpha, u}{\operatorname {maximize} }}&&\frac{-\hat{y}^T x}{CVaR_{\beta}} = \frac{\mu^T x}{\alpha + \frac{1}{q(1 - \beta)} \sum_{k = 1}^{q} u_k}\\
     &\operatorname {sujeito\;a} &&u_k + x^T r_k + \alpha \geq 0, k = 1, \dots, q,\\
     &&&\sum_{i} x_{i} = 1, i = 1, \dots, n,\\
     &&&u_k \geq 0, k = 1, \dots, q,\\
-    &&&x \geq 0,\end{aligned}}} $$
+    &&&x \geq 0,\end{aligned}}} \end{equation} $$
 
 Vejamos que este modelo possui a função objetivo de forma não linear, o que computacionalmente não é muito bom, porque no geral os modelos não lineares usam mais processamento e memória do computador. Desta forma, conforme Warren Hare e autores, em [3], utilizamos uma transformação para coverter o modelo fracionário não linear, num modelo linear, ou seja, transformamos o problema de otimização não linear em um não linear.
 
 Primeiramente, para converter o modelo em linear colocamos na forma matricial.
 
-$$ {\displaystyle {\begin{aligned}&{\underset {x, \alpha, u}{\operatorname {maximize} }}&&\frac{\mu^T x}{\alpha + \frac{1}{q(1 - \beta)} \sum_{k = 1}^{q} u_k} = \frac{[\hat{r}]^{T} [x]}{[p]^{T} [x]}\\
+$$ \begin{equation} {\displaystyle {\begin{aligned}&{\underset {x, \alpha, u}{\operatorname {maximize} }}&&\frac{\mu^T x}{\alpha + \frac{1}{q(1 - \beta)} \sum_{k = 1}^{q} u_k} = \frac{[\hat{r}]^{T} [x]}{[p]^{T} [x]}\\
     &\operatorname {sujeito\;a} &&u_k + x^T r_k + \alpha \geq 0, k = 1, \dots, q <=> [A] [x] \leq 0,\\
     &&&\sum_{i} x_{i} = 1, i = 1, \dots, n,\\
     &&&u_k \geq 0, k = 1, \dots, q,\\
-    &&&x \geq 0,\end{aligned}}} $$
+    &&&x \geq 0,\end{aligned}}} \end{equation} $$
 onde $[\hat{r}] = \begin{bmatrix}
 -\widehat{y_{1k_{1}}}\\ 
 -\widehat{y_{1k_{2}}}\\ 
@@ -292,13 +292,13 @@ onde $[\hat{r}] = \begin{bmatrix}
 
 Em seguida usamos a transformação de variável $[z] = t [x], t = \frac{1}{[p]^{T} [x]}$, segundo a abordagem de Charmes e Cooper's [4]. Consequentemente, o modelo de forma matricial anterior com a transformação resulta no modelo fracionário linear, que buscamos que obtemos a seguinte formulação
 
-$$ {\displaystyle {\begin{aligned}&{\underset {x, \alpha, u}{\operatorname {maximize} }}&&\sum_{i = 1}^{n} \mu_{i}^{T} z_{i}  =\mu^{T} z\\
+$$ \begin{equation} {\displaystyle {\begin{aligned}&{\underset {x, \alpha, u}{\operatorname {maximize} }}&&\sum_{i = 1}^{n} \mu_{i}^{T} z_{i}  =\mu^{T} z\\
         &\operatorname {sujeito\;a} &&\alpha' + \frac{1}{q (1 - \beta)} \sum_{k = 1}^{q} u_{k}' = 1,\\
         &&&u_k' + z^T r_k + \alpha' \geq 0, k = 1, \dots, q,\\
         &&&\sum_{i} z_{i} = t,\\
         &&&u_k' \geq 0, k = 1, \dots, q,\\
         &&&z \in [0, t],\\
-        &&&t \geq 0,\end{aligned}}} $$
+        &&&t \geq 0,\end{aligned}}} \end{equation} $$
 <!-- $\alpha' = \alpha t$, $u_k' = u_k t$ -->
 onde $CVaR_{\beta} = 1 / t$ e a solução ótima dada por $\left [ x^{*} \right ] = \left [ z^{*} \right ] / t^{*}$.
 
