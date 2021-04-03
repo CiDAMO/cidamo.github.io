@@ -9,7 +9,7 @@ author: Fillipe Rafael Bianek Pierin
 ## **Introdução**
 O problema de otimização de carteiras consiste na escolha dos melhores investimentos em um conjunto de ativos possíveis. Os investidores buscam uma carteira que gera o menor risco e maior retorno, porém isso nem sempre é possível. Desta forma, na prática se procura equilibrar o retorno monetário e o risco de perdas.
 
-Ao considerar ativos e carteiras num horizonte de tempo, o investidor deve levar em consideração que nesse processo existem vários riscos do mercado, como citado, de crédito e operações. Desta forma, a diversificação dos ativos escolhidos é necessária para que o risco seja diminuído, possibilitando o aumento do retorno obtido na carteira de ativos.
+Ao considerar ativos e carteiras num horizonte de tempo, o investidor deve levar em consideração que nesse processo existem vários riscos do mercado, de crédito e de operações. Desta forma, a diversificação dos ativos escolhidos é necessária para que o risco seja diminuído, possibilitando o aumento do retorno obtido na carteira de ativos.
 
 Neste projeto consideramos o modelo fracionário (racional) [3], para fazer a otimização de carteira de ações ou ativos. Este modelo fracionário otimiza o retorno da carteira minimizando o risco da mesma, simultaneamente. Para a análise dos modelos, utilizamos ativos de várias bolsas de valores, comparando os resultados por bolsa de valores ou modelos. Anteriormente ao uso do modelo fracionário, comparamos os ativos das bolsas de valores usando o modelo de Markowitz e o modelo CVaR. Além disso, consideramos o modelo Markowitz Multi-Objetivo para fazer a fronteira eficiente e respectiva análise.
 
