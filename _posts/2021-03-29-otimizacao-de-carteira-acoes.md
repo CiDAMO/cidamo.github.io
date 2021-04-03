@@ -24,7 +24,7 @@ Os dados compreendem sete base de dados de diferentes bolsa de valores com seus 
 
 Os dados das bases, em csv, foram obtidos através de Web Scraping, do site do Yahoo Finance [11], usando o pacote yfinance da linguagem de programação Python [9]. Nas bases de dados somente foi considerado os ativos que possuem dados em todos os dias em que houve pregão na cidade específica da bolsa de valores em questão. Por isso, a quantidade de ações que compõem as bolsas é diferente.
 
-As análises e implementações dos modelos de otimização de ações foram realizadas na linguagem de programação Julia [2]. O pacote com as funções implementadas e testes podem ser obtidos em https://github.com/CiDAMO/PortfolioOptimization.jl e os códigos do script em https://github.com/fillipepierin/IC-Otimizacao-de-Carteiras-de-Acoes.
+As análises e implementações dos modelos de otimização de ações foram realizadas na linguagem de programação Julia [2]. O pacote com as funções implementadas e testes podem ser obtidos em [github.com/CiDAMO/PortfolioOptimization.jl](https://github.com/CiDAMO/PortfolioOptimization.jl) e os códigos do script em [github.com/fillipepierin/IC-Otimizacao-de-Carteiras-de-Acoes](https://github.com/fillipepierin/IC-Otimizacao-de-Carteiras-de-Acoes).
 
 ## **Metodologia - Modelos**
 
