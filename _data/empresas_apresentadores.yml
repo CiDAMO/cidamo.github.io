@@ -58,19 +58,22 @@ empresas:
         linkedin: https://www.linkedin.com/in/priscilla-wagner/
         title: Cientista de Dados
   - nome: O Boticário
+
     logoemp: "boticario.png"
     numero: 1
     membros:
       - nome: "Maristela Salles"
         linkedin: https://www.linkedin.com/in/maristela-salles/
         title: Gerente de Ciência de Dados
+        logo: mariestela.png
   - nome: Pacer
-    logoemp: "pacer.png"
+    logoemp: "pacer.jpg"
     numero: 1
     membros:
       - nome: "Guinther Kovalski"
         linkedin: https://www.linkedin.com/in/guinther-kovalski/
         title: Engenheiro de Aprendizagem de Máquinas
+        logo: guinter.jpg
   - nome: Bosch
     logoemp: "bos.png"
     numero: 2
@@ -83,21 +86,21 @@ empresas:
         linkedin: https://www.linkedin.com/in/rodrigo-meira-de-andrade-b8b147aa/
         title: Engenheiro de Tecnologia e Inovação
         logo: rodrigo.jpg
-  - nome: Kimberly-Clark
-    logoemp: "kimberly.png"
-    numero: 1
-    membros:
-      - nome: "Pedro Tardivo"
-        linkedin: https://www.linkedin.com/in/pedrotardivo/
-        title: Gerente de Planejamento de Demandas
-  - nome: Nestlé
-    logoemp: "nestle.png"
-    numero: 1
-    membros:
-      - nome: "Natalia Hamaue Togni"
-        linkedin: https://www.linkedin.com/in/natalia-hamaue-togni-aa9b3058/
-        title: Gerente Planejamento de Demanda
-  - nome: Porto Seguro
+#  - nome: Kimberly-Clark
+#    logoemp: "kimberly.png"
+#    numero: 1
+ #   membros:
+  #    - nome: "Pedro Tardivo"
+   #     linkedin: https://www.linkedin.com/in/pedrotardivo/
+    #    title: Gerente de Planejamento de Demandas
+#  - nome: Nestlé
+#    logoemp: "nestle.png"
+#    numero: 1
+#    membros:
+#      - nome: "Natalia Hamaue Togni"
+#        linkedin: https://www.linkedin.com/in/natalia-hamaue-togni-aa9b3058/
+#        title: Gerente Planejamento de Demanda
+#  - nome: Porto Seguro
     logoemp: "p_seguro.png"
     numero: 2
     membros:
