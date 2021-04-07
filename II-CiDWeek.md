@@ -58,13 +58,12 @@ Os autores dos trabalhos selecionados pelo comitê científico do evento serão 
 Algumas empresas farão apresentações no evento, abordando temas como: problemas práticos resolvidos dentro da empresa, vagas e regras dos processos de contratação e estágio, ambiente de trabalho na empresa, desafios diários enfrentados por um cientista de dados, tipos de parcerias com a comunidade acadêmica que a empresa tem ou deseja iniciar, problemas que ainda estão em aberto, dentre outros.
 
 Teremos a participação de 12 representantes de empresas, dentre os quais estão:
-
 <div class="container_em">
 {% for em in site.data.empresas_apresentadores.empresas %}
   <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
     <div class="empresa_layout">
     {% if em.logoemp%}
-        <img class="empresa-logo" src="/img/cidweek-empresas/{{ em.logoemp }}">
+        <img class="empresa-logo" alt="{{em.nome}}" title="{{em.nome}}" src="/img/cidweek-empresas/{{ em.logoemp }}">
     {% endif %}
     <!-- <span class="nome-titulo-empresa">{{ em.nome }}</span><br> -->
     <div class="palestrantes_empresa">
