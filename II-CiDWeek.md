@@ -22,7 +22,10 @@ Sejam bem-vindos à página da 2ª **CiDWeek**, a semana de Ciência de Dados do
 - Apresentações de empresas com forte atuação em Ciência de Dados e que contratam profissionais nesta área;
 - Apresentações de alunos de graduação, pós-graduação e especialização, que terão a oportunidade de compartilhar com a comunidade os trabalhos que vêm desenvolvendo.
 
+A CiDWeek será transmitida no nosso Canal no <a href="https://www.youtube.com/channel/UCiVFjGGCh63QZ3-kswfQdRw" target="_blank">Youtube</a>, então se inscreva e marque na agenda!
+
 Contamos com sua participação!
+
 
 ### Inscrições e Submissão de Currículos
 
