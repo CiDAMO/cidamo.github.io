@@ -91,6 +91,8 @@
   <meta property="og:image" content="{{ page.share-img }}" />
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.avatar | absolute_url }}" />
+  {% else %}
+  <meta property="og:image" content="/img/logo-sqr.jpg" />
   {% endif %}
 
 
@@ -119,6 +121,8 @@
   <meta name="twitter:image" content="{{ page.share-img }}" />
   {% elsif site.avatar %}
   <meta name="twitter:image" content="{{ site.avatar | absolute_url }}" />
+  {% else %}
+  <meta name="twitter:image" content="/img/logo-sqr.jpg" />
   {% endif %}
 
   {% if site.matomo %}
