@@ -97,3 +97,11 @@ empresas:
         linkedin: 
         title: Cientista de Dados
         logo: lilian.jpg
+  - nome: B2W
+    logoemp: "b2w.png"
+    numero: 1
+    membros:
+      - nome: "Tiago Andrade"
+        linkedin: https://br.linkedin.com/in/andradetf
+        title: Head of Big Data & Analytics
+        logo: tiago.jpg
