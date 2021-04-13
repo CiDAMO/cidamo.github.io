@@ -208,8 +208,9 @@ Foram convidados palestrantes com muito domínio sobre os tópicos referentes à
     <div class="backside">
                <div class="card">
                   <div class="card-body text-center mt-4">
-                     <h4 class="card-title">Resumo</h4>
-                     <p class="card-text">.........</p>
+                    <!-- <h4 class="card-title">Resumo</h4> -->
+                     <p class="card-title">{{ p.abstract.title }} </p><br>
+                     <p class="card-text">{{ p.abstract.content }}</p>
                      <ul class="list-inline">
                         <div class="card-info">
                            {% if p.linkedin %}
