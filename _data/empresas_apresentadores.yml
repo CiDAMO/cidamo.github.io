@@ -1,12 +1,8 @@
 empresas:
   - nome: Contabilizei
     logoemp: "contab.png"
-    numero: 3
+    numero: 2
     membros:
-      - nome: Frederico Horst
-        linkedin: https://www.linkedin.com/in/fredericohorst/
-        title: Especialista de Dados
-        logo: frederico.jpg
       - nome: Jeoronei Ribinski
         linkedin: https://www.linkedin.com/in/jeoronei-ribinski/
         title: Engenheiro de Dados
@@ -97,3 +93,11 @@ empresas:
         linkedin: 
         title: Cientista de Dados
         logo: lilian.jpg
+  - nome: B2W
+    logoemp: "b2w.png"
+    numero: 1
+    membros:
+      - nome: "Tiago Andrade"
+        linkedin: https://br.linkedin.com/in/andradetf
+        title: Head of Big Data & Analytics
+        logo: tiago.jpg
