@@ -1,12 +1,8 @@
 empresas:
   - nome: Contabilizei
     logoemp: "contab.png"
-    numero: 3
+    numero: 2
     membros:
-      - nome: Frederico Horst
-        linkedin: https://www.linkedin.com/in/fredericohorst/
-        title: Especialista de Dados
-        logo: frederico.jpg
       - nome: Jeoronei Ribinski
         linkedin: https://www.linkedin.com/in/jeoronei-ribinski/
         title: Engenheiro de Dados
