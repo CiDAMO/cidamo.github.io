@@ -1282,7 +1282,7 @@ body {
   vertical-align:middle
 }
 .prog-cidweek-ii .td_empresas{
-  background: repeating-linear-gradient(90deg, #b3d6db, #b3d6db 5px, #cbedf3 5px, #cbedf3 10px);
+  background: repeating-linear-gradient(90deg, #8dc6ec, #8dc6ec 5px, #cbedf3 5px, #cbedf3 10px);
   height: 5em;
   text-align:center;
   vertical-align:middle
@@ -1294,8 +1294,9 @@ body {
   text-align:center;
   vertical-align:middle
 }
-.prog-cidweek-ii .td_palestrantes span {
-  background-color: rgba(255, 255, 255, 0.5);
+.prog-cidweek-ii span {
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .prog-cidweek-ii .td_apresentacao{
   background: repeating-linear-gradient(45deg, #ff9d9d, #ff9d9d 5px, #f6c4c4 5px, #f6c4c4 10px);
@@ -1318,6 +1319,9 @@ body {
   text-align:center;
   vertical-align:top;
   font-weight: normal;
+}
+#legenda td {
+  height: 0px;
 }
 
 .container_em{

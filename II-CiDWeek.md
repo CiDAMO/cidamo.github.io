@@ -44,18 +44,18 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
 <table class="prog-cidweek-ii" id="legenda">
 <thead>
   <tr>
-    <th colspan="3" class="td_legenda"><span>Legenda:</span></th>
+    <th colspan="3" class="td_legenda">Legenda:</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td class="td_encerramento"><span>Organizadores</span></td>
     <td class="td_empresas"><span>Empresas</span></td>
-    <td class="td_palestrantes"><span><span>Palestrantes</span></span></td>
+    <td class="td_palestrantes"><span>Palestrantes</span></td>
   </tr>
   <tr>
     <td class="td_apresentacao"><span>Alunos</span></td>
-    <td class="td_intervalo"><span >Intervalo</span></td>
+    <td class="td_intervalo"><span>Intervalo</span></td>
     <td class="td_mesa_redonda"><span>Mesa redonda</span></td>
   </tr>
 </tbody>
@@ -81,7 +81,7 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
     <td class="td_space"></td>
     <td class="td_space"></td>
     <td class="td_space"></td>
-    <td class="td_apresentacao">Apresentações de Alunos</td>
+    <td class="td_apresentacao"><span>Apresentações de Alunos</span></td>
   </tr>
   <tr>
     <td class="td_horario">12:10</td>
@@ -95,35 +95,35 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
     <td class="td_horario">13:30</td>
     <td class="td_space"></td>
     <td class="td_space"></td>
-    <td class="td_empresas" rowspan="2">James Delivery</td>
-    <td class="td_empresas" rowspan="2">Ebanx</td>
-    <td class="td_empresas" rowspan="2">B2W</td>
+    <td class="td_empresas" rowspan="2"><span>James Delivery</span></td>
+    <td class="td_empresas" rowspan="2"><span>Ebanx</span></td>
+    <td class="td_empresas" rowspan="2"><span>B2W</span></td>
   </tr>
   <tr>
     <td class="td_horario">14:15</td>
-    <td class="td_encerramento">Abertura</td>
-    <td class="td_apresentacao" rowspan="4">Apresentações de Alunos</td>
+    <td class="td_encerramento"><span>Abertura</span></td>
+    <td class="td_apresentacao" rowspan="4"><span>Apresentações de Alunos</span></td>
   </tr>
   <tr>
     <td class="td_horario">14:30</td>
     <td class="td_palestrantes"><span>Angela Bassa</span></td>
-    <td class="td_empresas">Neural Med</td>
-    <td class="td_empresas">Magalu</td>
-    <td class="td_empresas">Math Analytics</td>
+    <td class="td_empresas"><span>Neural Med</span></td>
+    <td class="td_empresas"><span>Magalu</span></td>
+    <td class="td_empresas"><span>Math Analytics</span></td>
   </tr>
   <tr>
     <td class="td_horario">15:30</td>
     <td class="td_palestrantes"><span>Francisco Louzada</span></td>
-    <td class="td_empresas">Contabilizei</td>
-    <td class="td_empresas">Pacer</td>
-    <td class="td_empresas">Porto Seguro</td>
+    <td class="td_empresas"><span>Contabilizei</span></td>
+    <td class="td_empresas"><span>Pacer</span></td>
+    <td class="td_empresas"><span>Porto Seguro</span></td>
   </tr>
   <tr>
     <td class="td_horario">16:30</td>
     <td class="td_palestrantes"><span>Anderson Soares</span></td>
-    <td class="td_empresas">Grupo Boticário</td>
-    <td class="td_empresas">A confirmar</td>
-    <td class="td_empresas">Bosch</td>
+    <td class="td_empresas"><span>Grupo Boticário</span></td>
+    <td class="td_empresas"><span>A confirmar</span></td>
+    <td class="td_empresas"><span>Bosch</span></td>
   </tr>
   <tr>
     <td class="td_horario">17:30</td>
@@ -131,7 +131,7 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
     <td class="td_intervalo">Intervalo</td>
     <td class="td_intervalo">Intervalo</td>
     <td class="td_intervalo">Intervalo</td>
-    <td class="td_encerramento">Encerramento</td>
+    <td class="td_encerramento"><span>Encerramento</span></td>
   </tr>
   <tr>
     <td class="td_horario">19:30</td>
