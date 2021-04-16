@@ -1085,6 +1085,42 @@ article p {
   background-color: #666;
 }
 
+
+
+/* Resumos */
+.nome-resumo
+{
+  margin-left: 20px;
+  font-size: 1.6em;
+  color: blue;
+}
+.titulo-resumo
+{
+  top: 10px;
+  font-size: 0.9em;
+  position: relative;
+  color: orange;
+}
+.resumo{
+  height: auto;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  border: thin solid blue;
+}
+.logo-resumo{
+  max-width: 7em;
+  border-radius: 100%;
+  border: 3px solid #1893f8;
+  box-shadow: 0;
+  margin-left: 0;
+  position: relative;
+}
+
+
+
+
+
 .aulas {
   background-color: #aac8ef;
   transition: background 0.3s;
