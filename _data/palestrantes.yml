@@ -1,59 +1,83 @@
 - nome: "Andressa Freires"
   empresa: PicPay
   logo: andressa.jpg
-  #logoemp: PicPay.jpg
   title: Cientista de Dados na PicPay e Palestrante de Diversidade e Inclusão
   linkedin: https://www.linkedin.com/in/andressafreires/
+
 - nome: "Angela Bassa"
   empresa: iRobot
   logo: angela.jpg
-  #logoemp: irobot.jpg
   title: Diretora Sênior em Analytics e Ciência de Dados na iRobot
   linkedin: https://www.linkedin.com/in/angelabassa/
+  abstract: 
+    title: "Lições Selecionadas de uma Carreira na Ciência de Dados" 
+    content: "Será uma conversa durante a qual tentarei compartilhar algumas das mais salientes experiências e quebra-cabeças que encontrei nos últimos quase vinte anos de trabalho no campo."
+
 - nome: "Eduardo Ferreira"
   empresa: DEST - Universidade Federal do Paraná (UFPR)
   logo: eduardo.png
   title: Professor do Departamento de Estatística - UFPR
   linkedin: http://lattes.cnpq.br/6295059687055801
+  abstract: 
+    title: "A importância da interpretabilidade na análise de dados" 
+    content: "O entendimento e interpretação das decisões de classificação em algoritmos complexos de Machine Learning é imprescindível na maioria das aplicações, pois permite verificar o raciocínio do sistema e fornecer informações adicionais ao especialista humano. Embora os métodos não lineares como Deep Learning têm resolvido com sucesso uma variedade de tarefas, eles têm, na maioria dos casos, a desvantagem de agir como uma “caixa-preta”, fornecendo pouca informação sobre o que levou a máquina à determinada decisão. Essa apresentação visa abordar a interpretabilidade em diferentes contextos da Análise de Dados, sua importância, bem como algumas técnicas para esse fim."
+
 - nome: "Téo Calvo"
   empresa: Téo Me Why e Gamers Club
   logo: teo.jpg
-  #logoemp: 
   title: Streamer e Head of Data na Gamers Club
   linkedin: https://www.linkedin.com/in/teocalvo/
+  abstract:
+    title: "Da UNESP à Twitch"
+    content: '"Seja um professor! Por favor seja um professor! Mesmo que você não seja um professor, seja um professor.
+Divida suas ideias, não faça pouco de sua educação. Alegre-se com o que você aprendeu e espalhe" - Tim Minchin
+O aprendizado é duro às vezes. Mas será que conseguimos minimizar isso?
+Conforme trilhamos o caminho acadêmico, temos a possibilidade de compartilhar nossas experiências com várias pessoas. Seja com algum tipo de motivação ou a forma de tratar determinado conteúdo.
+No meu caso, mesmo após o período acadêmico, gostaria de continuar compartilhando meus aprendizados, levando de uma forma diferente os conceitos adquiridos durante minha jornada.
+Nesta palestra vamos conhecer um pouco mais os detalhes deste processo, e claro, convidá-los para também serem professores.'
+
 - nome: "Francisco Louzada"
   empresa: CeMEAI / USP
   logo: francisco.jpg
-  #logoemp: Cemeai.png
   title: Diretor do MBA em Data Science da USP
   linkedin: https://www.linkedin.com/in/francisco-louzada-639048b7/
+
 - nome: "Anderson Soares"
   empresa: CEIA - Centro de Excelência em Inteligência Artificial
   logo: anderson.png
-  #logoemp: 
   title: Gerente Geral do CEIA
   linkedin: https://www.linkedin.com/in/inteligenciaartificialbrasil/
+  abstract: 
+    title: "Big Data e Inteligência Artificial: desafios e oportunidades em um mundo orientado a dados" 
+    content: "Nesta palestra vamos discutir o que nos trouxe até este momento onde a IA está presente no mais comuns dos cotidianos. Apresentaremos diversos estudos de caso de produtos desenvolvidos pelo CEIA."
+
 - nome: "Larissa Xavier"
   empresa: Accenture
   logo: larissa_xavier.jpg
-  #logoemp: 
   title: Data Scientist Consultant
   linkedin: https://www.linkedin.com/in/larissa-xavier-de-melo/
+
 - nome: "Ana Caroline Sanchez Silva"
   empresa: Microsoft
   logo: ana_caroline.jpg
   title: Cloud Solution Architect
   linkedin: https://www.linkedin.com/in/anacaroliness9/
+  abstract: 
+    title: "Mas afinal, o que é Big Data?" 
+    content: "Muitos dizem que dados são o novo petróleo, isso porque é possível transformá-los em informações de grande valor para os mais diversos setores da economia e da sociedade. Porém, não é uma tarefa simples, pois como petróleo, é necessário refiná-los para extrairmos o valor. Nessa palestra será abordado o que é Big Data e como ele pode ajudar na transformação de dados brutos em informações valiosas. Também será apresentado alguns casos de uso, quais são as profissões envolvidas nesses projetos e como iniciar na área."
+
 - nome: "Erika Nagamine"
   empresa: 
   logo: erika.jpg
   title: Cloud Solutions Architect
   linkedin: https://www.linkedin.com/in/erikanagamine/
+  abstract: 
+    title: "Cloud + Dados será uma combinação possível?" 
+    content: "O que é computação em nuvem e como ela pode ajudar no dia a dia de profissionais que lidam com dados."
+
 #- nome: "Sofia Marshallowitz Apuzzo"
 #  empresa: QuintoAndar e Lawgorithm
-#  logo: 
+ # logo: 
 #  title: Especialista em Privacidade de Dados na QuintoAndar e Pesquisadora em I.A. e Lei na Lawgorithm
 #  linkedin: https://www.linkedin.com/in/marshallowitz/
-
-
 

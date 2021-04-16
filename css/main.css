@@ -1090,26 +1090,33 @@ article p {
 /* Resumos */
 .nome-resumo
 {
-  margin-left: 20px;
   font-size: 1.6em;
   color: blue;
+  font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 .titulo-resumo
 {
   top: 10px;
-  font-size: 0.9em;
   position: relative;
   color: orange;
+  font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 .resumo{
   height: auto;
   padding: 20px;
   width: 100%;
   position: relative;
-  border: thin solid blue;
+}
+.resumo span {
+  position: relative;
+  top: 10px;
 }
 .logo-resumo{
   max-width: 7em;
+  display: block;
   border-radius: 100%;
   border: 3px solid #1893f8;
   box-shadow: 0;
