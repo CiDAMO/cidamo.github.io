@@ -1060,7 +1060,7 @@ article p {
   color: #1893f8;
 }
 .estilo-empresa:hover .empresa-titulo {
- 
+
   color: #777;
 }
 .estilo-empresa:hover .pessoa-logo_empresa{
@@ -1238,6 +1238,7 @@ body {
 .prog-cidweek-ii {
   font-family: Lato;
   font-size: 12px;
+  font-weight: bold;
 }
 #legenda{
   width: 100%;
@@ -1258,6 +1259,14 @@ body {
 .prog-cidweek-ii td {
   background-color: #fff;
 }
+
+.col-horario {
+  width: 10%;
+}
+.col-dia {
+  width: 18%;
+}
+
 .td_legenda{
   text-align:center;
   vertical-align:middle
@@ -1274,18 +1283,24 @@ body {
 }
 .prog-cidweek-ii .td_empresas{
   background: repeating-linear-gradient(90deg, #b3d6db, #b3d6db 5px, #cbedf3 5px, #cbedf3 10px);
+  height: 5em;
   text-align:center;
   vertical-align:middle
 }
 .prog-cidweek-ii .td_palestrantes{
   background: repeating-linear-gradient(-45deg, #bbb0d6, #bbb0d6 5px, #ded1ff 5px, #ded1ff 10px);
+  height: 5em;
   /* background-color:#B4A7D6; */
   text-align:center;
   vertical-align:middle
 }
+.prog-cidweek-ii .td_palestrantes span {
+  background-color: rgba(255, 255, 255, 0.5);
+}
 .prog-cidweek-ii .td_apresentacao{
   background: repeating-linear-gradient(45deg, #ff9d9d, #ff9d9d 5px, #f6c4c4 5px, #f6c4c4 10px);
   /* background-color:#FF9D9D; */
+  height: 5em;
   text-align:center;
   vertical-align:middle
 }
@@ -1301,7 +1316,8 @@ body {
 .prog-cidweek-ii .td_intervalo{
   background-color:#eee;
   text-align:center;
-  vertical-align:top
+  vertical-align:top;
+  font-weight: normal;
 }
 
 .container_em{
@@ -1313,7 +1329,6 @@ body {
   overflow: hidden;
 }
 .caixa_empresa{
-
   /*float: left;
   width: 33%;*/
   min-height: auto;
@@ -1336,6 +1351,3 @@ body {
     display: none;
   }
 }
-
-
-

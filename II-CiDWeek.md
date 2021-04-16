@@ -33,7 +33,7 @@ Contamos com sua participação!
 
 A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para as inscrições, bem como as datas a serem observadas.
 -   **Inscrição para a CiDWeek:** a partir de 15/03/2021. <a href="https://forms.gle/kBRHJUBY7DfXwzCJ7" target="_blank">Clique aqui.</a>
--   **Inscrições para apresentar na CiDWeek:** de 15/03/2021 a 05/04/2021. <a href="https://forms.gle/WvNkhUPfRtVzqXxN6" target="_blank">Clique aqui.</a> 
+-   **Inscrições para apresentar na CiDWeek:** de 15/03/2021 a 05/04/2021. <a href="https://forms.gle/WvNkhUPfRtVzqXxN6" target="_blank">Clique aqui.</a>
     -- **Obs:** note que os alunos que desejam apresentar trabalhos precisam preencher os dois formulários acima. Além disso, será necessário e envio do título do trabalho e de um resumo. Para mais detalhes, consulte abaixo a seção **Apresentações de Alunos**.
 
 -   **Submissão posterior de currículo:** a partir de 15/03/2021. Apenas para quem deseja enviar currículo às empresas participantes porém não o fez durante a inscrição. <a href="https://forms.gle/2n8kzXBfm9KsL8d89" target="_blank">Clique aqui.</a>
@@ -51,7 +51,7 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
   <tr>
     <td class="td_encerramento"><span>Organizadores</span></td>
     <td class="td_empresas"><span>Empresas</span></td>
-    <td class="td_palestrantes"><span>Palestrantes</span></td>
+    <td class="td_palestrantes"><span><span>Palestrantes</span></span></td>
   </tr>
   <tr>
     <td class="td_apresentacao"><span>Alunos</span></td>
@@ -61,16 +61,17 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
 </tbody>
 </table>
 
+---
 
 <table class="prog-cidweek-ii">
 <thead>
   <tr>
-    <th class="td_space">Horário</th>
-    <th class="td_space">Segunda (26/04)</th>
-    <th class="td_space">Terça (27/04)</th>
-    <th class="td_space">Quarta (28/04)</th>
-    <th class="td_space">Quinta (29/04)</th>
-    <th class="td_space">Sexta (30/04)</th>
+    <th class="col-horario td_space">Horário</th>
+    <th class="col-dia td_space">Segunda (26/04)</th>
+    <th class="col-dia td_space">Terça (27/04)</th>
+    <th class="col-dia td_space">Quarta (28/04)</th>
+    <th class="col-dia td_space">Quinta (29/04)</th>
+    <th class="col-dia td_space">Sexta (30/04)</th>
   </tr>
 </thead>
 <tbody>
@@ -80,14 +81,14 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
     <td class="td_space"></td>
     <td class="td_space"></td>
     <td class="td_space"></td>
-    <td class="td_apresentacao">Apresentação de Alunos</td>
+    <td class="td_apresentacao">Apresentações de Alunos</td>
   </tr>
   <tr>
     <td class="td_horario">12:10</td>
     <td class="td_space"></td>
     <td class="td_space"></td>
-    <td class="td_intervalo">Intervalo</td>
-    <td class="td_intervalo">Intervalo</td>
+    <td class="td_space"></td>
+    <td class="td_space"></td>
     <td class="td_intervalo">Intervalo</td>
   </tr>
   <tr>
@@ -101,35 +102,27 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
   <tr>
     <td class="td_horario">14:15</td>
     <td class="td_encerramento">Abertura</td>
-    <td class="td_apresentacao" rowspan="3">Apresentação de Alunos</td>
+    <td class="td_apresentacao" rowspan="4">Apresentações de Alunos</td>
   </tr>
   <tr>
     <td class="td_horario">14:30</td>
-    <td class="td_palestrantes" rowspan="2">Angela Bassa</td>
-    <td class="td_empresas" rowspan="2">Neural Med</td>
-    <td class="td_empresas" rowspan="2">Magalu</td>
-    <td class="td_empresas" rowspan="2">Math Analytics</td>
-  </tr>
-  <tr>
-    <td class="td_horario">14:50</td>
+    <td class="td_palestrantes"><span>Angela Bassa</span></td>
+    <td class="td_empresas">Neural Med</td>
+    <td class="td_empresas">Magalu</td>
+    <td class="td_empresas">Math Analytics</td>
   </tr>
   <tr>
     <td class="td_horario">15:30</td>
-    <td class="td_palestrantes" rowspan="2">Francisco Louzada</td>
-    <td class="td_intervalo">Intervalo</td>
-    <td class="td_empresas" rowspan="2">Contabilizei</td>
-    <td class="td_empresas" rowspan="2">Pacer</td>
-    <td class="td_empresas" rowspan="2">Porto Seguro</td>
-  </tr>
-  <tr>
-    <td class="td_horario">15:50</td>
-    <td class="td_apresentacao" rowspan="2" >Apresentação de Alunos</td>
+    <td class="td_palestrantes"><span>Francisco Louzada</span></td>
+    <td class="td_empresas">Contabilizei</td>
+    <td class="td_empresas">Pacer</td>
+    <td class="td_empresas">Porto Seguro</td>
   </tr>
   <tr>
     <td class="td_horario">16:30</td>
-    <td class="td_palestrantes">Anderson Soares</td>
+    <td class="td_palestrantes"><span>Anderson Soares</span></td>
     <td class="td_empresas">Grupo Boticário</td>
-    <td class="td_space"></td>
+    <td class="td_empresas">A confirmar</td>
     <td class="td_empresas">Bosch</td>
   </tr>
   <tr>
@@ -141,26 +134,18 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
     <td class="td_encerramento">Encerramento</td>
   </tr>
   <tr>
-    <td class="td_horario">17:45</td>
-    <td class="td_intervalo">Intervalo</td>
-    <td class="td_intervalo">Intervalo</td>
-    <td class="td_intervalo">Intervalo</td>
-    <td class="td_intervalo">Intervalo</td>
-    <td class="td_space"></td>
-  </tr>
-  <tr>
     <td class="td_horario">19:30</td>
-    <td class="td_space"></td>
-    <td class="td_palestrantes">Eduardo Vargas</td>
-    <td class="td_palestrantes">Ana Caroline Sanchez Silva</td>
-    <td class="td_palestrantes">Téo Calvo</td>
+    <td class="td_palestrantes"><span>A confirmar</span></td>
+    <td class="td_palestrantes"><span>Eduardo Vargas</span></td>
+    <td class="td_palestrantes"><span>Ana Caroline Sanchez Silva</span></td>
+    <td class="td_palestrantes"><span>Téo Calvo</span></td>
     <td class="td_space"></td>
   </tr>
   <tr>
     <td class="td_horario">20:30</td>
-    <td class="td_palestrantes">Andressa Freires</td>
-    <td class="td_palestrantes">Larissa de Melo</td>
-    <td class="td_palestrantes">Erika Nagamine</td>
+    <td class="td_palestrantes"><span>Andressa Freires</span></td>
+    <td class="td_palestrantes"><span>Larissa de Melo</span></td>
+    <td class="td_palestrantes"><span>Erika Nagamine</span></td>
     <td class="td_mesa_redonda">Mesa Redonda</td>
     <td class="td_space"></td>
   </tr>
@@ -216,7 +201,7 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
             <div class="estilo-empresa-data">
               <span class="nome">{{ p.nome }}</span><br>
               <span class="empresa-titulo">{{ p.title }}</span>
-            </div>        
+            </div>
         </div>
         </a>
     {% endfor %}
