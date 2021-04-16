@@ -146,7 +146,7 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
     <td class="td_palestrantes"><span>Andressa Freires</span></td>
     <td class="td_palestrantes"><span>Larissa de Melo</span></td>
     <td class="td_palestrantes"><span>Erika Nagamine</span></td>
-    <td class="td_mesa_redonda">Mesa Redonda</td>
+    <td class="td_mesa_redonda"><span>Mesa Redonda</span></td>
     <td class="td_space"></td>
   </tr>
 </tbody>

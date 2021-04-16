@@ -1274,7 +1274,7 @@ body {
 .prog-cidweek-ii .td_horario{
   background-color: #89C7FF;
   text-align:center;
-  vertical-align:top
+  vertical-align:middle;
 }
 .prog-cidweek-ii .td_encerramento{
   background: repeating-linear-gradient(0deg, #FFD966, #FFD966 5px, #ffebae 5px, #ffebae 10px);
@@ -1296,7 +1296,7 @@ body {
 }
 .prog-cidweek-ii span {
   padding: 2px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .prog-cidweek-ii .td_apresentacao{
   background: repeating-linear-gradient(45deg, #ff9d9d, #ff9d9d 5px, #f6c4c4 5px, #f6c4c4 10px);
