@@ -94,54 +94,40 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
     <td class="td_horario">13:30</td>
     <td class="td_space"></td>
     <td class="td_space"></td>
-    <td class="td_empresas">James Delivery</td>
-    <td class="td_empresas">Ebanx</td>
-    <td class="td_empresas">B2W</td>
+    <td class="td_empresas" rowspan="2">James Delivery</td>
+    <td class="td_empresas" rowspan="2">Ebanx</td>
+    <td class="td_empresas" rowspan="2">B2W</td>
   </tr>
   <tr>
     <td class="td_horario">14:15</td>
     <td class="td_encerramento">Abertura</td>
-    <td class="td_apresentacao">Palestra de Alunos</td>
-    <td class="td_empresas">James Delivery</td>
-    <td class="td_empresas">Ebanx</td>
-    <td class="td_empresas">B2W</td>
+    <td class="td_apresentacao" rowspan="3">Palestra de Alunos</td>
   </tr>
   <tr>
     <td class="td_horario">14:30</td>
-    <td class="td_palestrantes">Angela Bassa</td>
-    <td class="td_apresentacao">Palestra de Alunos</td>
-    <td class="td_empresas">Neural Med</td>
-    <td class="td_empresas">Magalu</td>
-    <td class="td_empresas">Math Analytics</td>
+    <td class="td_palestrantes" rowspan="2">Angela Bassa</td>
+    <td class="td_empresas" rowspan="2">Neural Med</td>
+    <td class="td_empresas" rowspan="2">Magalu</td>
+    <td class="td_empresas" rowspan="2">Math Analytics</td>
   </tr>
   <tr>
     <td class="td_horario">14:50</td>
-    <td class="td_palestrantes">Angela Bassa</td>
-    <td class="td_apresentacao">Palestra de Alunos</td>
-    <td class="td_empresas">Neural Med</td>
-    <td class="td_empresas">Magalu</td>
-    <td class="td_empresas">Math Analytics</td>
   </tr>
   <tr>
     <td class="td_horario">15:30</td>
-    <td class="td_palestrantes">Francisco Louzada</td>
+    <td class="td_palestrantes" rowspan="2">Francisco Louzada</td>
     <td class="td_intervalo">Intervalo</td>
-    <td class="td_empresas">Contabilizei</td>
-    <td class="td_empresas">Pacer</td>
-    <td class="td_empresas">Porto Seguro</td>
+    <td class="td_empresas" rowspan="2">Contabilizei</td>
+    <td class="td_empresas" rowspan="2">Pacer</td>
+    <td class="td_empresas" rowspan="2">Porto Seguro</td>
   </tr>
   <tr>
     <td class="td_horario">15:50</td>
-    <td class="td_palestrantes">Francisco Louzada</td>
-    <td class="td_apresentacao">Palestra de Alunos</td>
-    <td class="td_empresas">Contabilizei</td>
-    <td class="td_empresas">Pacer</td>
-    <td class="td_empresas">Porto Seguro</td>
+    <td class="td_apresentacao" rowspan="2" >Palestra de Alunos</td>
   </tr>
   <tr>
     <td class="td_horario">16:30</td>
     <td class="td_palestrantes">Anderson Soares</td>
-    <td class="td_apresentacao">Palestra de Alunos</td>
     <td class="td_empresas">Grupo Boticário</td>
     <td class="td_space"></td>
     <td class="td_empresas">Bosch</td>
