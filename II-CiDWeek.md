@@ -80,7 +80,7 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
     <td class="td_space"></td>
     <td class="td_space"></td>
     <td class="td_space"></td>
-    <td class="td_apresentacao">Palestras de alunos</td>
+    <td class="td_apresentacao">Apresentação de Alunos</td>
   </tr>
   <tr>
     <td class="td_horario">12:10</td>
@@ -101,7 +101,7 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
   <tr>
     <td class="td_horario">14:15</td>
     <td class="td_encerramento">Abertura</td>
-    <td class="td_apresentacao" rowspan="3">Palestra de Alunos</td>
+    <td class="td_apresentacao" rowspan="3">Apresentação de Alunos</td>
   </tr>
   <tr>
     <td class="td_horario">14:30</td>
@@ -123,7 +123,7 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
   </tr>
   <tr>
     <td class="td_horario">15:50</td>
-    <td class="td_apresentacao" rowspan="2" >Palestra de Alunos</td>
+    <td class="td_apresentacao" rowspan="2" >Apresentação de Alunos</td>
   </tr>
   <tr>
     <td class="td_horario">16:30</td>
