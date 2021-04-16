@@ -9,7 +9,7 @@ author: Grupo CiDAMO
 
 <div class="sidenav">
   <a  href="#inscricao" >Inscrição</a>
-  <!--<a  href="#programacao">Programação</a>-->
+  <a  href="#programacao">Programação</a>
   <a  href="#apresentacao">Apresentações de Alunos</a>
   <a  href="#palestra_em">Palestra de Empresas</a>
   <a  href="#palestras">Palestras</a>
@@ -40,7 +40,150 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
 
 
 ### Programação
-A Programação da CiDWeek estará disponível em breve...
+<div id="programacao"></div>
+<table class="prog-cidweek-ii" id="legenda">
+<thead>
+  <tr>
+    <th colspan="3" class="td_legenda"><span>Legenda:</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="td_encerramento"><span>Organizadores</span></td>
+    <td class="td_empresas"><span>Empresas</span></td>
+    <td class="td_palestrantes"><span>Palestrantes</span></td>
+  </tr>
+  <tr>
+    <td class="td_apresentacao"><span>Alunos</span></td>
+    <td class="td_intervalo"><span >Intervalo</span></td>
+    <td class="td_mesa_redonda"><span>Mesa redonda</span></td>
+  </tr>
+</tbody>
+</table>
+
+
+<table class="prog-cidweek-ii">
+<thead>
+  <tr>
+    <th class="td_space">Horário</th>
+    <th class="td_space">Segunda (26/04)</th>
+    <th class="td_space">Terça (27/04)</th>
+    <th class="td_space">Quarta (28/04)</th>
+    <th class="td_space">Quinta (29/04)</th>
+    <th class="td_space">Sexta (30/04)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="td_horario">10:30</td>
+    <td class="td_space"></td>
+    <td class="td_space"></td>
+    <td class="td_space"></td>
+    <td class="td_space"></td>
+    <td class="td_apresentacao">Palestras de alunos</td>
+  </tr>
+  <tr>
+    <td class="td_horario">12:10</td>
+    <td class="td_space"></td>
+    <td class="td_space"></td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_intervalo">Intervalo</td>
+  </tr>
+  <tr>
+    <td class="td_horario">13:30</td>
+    <td class="td_space"></td>
+    <td class="td_space"></td>
+    <td class="td_empresas">James Delivery</td>
+    <td class="td_empresas">Ebanx</td>
+    <td class="td_empresas">B2W</td>
+  </tr>
+  <tr>
+    <td class="td_horario">14:15</td>
+    <td class="td_encerramento">Abertura</td>
+    <td class="td_apresentacao">Palestra de Alunos</td>
+    <td class="td_empresas">James Delivery</td>
+    <td class="td_empresas">Ebanx</td>
+    <td class="td_empresas">B2W</td>
+  </tr>
+  <tr>
+    <td class="td_horario">14:30</td>
+    <td class="td_palestrantes">Angela Bassa</td>
+    <td class="td_apresentacao">Palestra de Alunos</td>
+    <td class="td_empresas">Neural Med</td>
+    <td class="td_empresas">Magalu</td>
+    <td class="td_empresas">Math Analytics</td>
+  </tr>
+  <tr>
+    <td class="td_horario">14:50</td>
+    <td class="td_palestrantes">Angela Bassa</td>
+    <td class="td_apresentacao">Palestra de Alunos</td>
+    <td class="td_empresas">Neural Med</td>
+    <td class="td_empresas">Magalu</td>
+    <td class="td_empresas">Math Analytics</td>
+  </tr>
+  <tr>
+    <td class="td_horario">15:30</td>
+    <td class="td_palestrantes">Francisco Louzada</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_empresas">Contabilizei</td>
+    <td class="td_empresas">Pacer</td>
+    <td class="td_empresas">Porto Seguro</td>
+  </tr>
+  <tr>
+    <td class="td_horario">15:50</td>
+    <td class="td_palestrantes">Francisco Louzada</td>
+    <td class="td_apresentacao">Palestra de Alunos</td>
+    <td class="td_empresas">Contabilizei</td>
+    <td class="td_empresas">Pacer</td>
+    <td class="td_empresas">Porto Seguro</td>
+  </tr>
+  <tr>
+    <td class="td_horario">16:30</td>
+    <td class="td_palestrantes">Anderson Soares</td>
+    <td class="td_apresentacao">Palestra de Alunos</td>
+    <td class="td_empresas">Grupo Boticário</td>
+    <td class="td_space"></td>
+    <td class="td_empresas">Bosch</td>
+  </tr>
+  <tr>
+    <td class="td_horario">17:30</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_encerramento">Encerramento</td>
+  </tr>
+  <tr>
+    <td class="td_horario">17:45</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_intervalo">Intervalo</td>
+    <td class="td_space"></td>
+  </tr>
+  <tr>
+    <td class="td_horario">19:30</td>
+    <td class="td_space"></td>
+    <td class="td_palestrantes">Eduardo Vargas</td>
+    <td class="td_palestrantes">Ana Caroline Sanchez Silva</td>
+    <td class="td_palestrantes">Téo Calvo</td>
+    <td class="td_space"></td>
+  </tr>
+  <tr>
+    <td class="td_horario">20:30</td>
+    <td class="td_palestrantes">Andressa Freires</td>
+    <td class="td_palestrantes">Larissa de Melo</td>
+    <td class="td_palestrantes">Erika Nagamine</td>
+    <td class="td_mesa_redonda">Mesa Redonda</td>
+    <td class="td_space"></td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
 
 ### Apresentações de Alunos
 <div id="apresentacao"></div>
@@ -96,65 +239,6 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
   </div>
 {% endfor %}
 </div>
-<!--<div class="container_em">
-   <div class="row">
-   {% for p in site.data.empresas_cidweek %}
-   <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
-      <a class="empresa-link" href="{{ p.linkedin }}" target="_blank">
-      <div class="empresa">
-      {% if p.logo%}
-      <img class="pessoa-logo" src="/img/cidweek-empresas/{{ p.logo }}">
-      {%else%}
-      <img class="pessoa-logo" src="/img/cidweek-empresas/speaker.png">
-      {% endif %}
-      {% if p.logoemp%}
-          <img class="empresa-logo" src="/img/cidweek-empresas/{{ p.logoemp }}">
-      {% endif %}
-      <br>
-      <span class="nome">{{ p.nome }}</span> <br>
-      <span class="nome-empresa">{{ p.empresa }}</span> <br>
-      <span class="empresa-titulo">{{ p.title }}</span>
-      </div>
-      </a>
-   </div>
-   {% endfor %}
-  </div>
-   <div style="clear:both"></div>
-</div>-->
-
-<!-- 
- 
-<div class="slideshow-container">
-
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="img1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="img2.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="img3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-The dots/circles 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>-->
 
 ### Palestras
 <div id="palestra"></div>
