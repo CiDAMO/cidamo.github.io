@@ -162,10 +162,10 @@ As apresentações de trabalhos de alunos terão duração de até 20 minutos e 
 
 Modelos de resumo :
 
-|  Tipo |                                                           Arquivo                                                           |
-|:-----:|:---------------------------------------------------------------------------------------------------------------------------:|
+| Tipo  |                                                           Arquivo                                                           |
+| :---: | :-------------------------------------------------------------------------------------------------------------------------: |
 | LaTeX | <a href="https://drive.google.com/file/d/1B2PIuyYSQH3ypMjFkj03BhaIJmfuyRcD/view?usp=sharing" target="_blank">Modelo.tex</a> |
-|  Word | <a href="https://drive.google.com/file/d/1lH2egK0rMSDWFKHpTo3IZ9DLBesa9sBc/view?usp=sharing" target="_blank">Modelo.doc</a> |
+| Word  | <a href="https://drive.google.com/file/d/1lH2egK0rMSDWFKHpTo3IZ9DLBesa9sBc/view?usp=sharing" target="_blank">Modelo.doc</a> |
 
 Os autores dos trabalhos selecionados pelo comitê científico do evento serão contactados num prazo de até duas semanas após o envio do resumo. O dia e horário da apresentação serão comunicados por e-mail e também ficarão disponíveis nesta página, fiquem atentos!
 
@@ -215,7 +215,7 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
 <div id="palestra"></div>
 Foram convidados palestrantes com muito domínio sobre os tópicos referentes às suas áreas de atuação. Será uma oportunidade única de refletir e aprender sobre a área de Ciência de Dados. Entre os temas abordados estarão empreendedorismo, parcerias universidade-empresas, questões de gênero e raça, avanços científicos em Aprendizagem de Máquina, entre outros. A lista (incompleta) dos palestrantes está abaixo.
 
-<div class="container_em">
+<!-- <div class="container_em">
    <div class="row">
    {% for p in site.data.palestrantes%}
    <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
@@ -238,8 +238,60 @@ Foram convidados palestrantes com muito domínio sobre os tópicos referentes à
    </div>
    {% endfor %}
   </div>
-</div>
+</div> -->
 
+<div class="container_em">
+  <div class="row">
+  {% for p in site.data.palestrantes%}
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="image-flip">
+      <div class="mainflip flip-0">
+        <div class="frontside">
+          <div class="card palestra">
+            <div class="card-body text-center">
+                {% if p.logo%}
+                  <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
+                {%else%}
+                  <img class="pessoa-logo" src="/img/cidweek-empresas/speaker.png">
+                {% endif %}
+                {% if p.logoemp%}
+                  <img class="empresa-logo" src="/img/cidweek-palestrantes/{{ p.logoemp }}">
+                {% endif %}
+                <br>
+                <span class="nome">{{ p.nome }}</span> <br>
+                <span class="nome-empresa">{{ p.empresa }}</span> <br>
+                <span class="empresa-titulo">{{ p.title }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="backside">
+          <div class="card">
+            <div class="card-body text-center mt-4">
+              {% if p.abstract %}
+                <p class="card-title">{{ p.abstract.title }} </p><br>
+                <p class="card-text">{{ p.abstract.content }}</p>
+              {%else%}
+                <p class="card-title">Resumo Não Disponível</p><br>
+                <p class="card-text">O resumo deste palestrante ainda não está disponível...</p>
+              {% endif %}
+              <div class="card-info">
+                <ul class="list-inline">
+                  {% if p.linkedin %}
+                    <a href="{{ p.linkedin }}" class="fa fa-2x fa-linkedin"></a>
+                  {% else %}
+                    <i class="fa fa-2x fa-linkedin fa-gray"></i>
+                  {% endif %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  </div>
+</div>
 
 
 ### Mesa Redonda
