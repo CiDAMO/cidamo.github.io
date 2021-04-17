@@ -11,26 +11,29 @@ Nessa página estão disponíveis os resumos correspondentes as apresentações 
 {% for p in site.data.palestrantes%}
       <hr>
 	<div class="resumo">
-      {% if p.logo%}
-      <img class="logo-resumo" src="/img/cidweek-palestrantes/{{ p.logo }}">
-      {%else%}
-      <img class="logo-resumo" src="/img/cidweek-empresas/speaker.png">
-      {% endif %}
-      <span class="nome-resumo">{{ p.nome }}</span>
-      <br>
-      <span class="titulo-resumo">{{ p.title }}</span>
-      <br>
-      {% if p.abstract%}
-      <span>
-      {{p.abstract.title}}
-      </span>
-      <span>
-      <br>
-      {{p.abstract.content}}
-      </span>
-      {%else%}
-      <span>Resumo ainda não disponível...</span>
-      {% endif %}
+            {% if p.logo%}
+                  <img class="logo-resumo" src="/img/cidweek-palestrantes/{{ p.logo }}">
+            {%else%}
+                  <img class="logo-resumo" src="/img/cidweek-empresas/speaker.png">
+            {% endif %}
+            <span class="nome-resumo">{{ p.nome }}</span>
+            <br>
+            <span class="titulo-pessoal-resumo">{{ p.title }}</span>
+            <br>
+            {% if p.abstract%}
+                  <div class="abstract">
+                  <span class="titulo-resumo">
+                        {{p.abstract.title}}
+                  </span>
+                  <span>
+                  <br>
+                        {{p.abstract.content}}
+                  </span>
+                  </div> 
+            {%else%}
+            <span>Resumo ainda não disponível...</span>
+            {% endif %}
+            
       </div>
 
 {% endfor %}
