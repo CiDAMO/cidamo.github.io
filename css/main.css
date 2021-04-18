@@ -1095,28 +1095,10 @@ article p {
   font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
-.titulo-pessoal-resumo
-{
-  position: relative;
-  color: orange;
-  font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.2em;
-  font-weight: bold;
-}
 .resumo{
   height: auto;
   padding: 20px;
   width: 100%;
-  position: relative;
-}
-
-.logo-resumo{
-  max-width: 7em;
-  display: block;
-  border-radius: 100%;
-  border: 3px solid #1893f8;
-  box-shadow: 0;
-  margin-left: 0;
   position: relative;
 }
 .abstract
