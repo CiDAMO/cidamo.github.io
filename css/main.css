@@ -1085,6 +1085,36 @@ article p {
   background-color: #666;
 }
 
+
+
+/* Resumos */
+.nome-resumo
+{
+  font-size: 1.6em;
+  color: blue;
+  font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.resumo{
+  height: auto;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+}
+.abstract
+{
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: 0.8em;
+}
+.titulo-resumo
+{
+  font-weight: bold;
+}
+
+
+
 .aulas {
   background-color: #aac8ef;
   transition: background 0.3s;

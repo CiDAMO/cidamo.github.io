@@ -210,7 +210,9 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
 
 ### Palestras
 <div id="palestra"></div>
-Foram convidados palestrantes com muito domínio sobre os tópicos referentes às suas áreas de atuação. Será uma oportunidade única de refletir e aprender sobre a área de Ciência de Dados. Entre os temas abordados estarão empreendedorismo, parcerias universidade-empresas, questões de gênero e raça, avanços científicos em Aprendizagem de Máquina, entre outros. A lista (incompleta) dos palestrantes está abaixo.
+Foram convidados palestrantes com muito domínio sobre os tópicos referentes às suas áreas de atuação. Será uma oportunidade única de refletir e aprender sobre a área de Ciência de Dados. Entre os temas abordados estarão empreendedorismo, parcerias universidade-empresas, questões de gênero e raça, avanços científicos em Aprendizagem de Máquina, entre outros.<br>
+Você também pode conferir os resumos das palestras na página <a href="../II-CiDWeek-Resumos-Palestrantes" target="_blank">Resumos de Palestrantes</a>. <br>
+A lista dos palestrantes pode ser conferida abaixo:
 
 <div class="container_em">
    <div class="row">
