@@ -7,18 +7,14 @@ author: Grupo CiDAMO
 ---
 
 Nessa página estão disponíveis os resumos correspondentes as apresentações de nossos palestrantes da 2ª CiDWeek do Grupo CiDAMO.
+
+{% assign sorted_p = site.data.palestrantes | sort:'nome' %}
+
 <div class="container_em">
-{% for p in site.data.palestrantes%}
+{% for p in sorted_p%}
       <hr>
 	<div class="resumo">
-            {% if p.logo%}
-                  <img class="logo-resumo" src="/img/cidweek-palestrantes/{{ p.logo }}">
-            {%else%}
-                  <img class="logo-resumo" src="/img/cidweek-empresas/speaker.png">
-            {% endif %}
             <span class="nome-resumo">{{ p.nome }}</span>
-            <br>
-            <span class="titulo-pessoal-resumo">{{ p.title }}</span>
             <br>
             {% if p.abstract%}
                   <div class="abstract">
@@ -33,7 +29,6 @@ Nessa página estão disponíveis os resumos correspondentes as apresentações 
             {%else%}
             <span>Resumo ainda não disponível...</span>
             {% endif %}
-            
       </div>
 
 {% endfor %}
