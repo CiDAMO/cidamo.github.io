@@ -8,7 +8,7 @@ author: Fillipe Rafael Bianek Pierin
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
 tex2jax: {
-inlineMath: [['$','$'], ['\\(','\\)']],
+inlineMath: [['$$','$$'], ['$','$'], ['\\(','\\)']],
 processEscapes: true},
 jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
 extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
