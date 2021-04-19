@@ -105,7 +105,7 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
     <td class="td_horario">14:30</td>
     <td class="td_palestrantes"><span>Angela Bassa</span></td>
     <td class="td_empresas"><span>Neural Med</span></td>
-    <td class="td_empresas"><span>Magalu</span></td>
+    <td class="td_empresas"><span>Magazine Luiza</span></td>
     <td class="td_empresas"><span>Math Analytics</span></td>
   </tr>
   <tr>
