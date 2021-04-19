@@ -5,6 +5,22 @@ image: /img/bolsa.png
 author: Fillipe Rafael Bianek Pierin
 ---
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+tex2jax: {
+inlineMath: [['$','$'], ['\\(','\\)']],
+processEscapes: true},
+jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+TeX: {
+extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+equationNumbers: {
+autoNumber: "AMS"
+}
+}
+});
+</script>
+
 ## **Introdução**
 O problema de otimização de carteiras consiste na escolha dos melhores investimentos em um conjunto de ativos possíveis. Os investidores buscam uma carteira que gera o menor risco e maior retorno, porém isso nem sempre é possível. Desta forma, na prática se procura equilibrar o retorno monetário e o risco de perdas.
 
