@@ -155,16 +155,8 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
 
 ### Apresentações de Alunos
 <div id="apresentacao"></div>
-As apresentações de trabalhos de alunos terão duração de até 20 minutos e mais 5 minutos reservados para as perguntas. Durante a inscrição para apresentar um trabalho, será necessária a submissão de um resumo seguindo um dos modelos abaixo. **Atenção: o documento deve ser convertido para o formato PDF para que o envio seja aceito.**
-
-Modelos de resumo :
-
-|  Tipo |                                                           Arquivo                                                           |
-|:-----:|:---------------------------------------------------------------------------------------------------------------------------:|
-| LaTeX | <a href="https://drive.google.com/file/d/1B2PIuyYSQH3ypMjFkj03BhaIJmfuyRcD/view?usp=sharing" target="_blank">Modelo.tex</a> |
-|  Word | <a href="https://drive.google.com/file/d/1lH2egK0rMSDWFKHpTo3IZ9DLBesa9sBc/view?usp=sharing" target="_blank">Modelo.doc</a> |
-
-Os autores dos trabalhos selecionados pelo comitê científico do evento serão contactados num prazo de até duas semanas após o envio do resumo. O dia e horário da apresentação serão comunicados por e-mail e também ficarão disponíveis nesta página, fiquem atentos!
+As apresentações de trabalhos de alunos terão duração de até 20 minutos e mais 5 minutos reservados para as perguntas.<br>
+Você agora pode conferir os resumos atuais das apresentações de alunos que ocorrerão na CiDWeek no nosso <a href="../../files/Caderno_de_Resumos__II_CiDWeek_.pdf" target="_blank">Caderno de Resumos</a>.
 
 
 ### Palestras de Empresas
@@ -179,7 +171,6 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
     {% if em.logoemp%}
         <img class="empresa-logo" alt="{{em.nome}}" title="{{em.nome}}" src="/img/cidweek-empresas/{{ em.logoemp }}">
     {% endif %}
-    <!-- <span class="nome-titulo-empresa">{{ em.nome }}</span><br> -->
     <div class="palestrantes_empresa">
     {% for p in em.membros %}
         {% if p.linkedin%}
