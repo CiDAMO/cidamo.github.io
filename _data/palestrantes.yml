@@ -56,6 +56,10 @@ Nesta palestra vamos conhecer um pouco mais os detalhes deste processo, e claro,
   logo: larissa_xavier.jpg
   title: Data Scientist Consultant
   linkedin: https://www.linkedin.com/in/larissa-xavier-de-melo/
+  abstract: 
+    title: 'Por trás do engajamento digital'
+    content: "Engajamento: uma das palavras mais presente no momento. Esse é o termo que representa um cliente ativo e que posiciona o negócio em cenários competitivos. Mas o que mantém os usuários tão atraídos por aquela página ou serviço? Nessa palestra vou contar um pouco como funciona um dos principais responsáveis por esse fator: o sistema de recomendação. Passaremos pelos principais algoritmos, os cuidados necessários na modelagem e seus impactos."
+   
 
 - nome: "Ana Caroline Sanchez Silva"
   empresa: Microsoft
@@ -80,4 +84,3 @@ Nesta palestra vamos conhecer um pouco mais os detalhes deste processo, e claro,
  # logo: 
 #  title: Especialista em Privacidade de Dados na QuintoAndar e Pesquisadora em I.A. e Lei na Lawgorithm
 #  linkedin: https://www.linkedin.com/in/marshallowitz/
-
