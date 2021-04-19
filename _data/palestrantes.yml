@@ -3,6 +3,9 @@
   logo: andressa.jpg
   title: Cientista de Dados na PicPay e Palestrante de Diversidade e Inclusão
   linkedin: https://www.linkedin.com/in/andressafreires/
+  abstract:
+    title: "Data Science: Carreira e Aplicações em Inclusão & Diversidade"
+    content: "Nessa apresentação será mostrado o dia a dia de uma cientista de dados numa empresa, bem como o dia a dia de uma pessoa que trabalha com inclusão e diversidade, juntamente com as devidas motivações. Além disso, será mostrado como podemos aplicar a ciência de dados em inclusão e diversidade."
 
 - nome: "Angela Bassa"
   empresa: iRobot
