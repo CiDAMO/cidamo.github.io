@@ -215,31 +215,6 @@ Teremos a participação de 12 representantes de empresas, dentre os quais estã
 <div id="palestra"></div>
 Foram convidados palestrantes com muito domínio sobre os tópicos referentes às suas áreas de atuação. Será uma oportunidade única de refletir e aprender sobre a área de Ciência de Dados. Entre os temas abordados estarão empreendedorismo, parcerias universidade-empresas, questões de gênero e raça, avanços científicos em Aprendizagem de Máquina, entre outros. A lista (incompleta) dos palestrantes está abaixo.
 
-<!-- <div class="container_em">
-   <div class="row">
-   {% for p in site.data.palestrantes%}
-   <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
-      <a class="empresa-link" href="{{ p.linkedin }}" target="_blank">
-      <div class="apresentador">
-      {% if p.logo%}
-      <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
-      {%else%}
-      <img class="pessoa-logo" src="/img/cidweek-empresas/speaker.png">
-      {% endif %}
-      {% if p.logoemp%}
-          <img class="empresa-logo" src="/img/cidweek-palestrantes/{{ p.logoemp }}">
-      {% endif %}
-      <br>
-      <span class="nome">{{ p.nome }}</span> <br>
-      <span class="nome-empresa">{{ p.empresa }}</span> <br>
-      <span class="empresa-titulo">{{ p.title }}</span>
-      </div>
-      </a>
-   </div>
-   {% endfor %}
-  </div>
-</div> -->
-
 <div class="container_em">
   <div class="row">
   {% for p in site.data.palestrantes%}
@@ -292,7 +267,6 @@ Foram convidados palestrantes com muito domínio sobre os tópicos referentes à
   {% endfor %}
   </div>
 </div>
-
 
 ### Mesa Redonda
 <div id="mesa_redonda"></div>
