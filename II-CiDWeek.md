@@ -132,7 +132,7 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
   </tr>
   <tr>
     <td class="td_horario">19:30</td>
-    <td class="td_palestrantes"><span>A confirmar</span></td>
+    <td class="td_palestrantes"><span>Sofia Marshallowitz</span></td>
     <td class="td_palestrantes"><span>Eduardo Vargas</span></td>
     <td class="td_palestrantes"><span>Ana Caroline Sanchez Silva</span></td>
     <td class="td_palestrantes"><span>Téo Calvo</span></td>

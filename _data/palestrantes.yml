@@ -3,14 +3,17 @@
   logo: andressa.jpg
   title: Cientista de Dados na PicPay e Palestrante de Diversidade e Inclusão
   linkedin: https://www.linkedin.com/in/andressafreires/
+  abstract:
+    title: "Data Science: Carreira e Aplicações em Inclusão & Diversidade"
+    content: "Nessa apresentação será mostrado o dia a dia de uma cientista de dados numa empresa, bem como o dia a dia de uma pessoa que trabalha com inclusão e diversidade, juntamente com as devidas motivações. Além disso, será mostrado como podemos aplicar a ciência de dados em inclusão e diversidade."
 
 - nome: "Angela Bassa"
   empresa: iRobot
   logo: angela.jpg
   title: Diretora Sênior em Analytics e Ciência de Dados na iRobot
   linkedin: https://www.linkedin.com/in/angelabassa/
-  abstract: 
-    title: "Lições Selecionadas de uma Carreira na Ciência de Dados" 
+  abstract:
+    title: "Lições Selecionadas de uma Carreira na Ciência de Dados"
     content: "Será uma conversa durante a qual tentarei compartilhar algumas das mais salientes experiências e quebra-cabeças que encontrei nos últimos quase vinte anos de trabalho no campo."
 
 - nome: "Eduardo Ferreira"
@@ -18,8 +21,8 @@
   logo: eduardo.png
   title: Professor do Departamento de Estatística - UFPR
   linkedin: http://lattes.cnpq.br/6295059687055801
-  abstract: 
-    title: "A importância da interpretabilidade na análise de dados" 
+  abstract:
+    title: "A importância da interpretabilidade na análise de dados"
     content: "O entendimento e interpretação das decisões de classificação em algoritmos complexos de Machine Learning é imprescindível na maioria das aplicações, pois permite verificar o raciocínio do sistema e fornecer informações adicionais ao especialista humano. Embora os métodos não lineares como Deep Learning têm resolvido com sucesso uma variedade de tarefas, eles têm, na maioria dos casos, a desvantagem de agir como uma “caixa-preta”, fornecendo pouca informação sobre o que levou a máquina à determinada decisão. Essa apresentação visa abordar a interpretabilidade em diferentes contextos da Análise de Dados, sua importância, bem como algumas técnicas para esse fim."
 
 - nome: "Téo Calvo"
@@ -29,26 +32,32 @@
   linkedin: https://www.linkedin.com/in/teocalvo/
   abstract:
     title: "Da UNESP à Twitch"
-    content: '"Seja um professor! Por favor seja um professor! Mesmo que você não seja um professor, seja um professor.
-Divida suas ideias, não faça pouco de sua educação. Alegre-se com o que você aprendeu e espalhe" - Tim Minchin
-O aprendizado é duro às vezes. Mas será que conseguimos minimizar isso?
-Conforme trilhamos o caminho acadêmico, temos a possibilidade de compartilhar nossas experiências com várias pessoas. Seja com algum tipo de motivação ou a forma de tratar determinado conteúdo.
-No meu caso, mesmo após o período acadêmico, gostaria de continuar compartilhando meus aprendizados, levando de uma forma diferente os conceitos adquiridos durante minha jornada.
-Nesta palestra vamos conhecer um pouco mais os detalhes deste processo, e claro, convidá-los para também serem professores.'
+    content: |
+      "Seja um professor! Por favor seja um professor! Mesmo que você não seja um professor, seja um professor.
+      Divida suas ideias, não faça pouco de sua educação. Alegre-se com o que você aprendeu e espalhe" - Tim Minchin<br>
+
+      O aprendizado é duro às vezes. Mas será que conseguimos minimizar isso?
+      Conforme trilhamos o caminho acadêmico, temos a possibilidade de compartilhar nossas experiências com várias pessoas. Seja com algum tipo de motivação ou a forma de tratar determinado conteúdo.
+      No meu caso, mesmo após o período acadêmico, gostaria de continuar compartilhando meus aprendizados, levando de uma forma diferente os conceitos adquiridos durante minha jornada.
+      Nesta palestra vamos conhecer um pouco mais os detalhes deste processo, e claro, convidá-los para também serem professores.'
 
 - nome: "Francisco Louzada"
   empresa: CeMEAI / USP
   logo: francisco.jpg
   title: Diretor do MBA em Data Science da USP
   linkedin: https://www.linkedin.com/in/francisco-louzada-639048b7/
+  abstract:
+    title: "Cientistas de Dados Para a Indústria 4.0"
+    content: "A implantação da indústria 4.0 vem acompanhada da geração de imensas massas de dados e da necessidade eminente de mais capacidade analítica. Neste novo contexto, é crucial a formação de cientistas de dados, capazes de atuar eficazmente dentro deste novo universo de dados corporativos. Esta realidade exige adaptações substanciais no processo de formação profissional, com o aluno passando a ser o protagonista da sua formação e do seu conhecimento. O sucesso desse empreendimento exige necessariamente formação profissional continuada, mas como atividade de transferência tecnológica, direcionada às soluções de problemas industriais atuais.  Nessa conferência exponho como temos direcionado a formação de cientistas de dados, mostrando a importância e o impacto da formação desse profissional para a indústria 4.0, integrada em uma estrutura de trabalho holística."
+
 
 - nome: "Anderson Soares"
   empresa: CEIA - Centro de Excelência em Inteligência Artificial
   logo: anderson.png
   title: Gerente Geral do CEIA
   linkedin: https://www.linkedin.com/in/inteligenciaartificialbrasil/
-  abstract: 
-    title: "Big Data e Inteligência Artificial: desafios e oportunidades em um mundo orientado a dados" 
+  abstract:
+    title: "Big Data e Inteligência Artificial: desafios e oportunidades em um mundo orientado a dados"
     content: "Nesta palestra vamos discutir o que nos trouxe até este momento onde a IA está presente no mais comuns dos cotidianos. Apresentaremos diversos estudos de caso de produtos desenvolvidos pelo CEIA."
 
 - nome: "Larissa Xavier"
@@ -56,31 +65,34 @@ Nesta palestra vamos conhecer um pouco mais os detalhes deste processo, e claro,
   logo: larissa_xavier.jpg
   title: Data Scientist Consultant
   linkedin: https://www.linkedin.com/in/larissa-xavier-de-melo/
-  abstract: 
+  abstract:
     title: 'Por trás do engajamento digital'
     content: "Engajamento: uma das palavras mais presente no momento. Esse é o termo que representa um cliente ativo e que posiciona o negócio em cenários competitivos. Mas o que mantém os usuários tão atraídos por aquela página ou serviço? Nessa palestra vou contar um pouco como funciona um dos principais responsáveis por esse fator: o sistema de recomendação. Passaremos pelos principais algoritmos, os cuidados necessários na modelagem e seus impactos."
-   
+
 
 - nome: "Ana Caroline Sanchez Silva"
   empresa: Microsoft
   logo: ana_caroline.jpg
   title: Cloud Solution Architect
   linkedin: https://www.linkedin.com/in/anacaroliness9/
-  abstract: 
-    title: "Mas afinal, o que é Big Data?" 
+  abstract:
+    title: "Mas afinal, o que é Big Data?"
     content: "Muitos dizem que dados são o novo petróleo, isso porque é possível transformá-los em informações de grande valor para os mais diversos setores da economia e da sociedade. Porém, não é uma tarefa simples, pois como petróleo, é necessário refiná-los para extrairmos o valor. Nessa palestra será abordado o que é Big Data e como ele pode ajudar na transformação de dados brutos em informações valiosas. Também será apresentado alguns casos de uso, quais são as profissões envolvidas nesses projetos e como iniciar na área."
 
 - nome: "Erika Nagamine"
-  empresa: 
+  empresa:
   logo: erika.jpg
   title: Cloud Solutions Architect
   linkedin: https://www.linkedin.com/in/erikanagamine/
-  abstract: 
-    title: "Cloud + Dados será uma combinação possível?" 
+  abstract:
+    title: "Cloud + Dados será uma combinação possível?"
     content: "O que é computação em nuvem e como ela pode ajudar no dia a dia de profissionais que lidam com dados."
 
-#- nome: "Sofia Marshallowitz Apuzzo"
-#  empresa: QuintoAndar e Lawgorithm
- # logo: 
-#  title: Especialista em Privacidade de Dados na QuintoAndar e Pesquisadora em I.A. e Lei na Lawgorithm
-#  linkedin: https://www.linkedin.com/in/marshallowitz/
+- nome: "Sofia Marshallowitz Apuzzo"
+  empresa: QuintoAndar e Lawgorithm
+  logo: sofia.jpg
+  title: Especialista em Privacidade de Dados na QuintoAndar e Pesquisadora em I.A. e Lei na Lawgorithm
+  linkedin: https://www.linkedin.com/in/marshallowitz/
+  abstract:
+    title: "Privacidade Diferencial - Como extrair o máximo de informações de todos sem extrair de um?"
+    content: "Como manter a privacidade enquanto é preciso extrair o máximo dos dados? A Privacidade Diferencial aborda o paradoxo de não concluir nada sobre um indivíduo enquanto conclui informações úteis sobre um conjunto de indivíduos, lidando com esse conflito por meio de uma definição matemática rigorosa de privacidade. Nessa talk vamos discutir o conceito de Privacidade Diferencial, modelos e como aplicá-la."
