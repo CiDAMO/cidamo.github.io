@@ -158,7 +158,6 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
 As apresentações de trabalhos de alunos terão duração de até 20 minutos e mais 5 minutos reservados para as perguntas.<br>
 Você agora pode conferir os resumos atuais das apresentações de alunos que ocorrerão na CiDWeek no nosso <a href="../../files/Caderno_de_Resumos__II_CiDWeek_.pdf" target="_blank">Caderno de Resumos</a>.
 
-
 ### Palestras de Empresas
 <div id="palestra_em"></div>
 Algumas empresas farão apresentações no evento, abordando temas como: problemas práticos resolvidos dentro da empresa, vagas e regras dos processos de contratação e estágio, ambiente de trabalho na empresa, desafios diários enfrentados por um cientista de dados, tipos de parcerias com a comunidade acadêmica que a empresa tem ou deseja iniciar, problemas que ainda estão em aberto, dentre outros.
@@ -206,31 +205,57 @@ Você também pode conferir os resumos das palestras na página <a href="../II-C
 A lista dos palestrantes pode ser conferida abaixo:
 
 <div class="container_em">
-   <div class="row">
-   {% for p in site.data.palestrantes%}
-   <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
-      <a class="empresa-link" href="{{ p.linkedin }}" target="_blank">
-      <div class="apresentador">
-      {% if p.logo%}
-      <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
-      {%else%}
-      <img class="pessoa-logo" src="/img/cidweek-empresas/speaker.png">
-      {% endif %}
-      {% if p.logoemp%}
-          <img class="empresa-logo" src="/img/cidweek-palestrantes/{{ p.logoemp }}">
-      {% endif %}
-      <br>
-      <span class="nome">{{ p.nome }}</span> <br>
-      <span class="nome-empresa">{{ p.empresa }}</span> <br>
-      <span class="empresa-titulo">{{ p.title }}</span>
+  <div class="row">
+  {% for p in site.data.palestrantes%}
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="image-flip">
+      <div class="mainflip flip-0">
+        <div class="frontside">
+          <div class="card palestra">
+            <div class="card-body text-center">
+                {% if p.logo%}
+                  <img class="pessoa-logo" src="/img/cidweek-palestrantes/{{ p.logo }}">
+                {%else%}
+                  <img class="pessoa-logo" src="/img/cidweek-empresas/speaker.png">
+                {% endif %}
+                {% if p.logoemp%}
+                  <img class="empresa-logo" src="/img/cidweek-palestrantes/{{ p.logoemp }}">
+                {% endif %}
+                <br>
+                <span class="nome">{{ p.nome }}</span> <br>
+                <span class="nome-empresa">{{ p.empresa }}</span> <br>
+                <span class="empresa-titulo">{{ p.title }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="backside">
+          <div class="card">
+            <div class="card-body text-center mt-4">
+              {% if p.abstract %}
+                <p class="card-title">{{ p.abstract.title }} </p><br>
+                <p class="card-text">{{ p.abstract.content }}</p>
+              {%else%}
+                <p class="card-title">Resumo Não Disponível</p><br>
+                <p class="card-text">O resumo deste palestrante ainda não está disponível...</p>
+              {% endif %}
+              <div class="card-info">
+                <ul class="list-inline">
+                  {% if p.linkedin %}
+                    <a href="{{ p.linkedin }}" class="fa fa-2x fa-linkedin"></a>
+                  {% else %}
+                    <i class="fa fa-2x fa-linkedin fa-gray"></i>
+                  {% endif %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      </a>
-   </div>
-   {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
   </div>
 </div>
-
-
 
 ### Mesa Redonda
 <div id="mesa_redonda"></div>

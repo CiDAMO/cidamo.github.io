@@ -872,7 +872,7 @@ article p {
 /*Hover de palestrantes/mesa-redonda*/
 .apresentador:hover {
   border: 1px solid #d3d3df;
-  background-color: #e3e3ff;
+  background-color: #ddf0ff;
   -webkit-transition: 0.3s ease-in !important;
   -moz-transition: 0.3s ease-in !important;
   -o-transition: 0.3s ease-in !important;
@@ -880,16 +880,19 @@ article p {
 }
 .apresentador:hover .nome{
     color: #1893f8;
+    text-shadow: none;
 }
 .apresentador:hover .empresa-titulo
 {
-  color: #777;
+  color: #1893f8;
+  text-shadow: none;
 }
 .apresentador:hover .pessoa-logo {
   border: 3px solid #1893f8;
 }
 .apresentador:hover .nome-empresa {
-  color: #ff0404;
+  color: #1893f8;
+  text-shadow: none;
 }
 
 
@@ -937,7 +940,7 @@ article p {
 .pessoa-logo {
   max-width: 7em;
   border-radius: 100%;
-  border: 3px solid #e3e3ff;
+  border: 3px solid #ddf0ff;
   box-shadow: 0;
   display: block;
   margin-left: auto;
@@ -949,9 +952,9 @@ article p {
 .nome-empresa {
   font-family: 'Nunito', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
-  text-shadow: 1px 1px #000000
+  text-shadow: 1px 1px #000000;
   font-size: 1em;
-  color: #000;
+  color: #eee;
 }
 
 .empresa-titulo {
@@ -978,7 +981,7 @@ article p {
 .pessoa-logo_empresa{
 
   border-radius: 200px;
-  border: 2px solid #e3e3ff;
+  border: 2px solid #ddf0ff;
 
 }
 .nome {
@@ -995,12 +998,11 @@ article p {
   padding: 3px 10px 0px 10px;
 }
 .empresa_2{
-  height: 45%;
-  margin: 2%
+  height: 50%;
   font-size: 1em;
 }
 .empresa_1{
-  height: 90%;
+  height: 100%;
   padding: 10px;
   font-size: 1em;
 }
@@ -1049,7 +1051,7 @@ article p {
 
 
 .estilo-empresa:hover{
-  background-color: #e3e3ff;
+  background-color: #ddf0ff;
   -webkit-transition: 0.3s ease-in !important;
   -moz-transition: 0.3s ease-in !important;
   -o-transition: 0.3s ease-in !important;
@@ -1058,13 +1060,16 @@ article p {
 .estilo-empresa:hover .nome
 {
   color: #1893f8;
+  text-shadow: none;
 }
 .estilo-empresa:hover .empresa-titulo {
 
-  color: #777;
+  color: #1893f8;
+  text-shadow: none;
 }
 .estilo-empresa:hover .pessoa-logo_empresa{
   border: 2px solid #1893f8;
+  text-shadow: none;
 }
 
 
@@ -1384,4 +1389,181 @@ body {
   .sidenav{
     display: none;
   }
+}
+
+#team .card {
+  border: none;
+  background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  border-radius: .25rem;
+  z-index: -1;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  z-index: -1;
+}
+
+.mainflip {
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.frontside {
+  position: relative;
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  z-index: 2;
+  margin-bottom: 10px;
+}
+
+.backside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ddf0ff;
+  z-index: 2;
+  margin-bottom: 10px;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.frontside,
+.backside {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 1s;
+  -moz-transform-style: preserve-3d;
+  -o-transition: 1s;
+  -o-transform-style: preserve-3d;
+  -ms-transition: 1s;
+  -ms-transform-style: preserve-3d;
+  transition: 1s;
+  transform-style: preserve-3d;
+}
+
+.frontside .card .palestra,
+.backside .card .palestra{
+  min-height: 420px;
+}
+.frontside .card .palestra .card-title,
+.backside .card .palestra .card-title {
+  color: #1893f8 !important;
+}
+
+.frontside .card .palestra .card-body img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.frontside .card .palestra .card-body .list-inline .card-info{
+  position: absolute;
+  bottom: 6%;
+  right: 2%;
+  left: 2%;
+}
+
+.backside .card .palestra .card-body .list-inline .card-info{
+  position: absolute;
+  bottom: 8%;
+  right: 2%;
+  left: 2%;
+}
+
+.card-body{
+  height: 19em;
+  padding: 0px;
+  position: relative;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.card-title{
+   font-size: 0.8em;
+   font-weight: bold;
+   max-height: 20%;
+   margin: 0;
+   padding: 0;
+}
+.card-text{
+
+   margin: 0;
+   padding: 0;
+   padding-right:10px;
+   font-size: 10px;
+   height: 55%;
+   overflow: auto;
+}
+
+.card-text::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+.card-text::-webkit-scrollbar-thumb {
+  background: rgba(90, 90, 90);
+}
+
+.card-text::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.card-info{
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50%;
+  margin-bottom: -15px;
+}
+
+.palestra {
+  background: #1893f8;
+  border: 1px solid #e3e3ef;
+  margin-bottom: 5px;
+  transition: background 0.3s;
+  min-height: 400px;
+  min-height: 18em;
+  max-width: 350px;
+  text-align: center;
+  padding: 10px;
+}
+
+.palestra:hover {
+  border: 1px solid #d3d3df;
+  background-color: #ddf0ff;
+  -webkit-transition: 0.3s ease-in !important;
+  -moz-transition: 0.3s ease-in !important;
+  -o-transition: 0.3s ease-in !important;
+  transition: 0.3s ease-in !important;
 }
