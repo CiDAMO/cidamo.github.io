@@ -136,14 +136,10 @@ section .section-title {
 
 .frontside .card .card-body .list-inline .card-info{
     position: absolute;
-    bottom: 6%;
-    right: 2%;
-    left: 2%;
+    bottom: -140px;
 }
 
 .backside .card .card-body .list-inline .card-info{
     position: absolute;
-    bottom: 8%;
-    right: 2%;
-    left: 2%;
+    bottom: -140px;
 }
