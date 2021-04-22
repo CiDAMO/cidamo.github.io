@@ -119,7 +119,7 @@ A inscrição para a CiDWeek é totalmente gratuita. Abaixo estão os links para
     <td class="td_horario">16:30</td>
     <td class="td_palestrantes"><span>Anderson Soares</span></td>
     <td class="td_empresas"><span>Grupo Boticário</span></td>
-    <td class="td_empresas"><span>A confirmar</span></td>
+    <td class="td_empresas"><span>PagSeguro</span></td>
     <td class="td_empresas"><span>Bosch</span></td>
   </tr>
   <tr>
@@ -164,7 +164,8 @@ Algumas empresas farão apresentações no evento, abordando temas como: problem
 
 Teremos a participação de 12 representantes de empresas, dentre os quais estão:
 <div class="container_em">
-{% for em in site.data.empresas_apresentadores.empresas %}
+{% assign sorted_e = site.data.empresas_apresentadores.empresas | sort:'nome' %}
+{% for em in sorted_e %}
   <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4">
     <div class="empresa_layout">
     {% if em.logoemp%}
@@ -204,9 +205,10 @@ Foram convidados palestrantes com muito domínio sobre os tópicos referentes à
 Você também pode conferir os resumos das palestras na página <a href="../II-CiDWeek-Resumos-Palestrantes" target="_blank">Resumos de Palestrantes</a>. <br>
 A lista dos palestrantes pode ser conferida abaixo:
 
+{% assign sorted_p = site.data.palestrantes | sort:'nome' %}
 <div class="container_em">
   <div class="row">
-  {% for p in site.data.palestrantes%}
+  {% for p in sorted_p%}
   <div class="col-xs-12 col-sm-6 col-md-4">
     <div class="image-flip">
       <div class="mainflip flip-0">
@@ -263,7 +265,8 @@ Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema 
 
 <div class="container_em">
    <div class="row">
-   {% for p in site.data.mesa_redonda%}
+   {% assign sorted_m = site.data.mesa_redonda | sort:'nome' %}
+   {% for p in sorted_m%}
    <div class="caixa_empresa col-xs-12 col-sm-6 col-md-4" >
       <a class="empresa-link" href="{{ p.linkedin }}" target="_blank">
       <div class="apresentador">

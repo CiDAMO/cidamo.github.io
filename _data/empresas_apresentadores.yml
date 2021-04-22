@@ -101,3 +101,12 @@ empresas:
         linkedin: https://br.linkedin.com/in/andradetf
         title: Head of Big Data & Analytics
         logo: tiago.jpg
+  - nome: PagSeguro
+    logoemp: pagseguro.png
+    numero: 1
+    membros:
+      - nome: "Julio Brettas"
+        linkedin: br.linkedin.com/in/jbrettas/
+        title: Especialista de Dados
+        logo: julio.png
+  
