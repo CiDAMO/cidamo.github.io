@@ -106,7 +106,7 @@ empresas:
     numero: 1
     membros:
       - nome: "Julio Brettas"
-        linkedin: br.linkedin.com/in/jbrettas/
+        linkedin: https://www.linkedin.com/in/jbrettas/
         title: Especialista de Dados
         logo: julio.png
   
