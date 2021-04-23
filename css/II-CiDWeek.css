@@ -1,35 +1,4 @@
 /* FontAwesome for working BootSnippet :> */
-
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-#team {
-    background: #eee !important;
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-    background-color: #1893f8;
-    border-color: #1893f8;
-    box-shadow: none;
-    outline: none;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #1893f8;
-    border-color: #1893f8;
-}
-
-section {
-    padding: 60px 0;
-}
-
-section .section-title {
-    text-align: center;
-    color: #1893f8;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-}
-
 #team .card {
     border: none;
     background: #ffffff;
@@ -88,9 +57,6 @@ section .section-title {
     -o-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
-    /* -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158); */
 }
 
 .frontside,
@@ -115,12 +81,6 @@ section .section-title {
 .backside .card {
     min-height: 420px;
 }
-
-/* .backside .card a {
-    font-size: 18px;
-    color: #1893f8 !important;
-} */
-
 .frontside .card .card-title,
 .backside .card .card-title {
     color: #1893f8 !important;
@@ -134,16 +94,16 @@ section .section-title {
     margin-bottom: 10px;
 }
 
-.frontside .card .card-body .card-info .list-inline{
+.frontside .card .card-body .list-inline .card-info{
     position: absolute;
-    bottom: -200%;
+    bottom: 6%;
     right: 2%;
     left: 2%;
 }
 
-.backside .card .card-body .card-info .list-inline{
+.backside .card .card-body .list-inline .card-info{
     position: absolute;
-    bottom: -200%;
+    bottom: 8%;
     right: 2%;
     left: 2%;
 }
