@@ -243,7 +243,7 @@ A lista dos palestrantes pode ser conferida abaixo:
               <div class="card-info">
                 <ul class="list-inline">
                   {% if p.linkedin %}
-                    <a href="{{ p.linkedin }}" class="fa fa-2x fa-linkedin"></a>
+                    <a href="{{ p.linkedin }}" target="_blank" class="fa fa-2x fa-linkedin"></a>
                   {% else %}
                     <i class="fa fa-2x fa-linkedin fa-gray"></i>
                   {% endif %}

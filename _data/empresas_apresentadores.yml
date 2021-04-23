@@ -103,10 +103,14 @@ empresas:
         logo: tiago.jpg
   - nome: PagSeguro
     logoemp: pagseguro.png
-    numero: 1
+    numero: 2
     membros:
-      - nome: "Julio Brettas"
-        linkedin: https://www.linkedin.com/in/jbrettas/
-        title: Especialista de Dados
-        logo: julio.png
+      - nome: "Guilherme Carvalho"
+        linkedin: https://www.linkedin.com/in/guilherme-carvalho-78bab971/
+        title: Analytics e resolvedor de problemas
+        logo: guilherme.png
+      - nome: Eduardo Akira
+        linkedin: https://www.linkedin.com/in/eduardo-akira/
+        title: Especialista em Data Science
+        logo: akira.png
   
