@@ -20,7 +20,7 @@
   empresa: DEST - Universidade Federal do Paraná (UFPR)
   logo: eduardo.png
   title: Professor do Departamento de Estatística - UFPR
-  linkedin: http://lattes.cnpq.br/6295059687055801
+  linkedin: https://www.linkedin.com/in/eduardo-vargas-ferreira-647b17207/
   abstract:
     title: "A importância da interpretabilidade na análise de dados"
     content: "O entendimento e interpretação das decisões de classificação em algoritmos complexos de Machine Learning é imprescindível na maioria das aplicações, pois permite verificar o raciocínio do sistema e fornecer informações adicionais ao especialista humano. Embora os métodos não lineares como Deep Learning têm resolvido com sucesso uma variedade de tarefas, eles têm, na maioria dos casos, a desvantagem de agir como uma “caixa-preta”, fornecendo pouca informação sobre o que levou a máquina à determinada decisão. Essa apresentação visa abordar a interpretabilidade em diferentes contextos da Análise de Dados, sua importância, bem como algumas técnicas para esse fim."
