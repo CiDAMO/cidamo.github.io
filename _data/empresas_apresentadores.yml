@@ -38,12 +38,16 @@ empresas:
         logo: fernando.jpg
   - nome: Math Analytics
     logoemp: "mathanalytics.jpg"
-    numero: 1
+    numero: 2
     membros:
       - nome: "Luiz Hadich"
         logo: "hadich.jpg"
         title: COO e Co-Founder
         linkedin: https://www.linkedin.com/in/luizhadich/
+      - nome: "Pedro Campelo"
+        logo: "pedro.jpg"
+        title: Cientista de Dados
+        linkedin: https://www.linkedin.com/in/pedro-campelo-67705ba4/
   - nome: NeuralMed
     logoemp: "neuralmed.jpg"
     numero: 1
@@ -90,7 +94,7 @@ empresas:
         title: Cientista de Dados
         logo: catarina.jpg
       - nome: "Lilian Fontes"
-        linkedin: 
+        linkedin:  https://www.linkedin.com/in/lilian-fontes-5535542a/
         title: Cientista de Dados
         logo: lilian.jpg
   - nome: B2W
