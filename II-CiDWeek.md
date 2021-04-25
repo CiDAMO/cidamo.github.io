@@ -257,7 +257,7 @@ A lista dos palestrantes pode ser conferida abaixo:
   </div>
   {% endfor %}
   </div>
-</div>
+</div> 
 
 ### Mesa Redonda
 <div id="mesa_redonda"></div>

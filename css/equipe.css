@@ -134,16 +134,16 @@ section .section-title {
     margin-bottom: 10px;
 }
 
-.frontside .card .card-body .list-inline .card-info{
+.frontside .card .card-body .card-info .list-inline{
     position: absolute;
-    bottom: 6%;
+    bottom: -200%;
     right: 2%;
     left: 2%;
 }
 
-.backside .card .card-body .list-inline .card-info{
+.backside .card .card-body .card-info .list-inline{
     position: absolute;
-    bottom: 8%;
+    bottom: -200%;
     right: 2%;
     left: 2%;
 }

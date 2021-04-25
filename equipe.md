@@ -28,8 +28,8 @@ roles:
                   <div class="card-body text-center mt-4">
                      <h4 class="card-title">{{ p[1].name }}</h4>
                      <p class="card-text">{{ p[1].bio }}</p>
-                     <ul class="list-inline">
-                        <div class="card-info">
+                     <div class="card-info">
+                        <ul class="list-inline">
                            {% if p[1].github %}
                               <a href="https://github.com/{{ p[1].github }}" class="fa fa-2x  fa-github"></a>
                            {% else %}
@@ -45,8 +45,8 @@ roles:
                            {% else %}
                               <i class="fa fa-2x fa-twitter fa-gray"></i>
                            {% endif %}
-                        </div>
-                     </ul>
+                        </ul>
+                     </div>
                   </div>
                </div>
          </div>
@@ -72,8 +72,8 @@ roles:
                         <img class="img-fluid" src="{{ site.baseurl }}/equipe/{{ p[1].img }}">
                         <h4 class="card-title">{{ p[1].name }}</h4>
                         <p class="card-text">{{ p[1].bio }}</p>
-                        <ul class="list-inline">
-                           <div class="card-info">
+                        <div class="card-info">
+                           <ul class="list-inline">
                               {% if p[1].github %}
                                  <a href="https://github.com/{{ p[1].github }}" class="fa fa-2x fa-github"></a>
                               {% else %}
@@ -89,8 +89,8 @@ roles:
                               {% else %}
                                  <i class="fa fa-2x fa-twitter fa-gray"></i>
                               {% endif %}
-                           </div>
-                        </ul>
+                           </ul>
+                        </div>
                      </div>
                   </div>
             </div>
