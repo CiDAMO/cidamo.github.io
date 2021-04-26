@@ -280,7 +280,9 @@ Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema 
       {% endif %}
       <br>
       <span class="nome">{{ p.nome }}</span> <br>
+      {% if p.empresa %}
       <span class="nome-empresa">{{ p.empresa }}</span> <br>
+      {% endif %}
       <span class="empresa-titulo">{{ p.title }}</span>
       </div>
       </a>
