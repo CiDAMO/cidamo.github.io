@@ -261,7 +261,7 @@ A lista dos palestrantes pode ser conferida abaixo:
 
 ### Mesa Redonda
 <div id="mesa_redonda"></div>
-Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema "Início da carreira em Ciência de Dados". Dentre os participantes confirmados, haverá uma recrutadora, um cientista de dados sênior e uma estagiária. Cada um deles tem experiências diferentes e bem interessantes sobre o assunto debatido, o que certamente resultará em uma discussão bastante enriquecedora. Participe!
+Durante a mesa redonda, uma seleção de profissionais discorrerá sobre o tema "Início da carreira em Ciência de Dados". Dentre os participantes confirmados, haverá uma recrutadora, um cientista de dados sênior e uma assistente de engenheiro de dados. Cada um deles tem experiências diferentes e bem interessantes sobre o assunto debatido, o que certamente resultará em uma discussão bastante enriquecedora. Participe!
 
 <div class="container_em">
    <div class="row">
