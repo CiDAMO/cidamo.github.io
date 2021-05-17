@@ -67,6 +67,7 @@ Algumas/alguns palestrantes nos mandaram slides e links referentes às suas apre
 #### Luiz Hadich e Pedro Campelo (Math Analytics)
 
 - [Slides](https://drive.google.com/file/d/1dtGmLiyjX_ujmR9vr-YF2SqI-3rUHzx1/view?usp=sharing)
+
 #### Maristela Salles (Grupo Boticário)
 
 - [Slides](https://drive.google.com/file/d/16M72K6-2ip9GCwoc-CiVcyJbBD1jd3za/view?usp=sharing)
