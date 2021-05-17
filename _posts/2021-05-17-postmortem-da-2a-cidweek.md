@@ -16,7 +16,7 @@ Os certificados de participação estão disponíveis [aqui](https://drive.googl
 
 Algumas/alguns palestrantes nos mandaram slides e links referentes às suas apresentações. Essas informações seguem abaixo em ordem alfabética de palestrante.
 
-### Angela Bassa
+#### Angela Bassa
 
 - [Slides](https://drive.google.com/file/d/16DPY0M9H5zr4_ocUczIOiMZiB-Bpp8hz/view?usp=sharing)
 - Links Mistos:
@@ -64,6 +64,9 @@ Algumas/alguns palestrantes nos mandaram slides e links referentes às suas apre
 - [Slides](https://drive.google.com/file/d/11rmpyM97BnXQfSeoGwnKSTwSvKweQRFG/view?usp=sharing)
 - [Github e outras redes sociais](https://linktr.ee/erikanagamine)
 
+#### Luiz Hadich e Pedro Campelo (Math Analytics)
+
+- [Slides](https://drive.google.com/file/d/1dtGmLiyjX_ujmR9vr-YF2SqI-3rUHzx1/view?usp=sharing)
 #### Maristela Salles (Grupo Boticário)
 
 - [Slides](https://drive.google.com/file/d/16M72K6-2ip9GCwoc-CiVcyJbBD1jd3za/view?usp=sharing)
