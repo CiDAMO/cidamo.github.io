@@ -120,4 +120,4 @@ Agradecemos
 - ao Alexandre Junqueira, ex-aluno do curso de Matemática Industrial da UFPR, que nos ajudou novamente na organização;
 - a todas/os que nos ajudaram na divulgação do evento;
 - às/aos participantes;
-- à Universidade Federal do Paraná (UFPR), em particular ao Departamento de Mateimática (DMAT)
+- à Universidade Federal do Paraná (UFPR), em particular ao Departamento de Matemática (DMAT)
