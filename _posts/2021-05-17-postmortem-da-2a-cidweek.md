@@ -59,6 +59,14 @@ Algumas/alguns palestrantes nos mandaram slides e links referentes às suas apre
   - [https://en.wikipedia.org/wiki/Intellectual_inbreeding](https://en.wikipedia.org/wiki/Intellectual_inbreeding)
   - [https://link.springer.com/article/10.1057/eej.2014.78](https://link.springer.com/article/10.1057/eej.2014.78)
 
+#### Catarina Pröglhöf (Porto Seguro)
+
+- [Slides](https://drive.google.com/file/d/1A91a9-YaVzXWtzEq3uQU1crTwTkcwx72/view?usp=sharing)
+- Medium Porto Seguro: [https://medium.com/porto-seguro/ciencia-de-dados/home](https://medium.com/porto-seguro/ciencia-de-dados/home)
+- 10 motivos para trabalhar na Porto Seguro: [https://www.youtube.com/watch?v=qEVUq4A9tIw&t=4s](https://www.youtube.com/watch?v=qEVUq4A9tIw&t=4s)
+- Vagas abertas: [https://www.portoseguro.com.br/fale-conosco/trabalhe-conosco](https://www.portoseguro.com.br/fale-conosco/trabalhe-conosco)
+- Deposite seu currículo banco de talentos: [https://forms.gle/rh2HnvBZmszZLVwd7](https://forms.gle/rh2HnvBZmszZLVwd7)
+
 #### Erika Nagamine
 
 - [Slides](https://drive.google.com/file/d/11rmpyM97BnXQfSeoGwnKSTwSvKweQRFG/view?usp=sharing)
