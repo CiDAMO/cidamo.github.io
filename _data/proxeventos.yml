@@ -1,3 +1,10 @@
-- data: 2021-04-26
-  hora: "26 a 30 de Abril."
-  nome: "2ª CiDWeek do CiDAMO. [Página do Evento](/II-CiDWeek/)"
+- data: 2021-05-27
+  hora: "19h - 21h30"
+  nome: "8° Meetup do CiDAMO."
+  partes: 
+    - nome: "**Vinicius Caridá**<br>Itaú<br>[Linkedin](https://www.linkedin.com/in/viniciuscarida/)"
+      desc: "Não informado."
+    - nome: "**Lenora Schwaitzer**<br>UFES<br>[Linkedin](https://www.linkedin.com/in/lenoraschwaitzer/)"
+      desc: "**Impactos da LGPD, confiança e proveniência de dados.**"
+    - nome: "**André Maranhão**<br>Banco do Brasil<br>[Linkedin](https://www.linkedin.com/in/andré-maranhão-47881b38/)"
+      desc: "**Nowcasting brasileiro do Covid-19 em Alta-dimensão e inferência casual para políticas de Lockdown.**"
