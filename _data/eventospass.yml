@@ -90,6 +90,17 @@
       desc: "**Otimização e Covid-19**<br>Quando a Covid-19 se apresentou a resposta da academia foi imediata. Subitamente vários pesquisadores passaram a buscar soluções para problemas imediatos. Nessa conversa apresentarei algumas ideias de como usar técnicas de otimização para atacar desafios da pandemia.<br>"
     - nome: "**Francisco Aparecido Rodrigues**<br>USP<br>[Lattes](http://lattes.cnpq.br/2153014839354888)"
       desc: "**Complexidade em toda parte**<br>O que a Internet, a sociedade, as interações celulares e os ecossistemas têm em comum? Em principio, nada que podemos imaginar, mas esses são exemplos de sistemas complexos. O estudo desses sistemas permite entender como epidemias se propagam em nossa sociedade, como falhas afetam o funcionamento da internet e como mutações em células causam o câncer. Para estudar esses sistemas, usamos modelos matemáticos e computacionais de modo a entender como é a estrutura do sistema, seu funcionamento e como podemos controlar sua dinâmica. Por exemplo, podemos mapear as interações entre as pessoas e simular processos epidêmicos em nossa sociedade, de modo a determinar uma maneira efetiva de realizar uma campanha de vacinação. Essa mesma ideia pode ser aplicada para tornarmos a internet e as redes de transmissão de energia mais robustas. Nessa palestra apresentaremos os conceitos fundamentais de sistemas complexos e mostraremos como podemos estudar esses sistemas usando matemática e simulações computacionais."
+- data: 2020-11-26
+  hora: "19h - 21h30"
+  nome: "7° Meetup do CiDAMO."
+  partes:
+    - nome: "**Débora Cíntia Marcilio**<br>LACTEC<br>[Linkedin](https://www.linkedin.com/in/débora-marcilio-67862324/)"
+      desc: "**Aplicação de pesquisa operacional no mercado energético**<br> Nessa conversa pretendo apresentar as principais características da indústria de energia elétrica e seus segmentos, elencando os projetos já desenvolvidos pela equipe de mercado do Lactec, com foco na aplicação da pesquisa operacional no mercado de energia do Brasil.<br>"
+    - nome: "**Juliana Guamá**<br>Take<br>[Linkedin](https://www.linkedin.com/in/juliana-guama/)"
+      desc: "**A carreira de Ciências de Dados**<br>Vamos percorrer alguns tópicos da carreira e atuação do cientista de dados, apresentando o que é abordado nas universidades, o que não é abordado e o que as empresas esperam de um cientista de dados.<br>"
+    - nome: "**Erick Douglas<br>[Linkedin](https://www.linkedin.com/in/erick-douglas-ba531a179/)<br> e <br> Flávio Galon**<br>[Linkedin](https://www.linkedin.com/in/flaviogalon/)"
+      desc: "**Mantis - Inteligência artificial a serviço da agricultura de precisão.**<br>A agricultura de precisão tem crescido exponencialmente nós últimos anos. O projeto Mantis, da empresa de tecnologias de agricultura de precisão Agres, é um belo exemplo. Utilizando sistemas inteligentes de visão computacional, o projeto visa gerar economia de recursos e diminuição do impacto ambiental. Nesta palestra iremos explicar como utilizamos a inteligência artificial no campo e quais foram os avanços já obtidos."
+
 - data: 2021-04-26
   hora: "26 a 30 de Abril."
   nome: "2ª CiDWeek do CiDAMO. [Página do Evento](/II-CiDWeek/)"
