@@ -100,7 +100,16 @@
       desc: "**A carreira de Ciências de Dados**<br>Vamos percorrer alguns tópicos da carreira e atuação do cientista de dados, apresentando o que é abordado nas universidades, o que não é abordado e o que as empresas esperam de um cientista de dados.<br>"
     - nome: "**Erick Douglas<br>[Linkedin](https://www.linkedin.com/in/erick-douglas-ba531a179/)<br> e <br> Flávio Galon**<br>[Linkedin](https://www.linkedin.com/in/flaviogalon/)"
       desc: "**Mantis - Inteligência artificial a serviço da agricultura de precisão.**<br>A agricultura de precisão tem crescido exponencialmente nós últimos anos. O projeto Mantis, da empresa de tecnologias de agricultura de precisão Agres, é um belo exemplo. Utilizando sistemas inteligentes de visão computacional, o projeto visa gerar economia de recursos e diminuição do impacto ambiental. Nesta palestra iremos explicar como utilizamos a inteligência artificial no campo e quais foram os avanços já obtidos."
-
 - data: 2021-04-26
   hora: "26 a 30 de Abril."
   nome: "2ª CiDWeek do CiDAMO. [Página do Evento](/II-CiDWeek/)"
+- data: 2021-05-27
+  hora: "19h - 21h30"
+  nome: "8° Meetup do CiDAMO."
+  partes: 
+    - nome: "**Vinicius Caridá**<br>Itaú<br>[Linkedin](https://www.linkedin.com/in/viniciuscarida/)"
+      desc: "**MLOps - Ciclo de Vida e Principais capacidades.**<br>A ciência de dados e o ML estão se tornando recursos essenciais para resolver problemas complexos do mundo real, transformando setores e agregando valor em todos os domínios. Portanto, muitas empresas estão investindo em suas equipes de ciência de dados e recursos de ML para desenvolver modelos preditivos que podem agregar valor aos negócios. Nesse contexto surge a cultura e prática de MLOps. MLOps significa unificar o desenvolvimento de sistemas de ML (Dev) e a operação de sistemas de ML (Ops) com automação e o monitoramento de todos os passos da construção do sistema de ML, inclusive integração, teste, lançamento, implantação e gerenciamento de infraestrutura."
+    - nome: "**Lenora Schwaitzer**<br>UFES<br>[Linkedin](https://www.linkedin.com/in/lenoraschwaitzer/)"
+      desc: "**Impactos da LGPD, confiança e proveniência de dados.**<br>A apresentação é fruto de pesquisa interdisciplinar atualmente em desenvolvimento na área de banco de dados e arquivos. A proposta da palestra é a de, a partir de uma abordagem histórica, jurídica e tecnológica, estabelecer premissas, identificar desafios e levantar hipóteses e caminhos que podem ser percorridos para o tratamento de dados em um ambiente cada vez mais digital e em consonância com a LGPD."
+    - nome: "**André Maranhão**<br>Banco do Brasil<br>[Linkedin](https://www.linkedin.com/in/andré-maranhão-47881b38/)"
+      desc: "**Nowcasting brasileiro do Covid-19 em Alta-dimensão e inferência casual para políticas de Lockdown.**<br>Apresentaremos um modelo de nowcasting para o covid-19 em alta-dimensão para os dados brasileiros e os resultados de um estudo de inferência causal sobre políticas de Lockdown para as UF brasileiras."  
