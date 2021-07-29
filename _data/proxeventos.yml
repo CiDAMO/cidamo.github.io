@@ -1,8 +1,8 @@
-- data: 2021-06-24
-  hora: "19h - 21h30"
-  nome: "9° Meetup do CiDAMO."
+- data: 2021-07-29
+  hora: "19h - 20:30"
+  nome: "10° Meetup do CiDAMO."
   partes: 
-    - nome: "**Daniel Marostica**<br>NZN<br>[Linkedin](https://www.linkedin.com/in/danielmarostica/)"
-      desc: "**Os segredos da biblioteca Pandas**"
-    - nome: "**João Fassina**<br>MadeiraMadeira<br>[Linkedin](https://www.linkedin.com/in/joão-pedro-kincheski-fassina-844173154/)"
-      desc: "**NLP para enriquecimento de atributo**"
+    - nome: "**Diogo Munaro Vieira**<br>PicPay<br>[Linkedin](https://www.linkedin.com/in/dmvieira/)"
+      desc: "**Testes metamórficos com Python aplicados a Machine Learning**"
+    - nome: "**Dennis Leão**<br>Kzas<br>[Linkedin](https://www.linkedin.com/in/leaodennis/)"
+      desc: "**Modelo Bayesianos e suas perspectivas**"
