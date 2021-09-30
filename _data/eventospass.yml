@@ -120,4 +120,12 @@
     - nome: "**Daniel Marostica**<br>NZN<br>[Linkedin](https://www.linkedin.com/in/danielmarostica/)"
       desc: "**Os segredos da biblioteca Pandas**"
     - nome: "**João Fassina**<br>MadeiraMadeira<br>[Linkedin](https://www.linkedin.com/in/joão-pedro-kincheski-fassina-844173154/)"
-      desc: "**NLP para enriquecimento de atributo**"     
+      desc: "**NLP para enriquecimento de atributo**" 
+- data: 2021-07-29
+  hora: "19h - 20:30"
+  nome: "10° Meetup do CiDAMO."
+  partes: 
+    - nome: "**Diogo Munaro Vieira**<br>PicPay<br>[Linkedin](https://www.linkedin.com/in/dmvieira/)"
+      desc: "**Testes metamórficos com Python aplicados a Machine Learning**"
+    - nome: "**Dennis Leão**<br>Kzas<br>[Linkedin](https://www.linkedin.com/in/leaodennis/)"
+      desc: "**Modelo Bayesianos e suas perspectivas**"   
