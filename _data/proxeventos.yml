@@ -1,8 +1,8 @@
-- data: 2021-07-29
+- data: 2021-09-30
   hora: "19h - 20:30"
-  nome: "10° Meetup do CiDAMO."
+  nome: "11° Meetup do CiDAMO."
   partes: 
-    - nome: "**Diogo Munaro Vieira**<br>PicPay<br>[Linkedin](https://www.linkedin.com/in/dmvieira/)"
-      desc: "**Testes metamórficos com Python aplicados a Machine Learning**"
-    - nome: "**Dennis Leão**<br>Kzas<br>[Linkedin](https://www.linkedin.com/in/leaodennis/)"
-      desc: "**Modelo Bayesianos e suas perspectivas**"
+    - nome: "**Mauricio Onoda**<br>MadeiraMadeira<br>[Linkedin](https://www.linkedin.com/in/mauricioonoda/)"
+      desc: "**Inteligência Artificial na Agricultura**"
+    - nome: "**João Pedro Pinheiro**<br>Kzas<br>[Linkedin](https://www.linkedin.com/in/jpedrojpedro/)"
+      desc: "**Explorando bases de conhecimento através de perguntas e respostas facetadas**"
