@@ -16,7 +16,12 @@ As apresentações ao vivo serão em geral pelo [YouTube](https://youtube.com/Ab
 
 Gostaria de fazer alguma apresentação no CiDAMO? Entre em contato com grupo.cidamo@gmail.com.
 
+{% if site.data.proxeventos%}
+
 {% assign eventos=site.data.proxeventos | sort: 'data' %}
+
+
+
 <table class="eventos">
   <tr>
     <th colspan="2"> Data </th>
@@ -38,6 +43,8 @@ Gostaria de fazer alguma apresentação no CiDAMO? Entre em contato com grupo.ci
 {% endfor %}
 </table>
 
+{% endif %}
+
 ## Eventos passados
 
 {% assign eventos=site.data.eventospass | sort: 'data' | reverse %}
@@ -50,7 +57,14 @@ Gostaria de fazer alguma apresentação no CiDAMO? Entre em contato com grupo.ci
 {% for evento in eventos %}
   <tr class="evento-main">
     <td colspan="2"> {{ evento.data | date_to_string }} <br> {{ evento.hora }} </td>
-    <td colspan="2"> {{ evento.nome | markdownify }} </td>
+    <td colspan="2">
+      {%if evento.link %}
+        <a href="{{ evento.link }}" target="_blank"> {{ evento.nome | markdownify }}</a> 
+      {% else %}
+        {{ evento.nome | markdownify }}
+      {% endif %}
+    </td>
+
   </tr>
   {% for parte in evento.partes %}
   <tr class="evento-sub">
