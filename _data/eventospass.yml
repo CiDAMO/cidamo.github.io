@@ -4,7 +4,8 @@
   partes:
 - data: 2020-05-14
   hora: "19h - 21h30"
-  nome: "1° Meetup do CiDAMO. [Video](https://youtu.be/rEpzkxuEokA)."
+  nome: "1° Meetup do CiDAMO."
+  link: "https://youtu.be/rEpzkxuEokA"
   partes:
     - nome: "**João Manrique**<br>James"
       desc: "Inteligência Artifical, Dados e a Verdade Não Dita"
@@ -20,7 +21,8 @@
       desc: "**Otimização e Modelagem Matemática na Linguagem Julia**"
 - data: 2020-06-04
   hora: "19h - 21h30"
-  nome: "2° Meetup do CiDAMO. [Video](https://youtu.be/8aGKdE8_ofI)"
+  nome: "2° Meetup do CiDAMO."
+  link: "https://youtu.be/8aGKdE8_ofI"
   partes:
     - nome: "**Prof. Mariana Kleina**<br>Departamento de Engenharia de Produção, UFPR.<br>[Site](https://docs.ufpr.br/~marianakleina) e [Lattes](http://lattes.cnpq.br/2745872488816219)"
       desc: "**Aplicações de Redes Neurais Artificiais**<br><br>Serão abordadas diversas aplicações práticas de Redes Neurias Artificiais em problemas de previsão e classificação, realizadas por alunos da Universidade Federal do Paraná. Os problemas abordam temas variados, tais como previsão de demanda, volatilidade de criptomoedas, concessão de crédito bancário, informações futebolísticas, climatologia, entre outros."
@@ -30,7 +32,8 @@
       desc: "**Desmistificando as Redes Neurais Convolucionais Profundas**<br>Redes Neurais Convolucionais fazem parte do nosso dia a dia, dos efeitos e filtros em redes sociais a promessa do carro autonomo, esta técnica poderosa é na verdade, muito mais simples do que parece."
 - data: 2020-07-09
   hora: "19h - 20h30"
-  nome: "3° Meetup do CiDAMO. [Video](https://youtu.be/goSQbewosWU)"
+  nome: "3° Meetup do CiDAMO."
+  link: "https://youtu.be/goSQbewosWU"
   partes:
     - nome: "**Cauê Guimarães**<br>EBANX<br>[Linkedin](https://www.linkedin.com/in/cau%C3%AA-guimar%C3%A3es-69500414/)"
       desc: "**Análise Estatística para Avaliar o Desempenho de Atletas de Futebol Profissional**<br>O futebol profissional teve seu início em 1885, na Inglaterra, com a criação das primeiras ligas oficiais. Desde então, houve muitas mudanças e evoluções, nos aspectos físicos, táticos e técnicos. Todavia, ainda existe muita subjetividade no meio, principalmente quando o objetivo é mensurar o desempenho de um atleta. Atualmente, o máximo de fundamentação teórica existente no futebol é utilizado por alguns dos grandes clubes da Europa com base em estatísticas descritivas e pontuais para decidir sobre contratações. Este trabalho propõe uma metodologia para classificar os atletas de futebol profissional baseada em seu desempenho. Essa metodologia envolve o uso de técnicas multivariadas, tais como análise de agrupamentos, análise de componentes principais e análise fatorial. Também traz uma simulação usando programação linear para contratação de jogadores.<br>"
@@ -38,7 +41,8 @@
       desc: "**Ciência de Redes em Ciência de Dados: Desafios e Oportunidades**<br>Esta palestra visa apresentar uma visão geral das minhas atividades envolvendo caracterização, análise e modelagem de redes complexas, uma área que vem internacionalmente se consolidando como ciência de redes. Em um contexto mais amplo, essas atividades relacionadas a redes complexas se inserem como uma linha de pesquisa nas iniciativas recentes no Laborátorio Nacional de Computação Científica (LNCC) em torno de ciência de dados, que serão também contempladas na palestra. Em particular, serão apresentadas atividades recentes em diferentes áreas como modelagem e análise de redes complexas dinâmicas, interação entre redes complexas e aprendizado de máquina, bem como exemplos de aplicação de ciência de redes em contextos interdisciplinares."
 - data: 2020-07-30
   hora: "19h - 21h30"
-  nome: "4° Meetup do CiDAMO. [Vídeo](https://youtu.be/vS2lKVP9P_s)"
+  nome: "4° Meetup do CiDAMO."
+  link: "https://youtu.be/vS2lKVP9P_s"
   partes:
     - nome: "**Thiago Marques**<br>EstaTiDados<br>[Linkedin](https://www.linkedin.com/in/thiagoestatidados/)"
       desc: "**Data Science: Estatística na veia**<br>Com o hype da Ciência de Dados e Big Data, tivemos ótimos avanços em relação ao conhecimento da profissão do estatístico e maior divulgação da mesma, contudo houve também uma banalização grande das técnicas estatísticas, essa apresentação tem como objetivo mostrar a importância na estatística no campo da ciência de dados e mostrar a dicotomia: aplicações tradicionais vs aplicações modernas da Estatística, de uma forma descontraída.<br>"
@@ -48,7 +52,8 @@
       desc: "**Aspectos estatísticos, métodos e desafios na modelagem da biomassa**<br>O escopo que será abordado na apresentação visa contribuir para explicitar avanços metodológicos já definidos e aplicados em outros paídes e, com certeza, permitirão assegurar uma avaliação de biomassa mais apropriada, principalmente quando tratados os aspectos de compatibilidade entre as estimativas da biomassa dos componentes com a biomassa total e com maior eficiência estatística."
 - data: 2020-08-27
   hora: "19h - 21h30"
-  nome: " CiDAMAS - 1° Meetup do CiDAMO. [Vídeo](https://youtu.be/mIwU1Vmu86c)"
+  nome: " CiDAMAS - 1° Meetup do CiDAMO."
+  link: "https://youtu.be/mIwU1Vmu86c"
   partes:
     - nome: "**Diandra Kubo**<br>Nubank<br>[Linkedin](https://www.linkedin.com/in/diandra-kubo-0bb05a105/)"
       desc: "**Uso da U-Net no pré-processamento de imagens de documentos**<br>No processamento de documentos em cenários da vida real, é comum ter que lidar com artefatos que afetam negativamente a qualidade de análise. Com o objetivo de mitigar o impacto desses artefatos, usamos a rede neural convolucional U-Net, uma rede de sucesso na segmentação de imagens biomédicas. Para treinar a rede, dados artificiais foram utilizados, e nessa apresentação, iremos mostrar o passo-a-passo pra utilização do framework proposto.<br>"
@@ -58,7 +63,8 @@
       desc: "**Bate papo sobre a atuação das mulheres no mercado de trabalho**"
 - data: 2020-09-24
   hora: "19h - 21h30"
-  nome: "5° Meetup do CiDAMO. [Vídeo](https://youtu.be/YSPcql_bpG8)"
+  nome: "5° Meetup do CiDAMO."
+  link: "https://youtu.be/YSPcql_bpG8"
   partes:
     - nome: "**Luis Pinto**<br>Zero Gap<br>[Linkedin](https://www.linkedin.com/in/luisfdcp/)"
       desc: "**Cases de Otimização na Indústria**<br>Apresentação de cases reais de uso de modelagem matemática para tomada de decisão em diversas áreas de negócio.<br>"
@@ -68,7 +74,8 @@
       desc: "**Hack Ibama: Explorando Dados Ambientais**<br>Com abordagem simples quero trazer para todos conceitos e práticas de dados abertos, usando tecnologia/python! Vamos acessar, analisar e hackear os dados do IBAMA (órgão ambiental). SIM, vamos codar e aprender muito."
 - data: 2020-10-01
   hora: "19h - 21h30"
-  nome: "Hacktoberfest 2020. [Vídeo](https://youtu.be/2Wt5LtCysZg)"
+  nome: "Hacktoberfest 2020."
+  link: "https://youtu.be/2Wt5LtCysZg"
   partes:
     - nome: "19:00 - 19:05"
       desc: "Apresentação"
@@ -83,6 +90,7 @@
 - data: 2020-10-29
   hora: "19h - 21h30"
   nome: "6° Meetup do CiDAMO."
+  link: "https://www.youtube.com/watch?v=LbuHTd_wmjg"
   partes:
     - nome: "**Larissa Xavier de Melo**<br>Itaú<br>[Linkedin](https://www.linkedin.com/in/larissa-xavier-de-melo/)"
       desc: "**Redes Neurais Convolucionais em Processamento de Linguagem Natural**<br>A Rede Neural Convolucional é uma arquitetura de rede neural utilizada como pré-processamento de dados, originalmente utilizada em imagens. Ela é um recurso utilizado para extrair aspectos importantes das observações de entrada atribuindo pesos e vieses que possam ser aprendidos.  De forma similar em PNL, as redes convolucionais são muito utilizadas para identificar determinadas características e padrões desde que transformado o conjunto de palavras em um arranjo matricial ideal. Nessa palestra falaremos sobre como utilizar CNN para obter bons resultados em modelagens de frases.<br>"
@@ -93,6 +101,7 @@
 - data: 2020-11-26
   hora: "19h - 21h30"
   nome: "7° Meetup do CiDAMO."
+  link: "https://www.youtube.com/watch?v=4AwiUFmUP0k"
   partes:
     - nome: "**Débora Cíntia Marcilio**<br>LACTEC<br>[Linkedin](https://www.linkedin.com/in/débora-marcilio-67862324/)"
       desc: "**Aplicação de pesquisa operacional no mercado energético**<br> Nessa conversa pretendo apresentar as principais características da indústria de energia elétrica e seus segmentos, elencando os projetos já desenvolvidos pela equipe de mercado do Lactec, com foco na aplicação da pesquisa operacional no mercado de energia do Brasil.<br>"
@@ -106,6 +115,7 @@
 - data: 2021-05-27
   hora: "19h - 21h30"
   nome: "8° Meetup do CiDAMO."
+  link: "https://www.youtube.com/watch?v=ckBRfUx3YNM"
   partes: 
     - nome: "**Vinicius Caridá**<br>Itaú<br>[Linkedin](https://www.linkedin.com/in/viniciuscarida/)"
       desc: "**MLOps - Ciclo de Vida e Principais capacidades.**<br>A ciência de dados e o ML estão se tornando recursos essenciais para resolver problemas complexos do mundo real, transformando setores e agregando valor em todos os domínios. Portanto, muitas empresas estão investindo em suas equipes de ciência de dados e recursos de ML para desenvolver modelos preditivos que podem agregar valor aos negócios. Nesse contexto surge a cultura e prática de MLOps. MLOps significa unificar o desenvolvimento de sistemas de ML (Dev) e a operação de sistemas de ML (Ops) com automação e o monitoramento de todos os passos da construção do sistema de ML, inclusive integração, teste, lançamento, implantação e gerenciamento de infraestrutura."
@@ -116,6 +126,7 @@
 - data: 2021-06-24
   hora: "19h - 21h30"
   nome: "9° Meetup do CiDAMO."
+  link: "https://www.youtube.com/watch?v=FAGTH5T4jmA"
   partes: 
     - nome: "**Daniel Marostica**<br>NZN<br>[Linkedin](https://www.linkedin.com/in/danielmarostica/)"
       desc: "**Os segredos da biblioteca Pandas**"
@@ -124,6 +135,7 @@
 - data: 2021-07-29
   hora: "19h - 20:30"
   nome: "10° Meetup do CiDAMO."
+  link: "https://www.youtube.com/watch?v=gXcSVCWTVZE"
   partes: 
     - nome: "**Diogo Munaro Vieira**<br>PicPay<br>[Linkedin](https://www.linkedin.com/in/dmvieira/)"
       desc: "**Testes metamórficos com Python aplicados a Machine Learning**"
@@ -132,6 +144,7 @@
 - data: 2021-09-30
   hora: "19h - 20:30"
   nome: "11° Meetup do CiDAMO."
+  link: "https://www.youtube.com/watch?v=1BVtQPVCvnw"
   partes: 
     - nome: "**Mauricio Onoda**<br>MadeiraMadeira<br>[Linkedin](https://www.linkedin.com/in/mauricioonoda/)"
       desc: "**Inteligência Artificial na Agricultura**"
