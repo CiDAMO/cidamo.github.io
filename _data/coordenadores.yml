@@ -9,9 +9,16 @@ abelsiqueira:
   linkedin: abel-siqueira
 lucaspedroso:
   name: "Lucas Garcia Pedroso"
-  bio: Doutor em Matemática Aplicada pela Unicamp, é professor do Departamento de Matemática da UFPR. Tem trabalhado na teoria e nas aplicações de Otimização contínua, redes neurais, clusterização e SVM
+  bio: Doutor em Matemática Aplicada pela Unicamp, é professor do Departamento de Matemática da UFPR. Tem trabalhado na teoria e nas aplicações de Otimização contínua, redes neurais, clusterização e SVM.
   role: Coordenadores
   img: lucaspedroso.jpg
   github:
   twitter:
   linkedin: lucas-pedroso-14a76a206
+roberto:
+  name: "Roberto Ribeiro Santos Júnior"
+  bio: "Doutor em Matemática pelo IMPA, é atualmente professor do Departamento de Matemática da UFPR. Tem experiência em dinâmica dos fluidos, EDPs e modelagem. Vem atuando em diversos projetos voltados para a comunidade interna e externa à UFPR."
+  img: "roberto.jpg"
+  github: 
+  twitter:
+  linkedin:

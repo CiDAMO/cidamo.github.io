@@ -22,14 +22,6 @@ dennislemes:
   github: DennisLemes
   twitter:
   linkedin: dennisglemes
-eleonora:
-  name: "Eleonora Avello"
-  role: Pesquisadores de Graduação
-  bio: Pesquisador de IC
-  img: eleonora.jpg
-  github: EleonoraAvello
-  twitter:
-  linkedin: eleonora-avello-709350185
 fillipe:
   name: "Fillipe Rafael Bianek Pierin"
   role: Pesquisadores de Graduação
@@ -101,7 +93,7 @@ talia:
 victorbarbosa:
   name: "Victor Gabriel Souza Barbosa"
   role: Pesquisadores de Graduação
-  bio: Pesquisador de IC <br> Redes neurais convolucionais para classificação de imagens
+  bio: Pesquisador de IC <br> Redes neurais para geração de texto
   img: victor.jpg
   github: vector-b
   twitter: TheDirky
