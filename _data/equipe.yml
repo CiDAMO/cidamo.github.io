@@ -25,7 +25,7 @@ dennislemes:
 fillipe:
   name: "Fillipe Rafael Bianek Pierin"
   role: Pesquisadores de Graduação
-  bio: Pesquisador de IC <br> Otimização de Carteiras de Ação
+  bio: Pesquisador de TCC <br> Ánalise de índices financeiros usando Machine Learning e métodos estatísticos
   img: fillipe.jpg
   github: fillipepierin
   twitter: 
@@ -75,7 +75,7 @@ priscilla:
 rogeriosilva:
   name: "Rogério Otavio Mainardes da Silva"
   role: Pesquisadores de Graduação
-  bio: Pesquisador de TCC <br> Implementação de Gradiente Estocástico para Problemas com Objetivos Separáveis
+  bio: Pesquisador de Processamento de Linguagem Natural em web scraping de jornais
   img: rogerio.jpg
   github: RogerioOMDS
   twitter:
@@ -98,3 +98,12 @@ victorbarbosa:
   github: vector-b
   twitter: TheDirky
   linkedin: victor-gabriel-souza-barbosa-29a1ba19a
+mateusbalotin:
+  name: "Mateus Balotin"
+  role: "Pesquisadores de Graduação"
+  bio: "Pesquisador de ic Q-learning"
+  img: matheus.jpg
+  github: 
+  twitter: 
+  linkedin: 
+	
