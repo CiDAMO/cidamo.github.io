@@ -818,14 +818,14 @@ pre {
   height: 40px;
 }
 
-.fa {
+.fa, .fab {
   border: 0px;
   padding: 3px;
   text-align: center;
   text-decoration: none;
 }
 
-.fa:hover {
+.fa:hover, .fab:hover {
   opacity: 0.7;
   color: black;
   transition: color 0.3s;
@@ -833,12 +833,12 @@ pre {
   border: 0px;
 }
 
-.fa-gray {
+.fa-gray, .fa-gray:hover {
   background: white;
   color: #aaa;
 }
 
-.fa-gray:hover {
+.fa-gray, .fab-gray:hover {
   opacity: 1.0;
   color: #aaa;
 }
