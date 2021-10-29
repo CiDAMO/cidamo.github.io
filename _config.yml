@@ -20,7 +20,6 @@ description: Site do grupo CiDAMO - Ciência de Dados, Aprendizagem de Máquina,
 
 # List of links in the navigation bar
 navbar-links:
-  Ingresso: "ingresso-2021"
   Eventos: "eventos"
   Sobre: "sobre"
   Equipe: "equipe"
@@ -80,6 +79,7 @@ social-network-links:
   linkedincompany: grupo-cidamo
   twitter: grupo_cidamo
   instagram: grupo.cidamo
+  kaggle: grupocidamo
   #linkedin: grupo-cidamo
   #facebook: deanattali
   github: CiDAMO

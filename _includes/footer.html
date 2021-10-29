@@ -16,7 +16,11 @@
             {%- endif -%}
                 <span class="fa-stack fa-lg" aria-hidden="true">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa {{ element.icon }} fa-stack-1x fa-inverse"></i>
+                  {%- if element.name == 'Email me' -%}
+                    <i class="fa {{ element.icon }} fa-stack-1x fa-inverse"></i>
+                  {%- else -%}
+                    <i class="fab {{ element.icon }} fa-stack-1x fa-inverse"></i> 
+                  {%- endif -%}
                 </span>
                 <span class="sr-only">{{ element.name }}</span>
               </a>

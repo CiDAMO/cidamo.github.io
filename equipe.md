@@ -31,19 +31,19 @@ roles:
                      <div class="card-info">
                         <ul class="list-inline">
                            {% if p[1].github %}
-                              <a href="https://github.com/{{ p[1].github }}" class="fa fa-2x  fa-github"></a>
+                              <a href="https://github.com/{{ p[1].github }}" class="fab fa-2x  fa-github"></a>
                            {% else %}
-                              <i class="fa fa-2x fa-github fa-gray"></i>
+                              <i class="fab fa-2x fa-github fa-gray"></i>
                            {% endif %}
                            {% if p[1].linkedin %}
-                              <a href="https://linkedin.com/in/{{ p[1].linkedin }}" class="fa fa-2x fa-linkedin"></a>
+                              <a href="https://linkedin.com/in/{{ p[1].linkedin }}" class="fab fa-2x fa-linkedin"></a>
                            {% else %}
-                              <i class="fa fa-2x fa-linkedin fa-gray"></i>
+                              <i class="fab fa-2x fa-linkedin fa-gray"></i>
                            {% endif %}
                            {% if p[1].twitter %}
-                              <a href="https://twitter.com/{{ p[1].twitter }}" class="fa fa-2x fa-twitter"></a>
+                              <a href="https://twitter.com/{{ p[1].twitter }}" class="fab fa-2x fa-twitter"></a>
                            {% else %}
-                              <i class="fa fa-2x fa-twitter fa-gray"></i>
+                              <i class="fab fa-2x fa-twitter fa-gray"></i>
                            {% endif %}
                         </ul>
                      </div>
@@ -75,19 +75,19 @@ roles:
                         <div class="card-info">
                            <ul class="list-inline">
                               {% if p[1].github %}
-                                 <a href="https://github.com/{{ p[1].github }}" class="fa fa-2x fa-github"></a>
+                                 <a href="https://github.com/{{ p[1].github }}" class="fab fa-2x fa-github"></a>
                               {% else %}
-                                 <i class="fa fa-2x fa-github fa-gray"></i>
+                                 <i class="fab fa-2x fa-github fa-gray"></i>
                               {% endif %}
                               {% if p[1].linkedin %}
-                                 <a href="https://linkedin.com/in/{{ p[1].linkedin }}" class="fa fa-2x fa-linkedin"></a>
+                                 <a href="https://linkedin.com/in/{{ p[1].linkedin }}" class="fab fa-2x fa-linkedin"></a>
                               {% else %}
-                                 <i class="fa fa-2x fa-linkedin fa-gray"></i>
+                                 <i class="fab fa-2x fa-linkedin fa-gray"></i>
                               {% endif %}
                               {% if p[1].twitter %}
-                                 <a href="https://twitter.com/{{ p[1].twitter }}" class="fa fa-2x fa-twitter"></a>
+                                 <a href="https://twitter.com/{{ p[1].twitter }}" class="fab fa-2x fa-twitter"></a>
                               {% else %}
-                                 <i class="fa fa-2x fa-twitter fa-gray"></i>
+                                 <i class="fab fa-2x fa-twitter fa-gray"></i>
                               {% endif %}
                            </ul>
                         </div>
