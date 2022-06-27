@@ -10,7 +10,7 @@ Olá, seja muito bem-vindo(a) ao nosso Processo de Ingresso 2022, durante os pr�
 
 O processo ocorrerá entre Julho e Setembro de 2022, durante o processo teremos 6 encontros presenciais, às 17:30, nos dias 05/07, 14/07, 27/07, 11/08, 22/08 e 05/09 no Centro Politécnico.
 
-Usando nossos materiais e aproveitando cada encontro, você deverá realizar alguns exercícios no Kaggle (https://www.kaggle.com/). Assim, você poderá aplicar com tudo que for aprendido nessas semanas, não se preocupe com a pontuação, mas sim em fazer com qualidade e criatividade.
+Usando nossos materiais e aproveitando cada encontro, você deverá realizar alguns exercícios no [Kaggle](https://www.kaggle.com/). Assim, você poderá aplicar com tudo que for aprendido nessas semanas, não se preocupe com a pontuação, mas sim em fazer com qualidade e criatividade.
 
 "Tô dentro! Onde me inscrevo?" 
 
