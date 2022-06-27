@@ -20,6 +20,7 @@ description: Site do grupo CiDAMO - Ciência de Dados, Aprendizagem de Máquina,
 
 # List of links in the navigation bar
 navbar-links:
+  Ingresso: "ingresso-2022"
   Eventos: "eventos"
   Sobre: "sobre"
   Equipe: "equipe"
